@@ -2,7 +2,7 @@
 
 let name="khushi";
 name=" manish kumar ";
-
+let secondname=name;
 
 // Basic and common strings methds which used in development  are below the file 
 
