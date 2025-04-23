@@ -21,7 +21,7 @@ function printmyname(){
     }
     console.log(a);
 }
-printmyname();
+// printmyname();
 
 
 
@@ -37,7 +37,7 @@ function exampleBlockScope(){
         let a=10;
         var b=30;
     }
-    console.log(a);
+    console.log(b);
     
 }
 exampleBlockScope();
