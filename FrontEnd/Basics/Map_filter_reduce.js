@@ -2,10 +2,21 @@
 
 
 
-// it will doubles the value of elements in an array
-const arr=[2,4,6,8,10];
+// Map-> it will doubles the value of elements in an array
+const arr=[2,4,6,8,10,5,6,9,0,1,3,63];
 const output=arr.map(function(x){
 return x*2;
 })
 
 console.log(output);
+
+
+
+
+
+// Filter->it filter the elements from the array .if you want to filter elements like you want all odd number from array
+const result=arr.filter(function findOdd(x){
+    return x %2;
+})
+
+console.log(result);
