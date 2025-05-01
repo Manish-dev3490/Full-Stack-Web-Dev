@@ -37,7 +37,7 @@ header h2{
 #add-btn{
     width: 10rem;
     height: 40px;
-    background-color: white;
+    
     font-size: 1.1rem;
     border-radius: 10px;
     cursor: pointer;
@@ -83,16 +83,21 @@ header h2{
     border-radius: 10px;
 }
 
-#checkbox{
+.checkbox{
     width: 2.4rem;
     
 }
-#btn{
+#edit-btn{
     padding-inline: 15px;
     cursor: pointer;
 }
-#list{
+.list{
     padding-left: 15px;
     pointer-events: none;
+    width: 100%;
     
+}
+#delete-btn{
+    padding-inline: 15px;
+    cursor: pointer;
 }
