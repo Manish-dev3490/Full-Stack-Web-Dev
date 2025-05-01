@@ -2,8 +2,21 @@ const taskList = document.getElementById("task-list");
 const queryArea = document.getElementById("query-area");
 const addBtn = document.getElementById("add-btn");
 
+let editTarget = null;
+
 function addTaskInList() {
     let value = queryArea.value;
+
+
+    // ✅ If edit is in progress
+    if (editTarget) {
+        editTarget.value = value;
+        queryArea.value = "";
+        addBtn.value = "Add";
+        editTarget = null;
+        return;
+    }
+
     const list = document.createElement("li");
     list.classList.add("todo-list")
     list.innerHTML = `
@@ -24,11 +37,15 @@ function addTaskInList() {
 
 
     list.addEventListener("click", function (event) {
+        console.log(event);
 
+        // Logic for deleting the todo
         if (event.target.id === "delete-btn") {
             event.target.parentElement.remove();
         }
 
+
+        // Logic for marking complete and incomplete
         else if (event.target.classList.contains("checkbox")) {
             const textInput = event.target.nextElementSibling;
             if (event.target.checked === true) {
@@ -42,6 +59,22 @@ function addTaskInList() {
             }
 
         }
+
+
+
+        // logic for edit the todo
+        else if (event.target.id === "edit-btn") {
+            const inputBox = event.target.previousElementSibling;
+            queryArea.value = inputBox.value;
+            queryArea.focus();
+            addBtn.value = "Update";
+            editTarget = inputBox;
+
+        }
+
+
+
+
 
     })
 
