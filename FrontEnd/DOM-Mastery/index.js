@@ -24,13 +24,24 @@ function addTaskInList() {
 
 
     list.addEventListener("click", function (event) {
-        if (event.target.id == "delete-btn") {
+
+        if (event.target.id === "delete-btn") {
             event.target.parentElement.remove();
         }
-        console.log(event);
-        
 
-        
+        else if (event.target.classList.contains("checkbox")) {
+            const textInput = event.target.nextElementSibling;
+            if (event.target.checked === true) {
+                textInput.style.color = "green";
+                textInput.style.textDecoration = "line-through";
+            }
+
+            else {
+                textInput.style.color = "black";
+                textInput.style.textDecoration = "none";
+            }
+
+        }
 
     })
 
