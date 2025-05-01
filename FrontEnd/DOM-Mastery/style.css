@@ -47,10 +47,11 @@ header h2{
     gap: 2rem;
 }
 #task-list{
-    height: 300px;
     background-color: white;
-    margin-top: 2.5rem;
+    
     border-radius: 10px;
+    margin-top: 2rem;
+
 }
 #edit-btn{
     width: 10rem;
@@ -70,11 +71,11 @@ header h2{
 }
 .todo-list{
     margin-inline: 1.5rem;
-    /* margin-block: 1.2rem; */
+    /* margin-block: 1.2rem; 
     /* margin-top: 1.2rem; */
     display: flex
 ;
-    padding-top: 1.2rem;
+    padding-block: 1.6rem;
     gap: 1.4rem
 }
 .todo-list #list{
@@ -95,6 +96,7 @@ header h2{
     padding-left: 15px;
     pointer-events: none;
     width: 100%;
+    
     
 }
 #delete-btn{
