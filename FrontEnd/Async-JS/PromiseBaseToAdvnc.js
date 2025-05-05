@@ -5,7 +5,7 @@
 function createCart(cart) {
     const prom = new Promise(function (resolve, reject) {
         if (!cart) {
-            const error = new Error("Your cart does not exits");
+            const error = new Error("Your cart does not exits brother");
             reject(error);
         }
 
@@ -23,13 +23,15 @@ function createCart(cart) {
 
 // Now we are goint to recive or cnsume the promise let us see how we actually consume promise --->
 const cart = ["jeans", "Kurtas", "Shirts", "jwellary"];
-const dataThroughPromise = createCart(cart);
-console.log(dataThroughPromise);
+const dataThroughPromise = createCart(null);
 
 
 // this is how we attach callbacks to the promise if promise is resolved do this task....by using .then higher order function which takes a callback function...
 dataThroughPromise.then((orderid) => {
     console.log("Your cart is created and your order id is ", orderid);
+}).catch((error) => {
+    console.log(error);
+
 })
 
 
