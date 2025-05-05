@@ -22,13 +22,17 @@ function regardingUser(){
     console.log('Thank you for the shopping ');
 }
 
-Makecart(()=>{
-    paymentorder(()=>{
-        showOrderSummary(()=>{
-            regardingUser();
-        })
-    })
-})
+// Makecart(()=>{
+//     paymentorder(()=>{
+//         showOrderSummary(()=>{
+//             regardingUser();
+//         })
+//     })
+// })
 
 
 // So this kind of stuff we have to do before promises callback inside callback which creates a callback hell and we pass callback into apis and we lost control over our callback now this is api's esponsibility to call that callback correctly now it is possible that api will call that twice or does not call this situation is known as inversion of control.to prevent this kind of situation promsises are invented ....
+
+
+// Now i will tell you this is the need of promises . so promise is an empty object which represent the completion or failure of the asyncronus javascript operation .It has 3 state pending,fulfilled,rejected .
+
