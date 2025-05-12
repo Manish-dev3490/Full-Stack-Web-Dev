@@ -17,7 +17,7 @@ window.addEventListener("load", async function () {
         const product = document.createElement("div");
         product.classList.add("product-gallary");
         product.innerHTML = `
-      <a href="">
+      <a href="../pages/Product_Detail.html?id=${data.id}">
    <img src="${data.images[0]}" loading="lazy">
  </a>
    <p>${data.description}</p>
