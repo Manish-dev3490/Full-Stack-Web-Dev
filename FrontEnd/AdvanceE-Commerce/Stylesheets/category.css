@@ -91,3 +91,33 @@ nav {
   cursor: pointer;
   display: none;
 }
+.category-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-inline: 4rem;
+  /* padding-block: 2rem; */
+  gap: 5rem;
+  padding-block-start: 2rem;
+  background-color: pink;
+  padding-block-end: 4rem;
+  min-height: 100vh;
+}
+.product-gallary {
+  width: 24rem;
+  height: 20rem;
+  background-color: black;
+  border-radius: 1rem;
+}
+.product-gallary a img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-gallary p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%; /* ya fixed width like 200px */
+}
