@@ -22,7 +22,7 @@ const auth = getAuth(app);
 
 const loginForm = document.getElementById("loginForm");
 
-loginForm.addEventListener("click", async function (event) {
+loginForm.addEventListener("submit", async function (event) {
     console.log('hello from inside');
     event.preventDefault();
     const email = document.getElementById("email").value;

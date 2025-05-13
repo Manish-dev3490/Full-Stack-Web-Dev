@@ -1,25 +1,30 @@
 const detailcontainer = document.querySelector(".detail-container");
-let fname = localStorage.getItem("userFirstName");
+let userEmail = localStorage.getItem("userEmail");
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 const userLogo = document.querySelector("#user-logo");
 const logOutButton = document.getElementById("logout-btn");
 
 window.addEventListener("load", async function () {
-    if (!fname) {
+    if (!userEmail) {
         window.location.href = "./pages/SignIn.html";
 
     }
     try {
 
-        userLogo.addEventListener("click", function () {
-            const currentDisplay = getComputedStyle(logOutButton).display;
-            if (currentDisplay === "none") {
-                logOutButton.style.display = "block";
-            } else {
-                logOutButton.style.display = "none";
-            }
-        });
+        if (userLogo && logOutButton) {
+            userLogo.addEventListener("click", function () {
+                const currentDisplay = getComputedStyle(logOutButton).display;
+                logOutButton.style.display = currentDisplay === "none" ? "block" : "none";
+            });
+
+            logOutButton.addEventListener("click", function () {
+                localStorage.clear();
+    window.location.href="./Pages/SignIn.html";
+
+            });
+        }
+
 
         const data = await fetch(`https://dummyjson.com/products/${id}`);
         const response = await data.json();

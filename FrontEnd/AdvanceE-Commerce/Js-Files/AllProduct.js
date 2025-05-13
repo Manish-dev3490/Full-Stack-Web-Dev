@@ -4,7 +4,7 @@ const productList = document.querySelector(".product-list-two");
 const categoryContainer = document.querySelector(".categories");
 const productContainer = document.querySelector(".product-container");
 const loadMore = document.getElementById("load-more-button");
-let fname = localStorage.getItem("userFirstName");
+let userEmail = localStorage.getItem("userEmail");
 const userLogo = document.querySelector("#user-logo");
 const logOutButton = document.getElementById("logout-btn");
 
@@ -12,9 +12,9 @@ let skip = 10;
 
 window.addEventListener("load", async function () {
 
-  if (!fname) {
+  if (!userEmail) {
     window.location.href = "./Pages/SignIn.html";
-
+ 
   }
 
   userLogo.addEventListener("click", function () {
@@ -27,6 +27,10 @@ window.addEventListener("load", async function () {
     }
   });
 
+
+  logOutButton.addEventListener("click",function (){
+    window.location.href="./Pages/SignIn.html";
+  })
 
   
 

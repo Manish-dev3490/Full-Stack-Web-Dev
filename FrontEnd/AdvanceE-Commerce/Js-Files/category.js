@@ -6,11 +6,11 @@ const logOutButton = document.getElementById("logout-btn");
 // Get the category from the URL
 const params = new URLSearchParams(window.location.search);
 const category = params.get('category');
-const fname = localStorage.getItem("userFirstName");
+const userEmail = localStorage.getItem("userEmail");
 
 
 window.addEventListener("load", async function () {
-  if (!fname) {
+  if (!userEmail) {
     window.location.href = "./pages/SignIn.html";
   }
 
