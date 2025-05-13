@@ -91,6 +91,7 @@ nav {
   cursor: pointer;
   display: none;
 }
+
 .big-container {
   padding-inline: 2rem;
   padding-block: 2rem;
@@ -107,12 +108,14 @@ nav {
   height: 100vh;
   padding: 20px;
 }
+
 .categories {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 1.4rem;
 }
+
 .filter-by-price {
   display: flex;
   flex-direction: column;
@@ -120,20 +123,24 @@ nav {
   gap: 0.8rem;
   align-items: center;
 }
+
 .product-gallary {
   width: 19rem;
   height: 20rem;
 }
+
 .product-gallary a img {
   height: 80%;
   width: 100%;
 }
+
 .filter-section {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .product-container {
   display: flex;
   flex-wrap: wrap;
@@ -141,23 +148,34 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .min-max-price {
   display: flex;
   gap: 1.4rem;
 }
+
 .min-max-price button {
   padding-block: 0.6rem;
   padding-inline: 0.9rem;
 }
+
 .price-filter {
   font-size: 1.4rem;
 }
+
 .search-filter {
   padding-inline: 1rem;
   padding-block: 0.4rem;
 }
+
 #load-more-button {
   padding-block: 0.7rem;
   padding-inline: 1rem;
   cursor: pointer;
+}
+
+.desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
