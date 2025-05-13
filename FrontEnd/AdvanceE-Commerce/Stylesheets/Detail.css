@@ -62,17 +62,17 @@ nav {
 
 #logout-btn {
   position: absolute;
-  right: 0%;
-  /* bottom: -26%; */
-  top: 4.7rem;
-  /* top: -1%; */
-  width: 6rem;
-  height: 2rem;
-  font-size: 1rem;
-  cursor: pointer;
-  display: none;
-  background-color: white;
-  border: 2px solid;
+    right: 1%;
+    /* bottom: -26%; */
+    top: 4.7rem;
+    /* top: -1%; */
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: none;
+    background-color: white;
+    border: 2px solid;
 }
 
 #lightMode {
