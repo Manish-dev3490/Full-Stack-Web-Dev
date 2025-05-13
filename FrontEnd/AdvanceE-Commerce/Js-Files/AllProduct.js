@@ -4,9 +4,17 @@ const productList = document.querySelector(".product-list-two");
 const categoryContainer = document.querySelector(".categories");
 const productContainer = document.querySelector(".product-container");
 const loadMore = document.getElementById("load-more-button");
+let fname=localStorage.getItem("userFirstName");
+
 let skip = 10;
 
 window.addEventListener("load", async function () {
+
+  if(!fname){
+window.location.href = "./pages/SignIn.html";
+
+  }
+
   const data = await fetch('https://dummyjson.com/products/category-list');
   const response = await data.json();
 

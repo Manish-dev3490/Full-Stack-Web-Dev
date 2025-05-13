@@ -38,8 +38,7 @@ signUpForm.addEventListener("submit", async function (event) {
         // Store extra info locally (optional)
         localStorage.setItem("userFirstName", firstName);
         localStorage.setItem("userLastName", lastName);
-        localStorage.setItem("userNumber", number);
-        localStorage.setItem("userEmail", email);
+       
 
         // Redirect
         window.location.href = "../index.html";

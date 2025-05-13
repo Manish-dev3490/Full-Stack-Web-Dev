@@ -1,10 +1,14 @@
 const detailcontainer = document.querySelector(".detail-container");
-
+let fname = localStorage.getItem("userFirstName");
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 
 
 window.addEventListener("load", async function () {
+    if (!fname) {
+        window.location.href = "./pages/SignIn.html";
+
+    }
     try {
         const data = await fetch(`https://dummyjson.com/products/${id}`);
         const response = await data.json();
@@ -58,15 +62,15 @@ window.addEventListener("load", async function () {
             imageGallary.appendChild(subImages);
 
 
-            subImages.addEventListener("click",function(event){
-                let bigImg=document.querySelector(".big-img");
-                bigImg.src=event.target.src;
+            subImages.addEventListener("click", function (event) {
+                let bigImg = document.querySelector(".big-img");
+                bigImg.src = event.target.src;
             })
 
 
         });
         detailcontainer.appendChild(imageGallary);
-        
+
 
     } catch { }
 });
