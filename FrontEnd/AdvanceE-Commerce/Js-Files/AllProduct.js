@@ -2,6 +2,8 @@ const filterSection=document.querySelector(".filter-section");
 const bigContainer=document.querySelector(".big-container");
 const productList=document.querySelector(".product-list-two");
 const categoryContainer=document.querySelector(".categories");
+const productContainer=document.querySelector(".product-container");
+const  loadMore=document.getElementById("load-more-button");
 
 window.addEventListener("load",async function(){
     const data=await fetch('https://dummyjson.com/products/category-list');
@@ -9,7 +11,6 @@ window.addEventListener("load",async function(){
 
 
     
-    console.log(response);
     response.map(function(category){
         const categoryName=document.createElement("p");
         categoryName.innerText=category;
@@ -29,8 +30,11 @@ window.addEventListener("load",async function(){
    <p>${data.description}</p>
    <p class="price-tag">Rs. <span class="span">${data.price}</span></p>
     `;
-        productList.appendChild(product);
+        productContainer.appendChild(product);
 
     })
+
+
+
 
 })
