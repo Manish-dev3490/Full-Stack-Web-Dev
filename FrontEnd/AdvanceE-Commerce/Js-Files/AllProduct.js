@@ -4,16 +4,31 @@ const productList = document.querySelector(".product-list-two");
 const categoryContainer = document.querySelector(".categories");
 const productContainer = document.querySelector(".product-container");
 const loadMore = document.getElementById("load-more-button");
-let fname=localStorage.getItem("userFirstName");
+let fname = localStorage.getItem("userFirstName");
+const userLogo = document.querySelector("#user-logo");
+const logOutButton = document.getElementById("logout-btn");
 
 let skip = 10;
 
 window.addEventListener("load", async function () {
 
-  if(!fname){
-window.location.href = "./pages/SignIn.html";
+  if (!fname) {
+    window.location.href = "./Pages/SignIn.html";
 
   }
+
+  userLogo.addEventListener("click", function () {
+    const currentDisplay = getComputedStyle(logOutButton).display;
+    if (currentDisplay === "none") {
+      logOutButton.style.display = "block";
+    
+    } else {
+      logOutButton.style.display = "none";
+    }
+  });
+
+
+  
 
   const data = await fetch('https://dummyjson.com/products/category-list');
   const response = await data.json();
@@ -63,9 +78,7 @@ window.location.href = "./pages/SignIn.html";
     })
   })
 
-  if (skip + 10 >= res.total) {
-    loadMore.style.display = "none";
-  }
+
 
 
 

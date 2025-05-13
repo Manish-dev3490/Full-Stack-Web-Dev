@@ -2,7 +2,8 @@ const detailcontainer = document.querySelector(".detail-container");
 let fname = localStorage.getItem("userFirstName");
 const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
-
+const userLogo = document.querySelector("#user-logo");
+const logOutButton = document.getElementById("logout-btn");
 
 window.addEventListener("load", async function () {
     if (!fname) {
@@ -10,6 +11,16 @@ window.addEventListener("load", async function () {
 
     }
     try {
+
+        userLogo.addEventListener("click", function () {
+            const currentDisplay = getComputedStyle(logOutButton).display;
+            if (currentDisplay === "none") {
+                logOutButton.style.display = "block";
+            } else {
+                logOutButton.style.display = "none";
+            }
+        });
+
         const data = await fetch(`https://dummyjson.com/products/${id}`);
         const response = await data.json();
 

@@ -1,6 +1,7 @@
 //  In this file i am going to consume category apis
 const categoryContainer = document.querySelector(".category-container");
-
+const userLogo = document.querySelector("#user-logo");
+const logOutButton = document.getElementById("logout-btn");
 
 // Get the category from the URL
 const params = new URLSearchParams(window.location.search);
@@ -12,6 +13,16 @@ window.addEventListener("load", async function () {
   if (!fname) {
     window.location.href = "./pages/SignIn.html";
   }
+
+   userLogo.addEventListener("click", function () {
+    const currentDisplay = getComputedStyle(logOutButton).display;
+    if (currentDisplay === "none") {
+      logOutButton.style.display = "block";
+    } else {
+      logOutButton.style.display = "none";
+    }
+  });
+
   const data = await fetch(`https://dummyjson.com/products/category/${category}`);
   const response = await data.json();
   console.log(response);
