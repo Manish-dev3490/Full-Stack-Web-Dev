@@ -22,6 +22,7 @@ window.addEventListener("load", async function () {
       logOutButton.style.display = "none";
     }
   });
+  
 
   const data = await fetch(`https://dummyjson.com/products/category/${category}`);
   const response = await data.json();

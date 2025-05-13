@@ -13,7 +13,7 @@ let skip = 10;
 window.addEventListener("load", async function () {
 
   if (!userEmail) {
-    window.location.href = "./Pages/SignIn.html";
+    window.location.href = "../Pages/SignIn.html";
  
   }
 
@@ -28,10 +28,12 @@ window.addEventListener("load", async function () {
   });
 
 
-  logOutButton.addEventListener("click",function (){
-    window.location.href="./Pages/SignIn.html";
-  })
-
+   if (logOutButton) {
+            logOutButton.addEventListener("click", function () {
+                localStorage.clear();
+                window.location.href = "../Pages/SignIn.html";
+            });
+        }
   
 
   const data = await fetch('https://dummyjson.com/products/category-list');

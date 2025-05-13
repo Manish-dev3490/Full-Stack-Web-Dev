@@ -6,11 +6,13 @@ const userLogo = document.querySelector("#user-logo");
 const logOutButton = document.getElementById("logout-btn");
 
 window.addEventListener("load", async function () {
-    if (!userEmail) {
-        window.location.href = "./pages/SignIn.html";
 
-    }
     try {
+
+
+        if (!userEmail) {
+            window.location.href = "../Pages/SignIn.html";
+        }
 
         if (userLogo && logOutButton) {
             userLogo.addEventListener("click", function () {
@@ -18,10 +20,13 @@ window.addEventListener("load", async function () {
                 logOutButton.style.display = currentDisplay === "none" ? "block" : "none";
             });
 
+
+        }
+
+        if (logOutButton) {
             logOutButton.addEventListener("click", function () {
                 localStorage.clear();
-    window.location.href="./Pages/SignIn.html";
-
+                window.location.href = "../Pages/SignIn.html";
             });
         }
 
