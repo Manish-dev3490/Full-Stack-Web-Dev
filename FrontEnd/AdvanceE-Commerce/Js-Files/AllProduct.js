@@ -49,17 +49,9 @@ window.addEventListener("load", async function () {
   }
 
 
-  const data = await fetch('https://dummyjson.com/products/category-list');
-  const response = await data.json();
 
 
-
-  response.map(function (category) {
-    const categoryName = document.createElement("p");
-    categoryName.innerText = category;
-    categoryContainer.appendChild(categoryName);
-  })
-
+ 
   const wholeData = await fetch('https://dummyjson.com/products?limit=10&skip=10');
   const response2 = await wholeData.json();
 

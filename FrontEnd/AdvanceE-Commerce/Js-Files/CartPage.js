@@ -73,6 +73,7 @@ window.addEventListener("load", async function () {
 
       cartLength.textContent = `CartList (${updatedCart.length})`;
 
+      
       if (updatedCart.length === 0) {
         cartContainer.innerHTML = `<h3 style="text-align:center;">Your cart is empty.</h3>`;
       }

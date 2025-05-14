@@ -123,6 +123,7 @@ window.addEventListener("load", async function () {
                 cartItems.push(id);
                 localStorage.setItem("cartItems", JSON.stringify(cartItems));
                 alert("Item added to cart!");
+                window.location.reload();
             } else {
                 alert("Item already in cart");
             }
