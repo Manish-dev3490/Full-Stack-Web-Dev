@@ -2,16 +2,12 @@ const logoutBtn = document.getElementById("logout-btn");
 const userLogo = document.getElementById("user-logo");
 
 // Get user data from localStorage
-const userEmail = localStorage.getItem("userEmail");
+const userEmail = localStorage.getItem("email");
 const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
 const userName=document.querySelector(".user-name");
 
-// Show name dynamically if needed (optional)
-const userNameTag = document.querySelector(".user-name");
-if (userFirstName && userLastName) {
-  userNameTag.textContent = `${userFirstName} ${userLastName}`;
-}
+
 
 // Redirect to SignIn if not logged in
 window.addEventListener("load", function () {
@@ -19,8 +15,11 @@ window.addEventListener("load", function () {
     window.location.href = "./Pages/SignIn.html";
   }
 });
-
+if(userFirstName && userLastName){
 userName.innerText=userFirstName+" "+userLastName;
+
+}
+else userName.textContent=userEmail;
 
 // Toggle logout button when user logo is clicked
 userLogo.addEventListener("click", function () {

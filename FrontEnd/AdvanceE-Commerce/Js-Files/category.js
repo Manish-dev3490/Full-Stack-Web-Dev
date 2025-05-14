@@ -18,7 +18,13 @@ window.addEventListener("load", async function () {
     window.location.href = "./pages/SignIn.html";
   }
 
-  userName.innerText=userFirstName+" "+userLastName;
+
+  if(userFirstName && userLastName){
+userName.innerText=userFirstName+" "+userLastName;
+
+}
+else userName.textContent=userEmail;
+
    userLogo.addEventListener("click", function () {
     const currentDisplay = getComputedStyle(logOutButton).display;
     if (currentDisplay === "none") {
