@@ -18,9 +18,11 @@ window.addEventListener("load", async function () {
   if (!userEmail) {
     window.location.href = "./pages/SignIn.html";
   }
-  const cartItems = JSON.parse(localStorage.getItem("cartItems"));
+  
 
-  cartLength.textContent = `CartList (${cartItems.length})`;
+  const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+cartLength.textContent = `CartList (${cartItems.length})`;
+
 
 
   if (userFirstName && userLastName) {

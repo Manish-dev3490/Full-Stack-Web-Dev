@@ -15,7 +15,8 @@ console.log(cartLength);
 window.addEventListener("load", async function () {
 
     try {
-        const cartItems = JSON.parse(localStorage.getItem("cartItems"));
+        const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+        cartLength.textContent = `CartList (${cartItems.length})`;
 
 
         if (!userEmail) {
