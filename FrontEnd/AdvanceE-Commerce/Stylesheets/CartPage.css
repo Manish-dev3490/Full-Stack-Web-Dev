@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: lightpink;
+  padding: 1.3rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+nav a {
+  color: black;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: lightpink;
+  /* height: 5rem; */
+  color: black;
+  text-align: center;
+  width: 100vw;
+  font-size: 1.2rem;
+  padding-block: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+#user-logo {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border-color: white;
+  border: none;
+}
+
+#logout-btn {
+  position: absolute;
+  right: 1%;
+  /* bottom: -26%; */
+  top: 4.7rem;
+  /* top: -1%; */
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
+  background-color: white;
+  border: 2px solid;
+}
+
+#lightMode {
+  width: 2.2rem;
+  background-color: white;
+  height: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#darkMode {
+  width: 2.2rem;
+  background-color: white;
+  height: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+#cart-container {
+  display: flex;
+  /* align-items: center; */
+  gap: 2rem;
+  min-height: 100vh;
+  padding-block: 1.5rem;
+  padding-inline: 1.6rem;
+}
+
+.cart-item {
+  background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex
+;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    height: 25rem;
+}
+
+
+.cart-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cart-item h3 {
+  margin: 1rem 0 0.5rem;
+}
+
+.cart-item p {
+  margin-bottom: 0.5rem;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.cart-item button {
+  padding: 0.5rem 1rem;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: darkred;
+}
