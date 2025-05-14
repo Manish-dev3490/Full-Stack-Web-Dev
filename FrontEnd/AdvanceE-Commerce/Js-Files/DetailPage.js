@@ -6,9 +6,7 @@ const userLogo = document.querySelector("#user-logo");
 const logOutButton = document.getElementById("logout-btn");
 
 window.addEventListener("load", async function () {
-
     try {
-
 
         if (!userEmail) {
             window.location.href = "../Pages/SignIn.html";
@@ -17,10 +15,9 @@ window.addEventListener("load", async function () {
         if (userLogo && logOutButton) {
             userLogo.addEventListener("click", function () {
                 const currentDisplay = getComputedStyle(logOutButton).display;
-                logOutButton.style.display = currentDisplay === "none" ? "block" : "none";
+                logOutButton.style.display =
+                    currentDisplay === "none" ? "block" : "none";
             });
-
-
         }
 
         if (logOutButton) {
@@ -30,11 +27,9 @@ window.addEventListener("load", async function () {
             });
         }
 
-
         const data = await fetch(`https://dummyjson.com/products/${id}`);
         const response = await data.json();
 
-        console.log(response);
 
         const detail = document.createElement("div");
         detail.classList.add("detail-box");
@@ -72,6 +67,9 @@ window.addEventListener("load", async function () {
         `;
 
 
+
+
+
         detailcontainer.appendChild(detail);
         const imageGallary = document.createElement("div");
         imageGallary.classList.add("image-gallary");
@@ -82,15 +80,34 @@ window.addEventListener("load", async function () {
             subImages.src = `${data}`;
             imageGallary.appendChild(subImages);
 
-
             subImages.addEventListener("click", function (event) {
                 let bigImg = document.querySelector(".big-img");
                 bigImg.src = event.target.src;
-            })
-
-
+            });
         });
         detailcontainer.appendChild(imageGallary);
+
+        const AddCart = document.querySelector(".cart-btn");
+
+
+
+
+
+
+        AddCart.addEventListener("click", function () {
+            let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+
+            console.log(cartItems);
+
+            // Agar duplicate na chahiye toh pehle check kar lein
+            if (!cartItems.includes(id)) {
+                cartItems.push(id);
+                localStorage.setItem("cartItems", JSON.stringify(cartItems));
+                alert("Item added to cart!");
+            } else {
+                alert("Item already in cart");
+            }
+        });
 
 
     } catch { }
