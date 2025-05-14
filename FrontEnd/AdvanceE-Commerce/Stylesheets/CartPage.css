@@ -102,17 +102,15 @@ nav {
 
 .cart-item {
   background-color: white;
-    padding: 1rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex
-;
-    flex-direction: column;
-    /* align-items: center; */
-    text-align: center;
-    height: 25rem;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  text-align: center;
+  height: 25rem;
 }
-
 
 .cart-item img {
   width: 100%;
@@ -120,9 +118,34 @@ nav {
   object-fit: cover;
   border-radius: 10px;
 }
+.cart-item {
+  background-color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 250px; /* or whatever card width you're using */
+}
 
 .cart-item h3 {
-  margin: 1rem 0 0.5rem;
+  max-width: 100%;
+  font-size: 1rem;
+  height: 1.5em; /* Fix the height to one line */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.cart-item h3 {
+  max-width: 100%;
+  font-size: 1rem;
+  height: 1.5em; /* Fix the height to one line */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .cart-item p {
