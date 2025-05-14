@@ -11,6 +11,11 @@ const userName = document.querySelector(".user-name");
 const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
 
+
+const searchArea = document.getElementById("srch-btn");
+const searchButton = document.getElementById("srch");
+
+
 const applyFilter = document.querySelector(".apply-filter");
 
 
@@ -18,6 +23,7 @@ let skip = 10;
 
 window.addEventListener("load", async function () {
 
+  // Some check conditions
   if (!userEmail) {
     window.location.href = "../Pages/SignIn.html";
 
@@ -33,41 +39,79 @@ window.addEventListener("load", async function () {
   else userName.textContent = userEmail;
   cartLength.textContent = `CartList (${cartItems.length})`;
 
+  // search button feauture 
+  searchButton.addEventListener("click", async function () {
+    const searchQuery = searchArea.value.trim();
+    if (!searchQuery) return; // agar input empty ho toh kuch na karo
 
-  const allData=await fetch("https://dummyjson.com/products?limit=100");
-  const allResponse=await allData.json();
+    const response = await fetch(`https://dummyjson.com/products/search?q=${searchQuery}`);
+    const data = await response.json();
 
-applyFilter.addEventListener("click",function(){
-const minPrice = document.querySelector("#min-price").value;
-const maxPrice = document.querySelector("#max-price").value;
+    productContainer.innerHTML = ""; // previous products clear karo
 
-const filteredData=allResponse.products.filter(function(data){
-return data.price>minPrice && data.price<maxPrice;
-})
-console.log(filteredData);
+    if (data.products.length === 0) {
+      // No products found
+      loadMore.style.display = "none"; // hide Load More button
+      productContainer.innerHTML = `
+      <div style="text-align: center; font-size: 18px; padding: 20px;">
+        No products found for "<strong>${searchQuery}</strong>". Try something else.
+      </div>
+    `;
+    } else {
+      loadMore.style.display = "block"; // show Load More button (optional)
 
-productContainer.innerHTML="";
- filteredData.map(function (data) {
-    const product = document.createElement("div");
-    product.classList.add("product-gallary");
-    product.innerHTML = `
+      data.products.forEach(product => {
+        const productDiv = document.createElement("div");
+        productDiv.classList.add("product-gallary");
+        productDiv.innerHTML = `
+        <a href="../pages/Product_Detail.html?id=${product.id}">
+          <img src="${product.images[0]}" />
+        </a>
+        <p class="desc">${product.description}</p>
+        <p class="price-tag">Rs. <span class="span">${product.price}</span></p>
+      `;
+        productContainer.appendChild(productDiv);
+      });
+    }
+  });
+
+
+
+  // Filter feauture implemented on the data
+  const allData = await fetch("https://dummyjson.com/products?limit=100");
+  const allResponse = await allData.json();
+
+  applyFilter.addEventListener("click", function () {
+    const minPrice = document.querySelector("#min-price").value;
+    const maxPrice = document.querySelector("#max-price").value;
+
+    const filteredData = allResponse.products.filter(function (data) {
+      return data.price > minPrice && data.price < maxPrice;
+    })
+    console.log(filteredData);
+
+    productContainer.innerHTML = "";
+    filteredData.map(function (data) {
+      const product = document.createElement("div");
+      product.classList.add("product-gallary");
+      product.innerHTML = `
       <a href="../pages/Product_Detail.html?id=${data.id}">
    <img src="${data.images[0]}">
  </a>
    <p class="desc">${data.description}</p>
    <p class="price-tag">Rs. <span class="span">${data.price}</span></p>
     `;
-    productContainer.appendChild(product);
+      productContainer.appendChild(product);
+
+    })
+
 
   })
 
 
-})
 
 
-
-
-
+  // Logout feauture is implemented
   userLogo.addEventListener("click", function () {
     const currentDisplay = getComputedStyle(logOutButton).display;
     if (currentDisplay === "none") {
@@ -89,7 +133,7 @@ productContainer.innerHTML="";
 
 
 
-
+  // All product data list
   const wholeData = await fetch('https://dummyjson.com/products?limit=10&skip=10');
   const response2 = await wholeData.json();
 
@@ -107,6 +151,7 @@ productContainer.innerHTML="";
 
   })
 
+  // pagination load more functionality
   loadMore.addEventListener("click", async function () {
     skip += 10;
     const moreData = await fetch(`https://dummyjson.com/products?limit=10&skip=${skip}`);
