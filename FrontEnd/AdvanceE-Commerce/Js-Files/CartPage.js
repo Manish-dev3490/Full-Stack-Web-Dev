@@ -64,7 +64,10 @@ window.addEventListener("load", async function () {
       const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
 
       // Convert both to string before comparison
-      const updatedCart = cartItems.filter(id => String(id) !== productId);
+      const updatedCart = cartItems.filter(function (id) {
+        return String(id) !== productId;
+      });
+
 
       localStorage.setItem("cartItems", JSON.stringify(updatedCart));
 
