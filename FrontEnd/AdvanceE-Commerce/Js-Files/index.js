@@ -1,25 +1,34 @@
 const logoutBtn = document.getElementById("logout-btn");
 const userLogo = document.getElementById("user-logo");
+const userName = document.querySelector(".user-name");
+const cartLength = document.getElementById('cart-length');
+
+console.log(userName);
+console.log(cartLength);
+
 
 // Get user data from localStorage
-const userEmail = localStorage.getItem("email");
+const userEmail = localStorage.getItem("userEmail");
 const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
-const userName=document.querySelector(".user-name");
-
-
 
 // Redirect to SignIn if not logged in
 window.addEventListener("load", function () {
   if (!userEmail) {
     window.location.href = "./Pages/SignIn.html";
   }
-});
-if(userFirstName && userLastName){
-userName.innerText=userFirstName+" "+userLastName;
 
-}
-else userName.textContent=userEmail;
+  // ✅ Set Cart length
+  const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  cartLength.textContent = `CartList (${cartItems.length})`;
+
+  // ✅ Set user name or email
+  if (userFirstName && userLastName) {
+    userName.innerText = `${userFirstName} ${userLastName}`;
+  } else {
+    userName.innerText = userEmail;
+  }
+});
 
 // Toggle logout button when user logo is clicked
 userLogo.addEventListener("click", function () {
@@ -29,15 +38,11 @@ userLogo.addEventListener("click", function () {
 
 // ✅ Logout functionality
 logoutBtn.addEventListener("click", function () {
-  // Clear localStorage items
   localStorage.removeItem("userEmail");
   localStorage.removeItem("userpassword");
   localStorage.removeItem("userFirstName");
   localStorage.removeItem("userLastName");
   localStorage.removeItem("number");
-
-  // Optional: clear everything
-  // localStorage.clear();
 
   // Redirect to SignIn page
   window.location.href = "./Pages/SignIn.html";

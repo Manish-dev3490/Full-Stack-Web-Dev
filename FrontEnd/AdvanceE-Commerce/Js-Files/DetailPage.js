@@ -8,13 +8,21 @@ const userName = document.querySelector(".user-name");
 const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
 
+const cartLength = document.getElementById('cart-length');
+console.log(cartLength);
+
 
 window.addEventListener("load", async function () {
+
     try {
+        const cartItems = JSON.parse(localStorage.getItem("cartItems"));
+
 
         if (!userEmail) {
             window.location.href = "../Pages/SignIn.html";
         }
+
+        cartLength.textContent = `CartList (${cartItems.length})`;
 
         if (userFirstName && userLastName) {
             userName.innerText = userFirstName + " " + userLastName;

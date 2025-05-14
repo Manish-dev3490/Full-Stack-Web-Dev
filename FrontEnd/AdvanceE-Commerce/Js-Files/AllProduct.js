@@ -7,7 +7,7 @@ const loadMore = document.getElementById("load-more-button");
 let userEmail = localStorage.getItem("userEmail");
 const userLogo = document.querySelector("#user-logo");
 const logOutButton = document.getElementById("logout-btn");
-const userName=document.querySelector(".user-name");
+const userName = document.querySelector(".user-name");
 const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
 
@@ -17,28 +17,37 @@ window.addEventListener("load", async function () {
 
   if (!userEmail) {
     window.location.href = "../Pages/SignIn.html";
- 
+
   }
-  userName.innerText=userFirstName+" "+userLastName;
+  const cartItems = JSON.parse(localStorage.getItem("cartItems"));
+
+  const cartLength = document.getElementById('cart-length');
+  if (userFirstName && userLastName) {
+    userName.innerText = userFirstName + " " + userLastName;;
+
+  }
+
+  else userName.textContent = userEmail;
+  cartLength.textContent = `CartList (${cartItems.length})`;
 
   userLogo.addEventListener("click", function () {
     const currentDisplay = getComputedStyle(logOutButton).display;
     if (currentDisplay === "none") {
       logOutButton.style.display = "block";
-    
+
     } else {
       logOutButton.style.display = "none";
     }
   });
 
 
-   if (logOutButton) {
-            logOutButton.addEventListener("click", function () {
-                localStorage.clear();
-                window.location.href = "../Pages/SignIn.html";
-            });
-        }
-  
+  if (logOutButton) {
+    logOutButton.addEventListener("click", function () {
+      localStorage.clear();
+      window.location.href = "../Pages/SignIn.html";
+    });
+  }
+
 
   const data = await fetch('https://dummyjson.com/products/category-list');
   const response = await data.json();

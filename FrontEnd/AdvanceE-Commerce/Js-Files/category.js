@@ -2,6 +2,7 @@
 const categoryContainer = document.querySelector(".category-container");
 const userLogo = document.querySelector("#user-logo");
 const logOutButton = document.getElementById("logout-btn");
+const cartLength = document.getElementById('cart-length');
 
 // Get the category from the URL
 const params = new URLSearchParams(window.location.search);
@@ -9,7 +10,7 @@ const category = params.get('category');
 const userEmail = localStorage.getItem("userEmail");
 const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
-const userName=document.querySelector(".user-name");
+const userName = document.querySelector(".user-name");
 
 
 
@@ -17,15 +18,18 @@ window.addEventListener("load", async function () {
   if (!userEmail) {
     window.location.href = "./pages/SignIn.html";
   }
+  const cartItems = JSON.parse(localStorage.getItem("cartItems"));
+
+  cartLength.textContent = `CartList (${cartItems.length})`;
 
 
-  if(userFirstName && userLastName){
-userName.innerText=userFirstName+" "+userLastName;
+  if (userFirstName && userLastName) {
+    userName.innerText = userFirstName + " " + userLastName;
 
-}
-else userName.textContent=userEmail;
+  }
+  else userName.textContent = userEmail;
 
-   userLogo.addEventListener("click", function () {
+  userLogo.addEventListener("click", function () {
     const currentDisplay = getComputedStyle(logOutButton).display;
     if (currentDisplay === "none") {
       logOutButton.style.display = "block";
@@ -33,7 +37,7 @@ else userName.textContent=userEmail;
       logOutButton.style.display = "none";
     }
   });
-  
+
 
   const data = await fetch(`https://dummyjson.com/products/category/${category}`);
   const response = await data.json();
