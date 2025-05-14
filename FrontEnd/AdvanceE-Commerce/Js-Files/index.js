@@ -2,9 +2,8 @@ const logoutBtn = document.getElementById("logout-btn");
 const userLogo = document.getElementById("user-logo");
 const userName = document.querySelector(".user-name");
 const cartLength = document.getElementById('cart-length');
+const productContainer=document.querySelector(".product-container");
 
-console.log(userName);
-console.log(cartLength);
 
 
 // Get user data from localStorage
@@ -13,10 +12,12 @@ const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
 
 // Redirect to SignIn if not logged in
-window.addEventListener("load", function () {
+window.addEventListener("load", async function () {
   if (!userEmail) {
     window.location.href = "./Pages/SignIn.html";
   }
+
+
 
   // ✅ Set Cart length
   const cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
@@ -28,6 +29,32 @@ window.addEventListener("load", function () {
   } else {
     userName.innerText = userEmail;
   }
+
+
+  const data=await fetch("https://dummyjson.com/products/categories");
+  const response=await data.json();
+
+  console.log(response);
+
+  response.map(function(category){
+    const productBox=document.createElement("div");
+    productBox.classList.add("product-box");
+    productBox.innerHTML=`
+        <a href="Pages/Category.html?category=${category.slug}">
+    <h2 class="heading">${category?.name}</h2>
+
+        </a>
+    `;
+    productContainer.appendChild(productBox);
+
+  })
+  
+
+
+
+
+
+
 });
 
 // Toggle logout button when user logo is clicked
@@ -46,4 +73,12 @@ logoutBtn.addEventListener("click", function () {
 
   // Redirect to SignIn page
   window.location.href = "./Pages/SignIn.html";
-});
+}
+
+
+
+
+
+
+);
+
