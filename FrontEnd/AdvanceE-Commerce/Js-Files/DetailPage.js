@@ -4,6 +4,10 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get("id");
 const userLogo = document.querySelector("#user-logo");
 const logOutButton = document.getElementById("logout-btn");
+const userName=document.querySelector(".user-name");
+const userFirstName = localStorage.getItem("userFirstName");
+const userLastName = localStorage.getItem("userLastName");
+
 
 window.addEventListener("load", async function () {
     try {
@@ -12,6 +16,7 @@ window.addEventListener("load", async function () {
             window.location.href = "../Pages/SignIn.html";
         }
 
+        userName.innerText=userFirstName+" "+userLastName;
         if (userLogo && logOutButton) {
             userLogo.addEventListener("click", function () {
                 const currentDisplay = getComputedStyle(logOutButton).display;

@@ -7,6 +7,10 @@ const logOutButton = document.getElementById("logout-btn");
 const params = new URLSearchParams(window.location.search);
 const category = params.get('category');
 const userEmail = localStorage.getItem("userEmail");
+const userFirstName = localStorage.getItem("userFirstName");
+const userLastName = localStorage.getItem("userLastName");
+const userName=document.querySelector(".user-name");
+
 
 
 window.addEventListener("load", async function () {
@@ -14,6 +18,7 @@ window.addEventListener("load", async function () {
     window.location.href = "./pages/SignIn.html";
   }
 
+  userName.innerText=userFirstName+" "+userLastName;
    userLogo.addEventListener("click", function () {
     const currentDisplay = getComputedStyle(logOutButton).display;
     if (currentDisplay === "none") {
