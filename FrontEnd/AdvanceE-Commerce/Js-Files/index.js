@@ -8,6 +8,8 @@ const productContainer=document.querySelector(".product-container");
 
 // Get user data from localStorage
 const userEmail = localStorage.getItem("userEmail");
+const email = localStorage.getItem("email");
+
 const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
 
@@ -65,11 +67,7 @@ userLogo.addEventListener("click", function () {
 
 // ✅ Logout functionality
 logoutBtn.addEventListener("click", function () {
-  localStorage.removeItem("userEmail");
-  localStorage.removeItem("userpassword");
-  localStorage.removeItem("userFirstName");
-  localStorage.removeItem("userLastName");
-  localStorage.removeItem("number");
+  localStorage.clear();
 
   // Redirect to SignIn page
   window.location.href = "./Pages/SignIn.html";

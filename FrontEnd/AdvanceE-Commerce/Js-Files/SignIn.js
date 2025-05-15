@@ -33,6 +33,8 @@ loginForm.addEventListener("submit", async function (event) {
         const user = userCredential.user;
 
 
+
+        localStorage.clear();
         localStorage.setItem("userEmail", email);
         localStorage.setItem("userpassword", password);
         window.location.href = "../index.html";
