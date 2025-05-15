@@ -14,6 +14,7 @@ window.addEventListener("load", async function () {
     userName.textContent = userEmail;
   }
 
+  
   let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
 
   // Handle empty cart at load

@@ -107,3 +107,12 @@ nav {
   text-overflow: ellipsis;
  width: 18rem; 
 }
+#checkout-btn{
+  display: inline-block;
+    width: 10rem;
+    margin-block: 2rem;
+    height: 3rem;
+    background-color: pink;
+    border-radius: 0.8rem;
+    font-size: 15px;
+}

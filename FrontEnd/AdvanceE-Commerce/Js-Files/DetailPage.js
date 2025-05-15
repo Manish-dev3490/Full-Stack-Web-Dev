@@ -81,7 +81,6 @@ window.addEventListener("load", async function () {
 
 
     <div class="btn-group">
-      <button class="btn buy-btn">Buy Now</button>
       <button class="btn cart-btn">Add to Cart</button>
     </div>
         `;
