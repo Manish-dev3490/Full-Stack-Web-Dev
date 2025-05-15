@@ -6,6 +6,8 @@ let userEmail = localStorage.getItem("userEmail");
 const userName = document.querySelector(".user-name");
 const userFirstName = localStorage.getItem("userFirstName");
 const userLastName = localStorage.getItem("userLastName");
+const userLogo = document.querySelector("#user-logo");
+const logOutButton = document.getElementById("logout-btn");
 
 window.addEventListener("load", async function () {
   if (userFirstName && userLastName) {
@@ -14,7 +16,26 @@ window.addEventListener("load", async function () {
     userName.textContent = userEmail;
   }
 
-  
+  // Logout feauture is implemented
+  userLogo.addEventListener("click", function () {
+    const currentDisplay = getComputedStyle(logOutButton).display;
+    if (currentDisplay === "none") {
+      logOutButton.style.display = "block";
+
+    } else {
+      logOutButton.style.display = "none";
+    }
+  });
+
+
+  if (logOutButton) {
+    logOutButton.addEventListener("click", function () {
+      localStorage.clear();
+      window.location.href = "../Pages/SignIn.html";
+    });
+  }
+
+
   let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
 
   // Handle empty cart at load
