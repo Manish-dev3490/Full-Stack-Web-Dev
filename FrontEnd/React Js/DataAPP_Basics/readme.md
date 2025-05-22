@@ -14,4 +14,28 @@ We are going to learn react js and its basic nitty gritty and advanced concepts 
 
 7 -->For excecuting or starting parcel we need to write command npx parcel and enrtry point of the applicastion but by doing some changes in the package.json file we also start application with the npm start
 
-8-->Now my application is production ready and you dont know parcel is such a beast it is doing a lot of things for us behind the scene 
+8-->Now my application is production ready and you dont know parcel is such a beast it is doing a lot of things for us behind the scene
+
+9 -->Now i am going to tell you what is parcel doing in our application so parcel is a superpower package which is doing alot of following things for us .
+
+---> Creating a local server on the port and minifiying our whole application into two three files and hosting that on local server and providing us dev build enviorment and storing those files in the dist folder
+
+--> parcel is also doing hmr hot module replcement which means we are doing any update it is automagically updating that on the server without reloading the browser it is done by file watching algorithum
+
+--> As fast we are updating or doing any changes in our code it is automatically giving faster build because it also caching code for us and storing cached code into .parcel-cahche folder for faster developer expeericne
+
+--> Doing code optimization on its level if it need to improvement in our files
+
+--> Earlier days of react we used to create react element by React.createelement which takes 3 parameters type of the element , propertes of the element and content of the element and React.createElement convert that into the object .but that was very hectic task if we have to build big large scale application so jsx was used to create react elements.
+
+--> JSX is a javascript xml language which is a html like syntax we used to create react elements in react js application and jsx need a transpiler to convert its code into the core react which is done by the transpiler babel which is under parcel
+
+-->babel is a transpiler which is used to tranform the jsx into the core react element and then react.createelement convert it into the object .these all things are done by the parcel
+
+-->Give beautiful diagnostic if we face any error it convert error into beautiful interface which increase productivity of the developer
+
+-->Diffrentaiate bundles like dev bundle and production bundle into the dist folder and also make our apllication ready to serve in older version of the browser by using a package browser-list.
+
+-->Tree shaking if we have 50 function in our application and we are only using 5 from them it automatically remove unused code from our dev build files
+
+--> This is all the parcel is doing for our application so react is fast because of parcel and bundlers
