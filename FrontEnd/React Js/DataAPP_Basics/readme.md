@@ -39,3 +39,10 @@ We are going to learn react js and its basic nitty gritty and advanced concepts 
 -->Tree shaking if we have 50 function in our application and we are only using 5 from them it automatically remove unused code from our dev build files
 
 --> This is all the parcel is doing for our application so react is fast because of parcel and bundlers
+
+10 --> We have created a basic react js aplication which is calling a api of products and returing us a list of products and we are rendering that array in our root element
+
+
+11 --> Now when we are iterting through map over products data which is coming from api and calling a makeCard function and makeCard function is return jsx which is card all the cards will return through map function into variable and then we will render those cards into root 
+
+12 --> Introduction to react components 
