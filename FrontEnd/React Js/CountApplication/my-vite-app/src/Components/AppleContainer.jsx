@@ -5,11 +5,11 @@ import Basket from "./Basket";
 
 const AppleContainer = function () {
     return (
-        <div className="AppleContainer" style={{ marginInline:'6rem' ,display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div className="AppleContainer" style={{ marginInline: '6rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <Basket count={1} />
 
-            <Button imageUrl={LeftArrow} tit={"left-arrow"} />
-            <Button imageUrl={RightArrow} />
+            <Button imageUrl={LeftArrow} tit='left-arrow' />
+            <Button imageUrl={RightArrow} tit='rightt-arrow' />
             <Basket count={2} />
 
 
