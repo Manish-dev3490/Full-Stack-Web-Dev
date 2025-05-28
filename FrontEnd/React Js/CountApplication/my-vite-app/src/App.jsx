@@ -1,7 +1,9 @@
+import ReactImage from './assets/react.svg'
+import AppleContainer from './Components/AppleContainer';
 function App() {
   return (
     <>
-      <h1>Hello to the react</h1>
+      <AppleContainer />
     </>
   );
 }
