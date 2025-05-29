@@ -6,22 +6,26 @@ import Basket from "./Basket";
 import { createRoot } from "react-dom/client";
 
 
-  const totalApples = 10;
-  let leftapples = totalApples - 5;
-  let rightApples = totalApples - leftapples;
+const totalApples = 10;
+let leftapples = totalApples - 0;
+let rightApples = totalApples - leftapples;
 const AppleContainer = function () {
 
 
   function leftclickHandler() {
     console.log("Left arrow");
-    rightApples++;
-    leftapples--;
+    if (leftapples > 0) {
+      rightApples++;
+      leftapples--;
+    }
+
     console.log(rightApples);
     console.log(leftapples);
   }
 
   function rightclickHandler() {
     console.log("Right arrow");
+
     rightApples--;
     leftapples++;
 
@@ -40,7 +44,7 @@ const AppleContainer = function () {
           justifyContent: "space-between",
         }}
       >
-        <Basket count={totalApples} />
+        <Basket count={leftapples} />
 
         <Button
           clickHandler={leftclickHandler}
@@ -52,7 +56,7 @@ const AppleContainer = function () {
           imageUrl={RightArrow}
           tit="rightt-arrow"
         />
-        <Basket count={leftapples} />
+        <Basket count={rightApples} />
       </div>
 
       <button
