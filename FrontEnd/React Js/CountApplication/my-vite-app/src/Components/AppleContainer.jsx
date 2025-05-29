@@ -8,8 +8,16 @@ const AppleContainer = function () {
         <div className="AppleContainer" style={{ marginInline: '6rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <Basket count={1} />
 
-            <Button imageUrl={LeftArrow} tit='left-arrow' />
-            <Button imageUrl={RightArrow} tit='rightt-arrow' />
+            <Button clickHandler={function () {
+                console.log("Light arrow");
+
+            }} imageUrl={LeftArrow} tit='left-arrow' />
+            <Button clickHandler={
+                function () {
+                    console.log("right aroow");
+
+                }
+            } imageUrl={RightArrow} tit='rightt-arrow' />
             <Basket count={2} />
 
 
