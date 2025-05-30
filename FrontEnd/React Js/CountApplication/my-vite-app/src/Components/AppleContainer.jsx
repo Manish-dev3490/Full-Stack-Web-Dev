@@ -2,16 +2,12 @@ import Button from "./Button";
 import LeftArrow from "../assets/left.png";
 import RightArrow from "../assets/right.png";
 import Basket from "./Basket";
-
-import { createRoot } from "react-dom/client";
-
+import ReactDOM from "react-dom/client";
 
 const totalApples = 10;
 let leftapples = totalApples - 0;
 let rightApples = totalApples - leftapples;
 const AppleContainer = function () {
-
-
   function leftclickHandler() {
     console.log("Left arrow");
     if (leftapples > 0) {
@@ -21,6 +17,9 @@ const AppleContainer = function () {
 
     console.log(rightApples);
     console.log(leftapples);
+    ReactDOM.createRoot(document.getElementById("root")).render(
+      <AppleContainer />
+    );
   }
 
   function rightclickHandler() {
@@ -31,6 +30,9 @@ const AppleContainer = function () {
 
     console.log(rightApples);
     console.log(leftapples);
+    ReactDOM.createRoot(document.getElementById("root")).render(
+      <AppleContainer />
+    );
   }
 
   return (
@@ -58,16 +60,6 @@ const AppleContainer = function () {
         />
         <Basket count={rightApples} />
       </div>
-
-      <button
-        onClick={function () {
-          createRoot(document.getElementById("root")).render(
-            <AppleContainer />
-          );
-        }}
-      >
-        Re Render
-      </button>
     </>
   );
 };
