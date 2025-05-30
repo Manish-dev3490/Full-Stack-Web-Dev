@@ -1,16 +1,15 @@
-import ReactDOM from 'react-dom/client'
-import App from '../App'
-let a=1;
+import { useState } from "react";
+
  export function Counter() {
-  function increase (){
-    console.log(a);
-    ReactDOM.createRoot(document.getElementById("root")).render(<App/>)
-    a++;
-  }
+ const [val,setVal]=useState(0);
+ 
+ 
   return (
     <div className='Counter-div' style={{backgroundColor:"antiquewhite" , textAlign:'center' ,paddingBlock:'2rem'}}>
-        <h2 style={{}}>{a}</h2>
-        <button onClick={increase}>Increase this number</button>
+        <h2>{val}</h2>
+        <button onClick={()=>{
+          setVal(val+1)
+        }}>Increase this number</button>
     </div>
   )
 }
