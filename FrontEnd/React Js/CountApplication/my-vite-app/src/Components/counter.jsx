@@ -2,6 +2,7 @@ import { useState } from "react";
 
  export function Counter() {
  const [val,setVal]=useState(0);
+ console.log("counter rendered");
  
  
   return (
