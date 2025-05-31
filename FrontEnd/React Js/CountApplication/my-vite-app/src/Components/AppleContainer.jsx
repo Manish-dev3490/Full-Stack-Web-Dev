@@ -5,7 +5,7 @@ import Basket from "./Basket";
 import { useState } from "react";
 
 const AppleContainer = function () {
-  const [leftVal, setLeftVal] = useState(10);
+  const [leftVal, setLeftVal] = useState(100);
   const [rightVal, setRightVal] = useState(0);
 
 

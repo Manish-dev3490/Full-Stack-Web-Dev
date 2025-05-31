@@ -7,11 +7,12 @@ const Button = (props) => {
     if (direction === "left") {
       setLeftVal(leftVal - 1);
       setRightVal(rightVal + 1);
+     
     }
 
-    else {
-      setRightVal(rightVal + 1);
-      setLeftVal(leftVal - 1);
+    else if(direction==="right"){
+      setRightVal(rightVal-1);
+      setLeftVal(leftVal+1);
     }
   }
 
