@@ -5,7 +5,7 @@ import Basket from "./Basket";
 import { useState } from "react";
 
 const AppleContainer = function () {
-  const [leftVal, setLeftVal] = useState(100);
+  const [leftVal, setLeftVal] = useState(10);
   const [rightVal, setRightVal] = useState(0);
 
   // function leftclickHandler() {
@@ -46,7 +46,7 @@ const AppleContainer = function () {
           justifyContent: "space-between",
         }}
       >
-        <Basket count={leftVal} />
+        <Basket val={1} count={leftVal} />
 
         <Button
           leftVal={leftVal}
@@ -66,7 +66,7 @@ const AppleContainer = function () {
           direction="right"
           tit="rightt-arrow"
         />
-        <Basket count={rightVal} />
+        <Basket val={2} count={rightVal} />
       </div>
     </>
   );
