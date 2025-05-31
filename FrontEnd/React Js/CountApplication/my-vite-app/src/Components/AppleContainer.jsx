@@ -8,7 +8,6 @@ const AppleContainer = function () {
   const [leftVal, setLeftVal] = useState(100);
   const [rightVal, setRightVal] = useState(0);
 
-
   // function leftclickHandler() {
   //   console.log("Left arrow");
   //   if (leftapples > 0) {
@@ -49,8 +48,24 @@ const AppleContainer = function () {
       >
         <Basket count={leftVal} />
 
-        <Button leftVal={leftVal} setLeftVal={setLeftVal} imageUrl={LeftArrow} direction="left" tit="left-arrow" rightVal={rightVal} setRightVal={setRightVal} />
-        <Button leftVal={leftVal} setLeftVal={setLeftVal} rightVal={rightVal} setRightVal={setRightVal} imageUrl={RightArrow} direction="right" tit="rightt-arrow" />
+        <Button
+          leftVal={leftVal}
+          setLeftVal={setLeftVal}
+          imageUrl={LeftArrow}
+          direction="left"
+          tit="left-arrow"
+          rightVal={rightVal}
+          setRightVal={setRightVal}
+        />
+        <Button
+          leftVal={leftVal}
+          setLeftVal={setLeftVal}
+          rightVal={rightVal}
+          setRightVal={setRightVal}
+          imageUrl={RightArrow}
+          direction="right"
+          tit="rightt-arrow"
+        />
         <Basket count={rightVal} />
       </div>
     </>
