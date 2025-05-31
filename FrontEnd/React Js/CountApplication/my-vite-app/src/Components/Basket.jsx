@@ -1,3 +1,4 @@
+// component for basket 
 const Basket = ({ count }) => {
     return (
         <div className="basket">

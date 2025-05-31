@@ -2,38 +2,39 @@ import Button from "./Button";
 import LeftArrow from "../assets/left.png";
 import RightArrow from "../assets/right.png";
 import Basket from "./Basket";
-import ReactDOM from "react-dom/client";
+import { useState } from "react";
 
-const totalApples = 10;
-let leftapples = totalApples - 0;
-let rightApples = totalApples - leftapples;
 const AppleContainer = function () {
-  function leftclickHandler() {
-    console.log("Left arrow");
-    if (leftapples > 0) {
-      rightApples++;
-      leftapples--;
-    }
+  const [leftVal, setLeftVal] = useState(10);
+  const [rightVal, setRightVal] = useState(0);
 
-    console.log(rightApples);
-    console.log(leftapples);
-    ReactDOM.createRoot(document.getElementById("root")).render(
-      <AppleContainer />
-    );
-  }
 
-  function rightclickHandler() {
-    console.log("Right arrow");
+  // function leftclickHandler() {
+  //   console.log("Left arrow");
+  //   if (leftapples > 0) {
+  //     rightApples++;
+  //     leftapples--;
+  //   }
 
-    rightApples--;
-    leftapples++;
+  //   console.log(rightApples);
+  //   console.log(leftapples);
+  //   ReactDOM.createRoot(document.getElementById("root")).render(
+  //     <App />
+  //   );
+  // }
 
-    console.log(rightApples);
-    console.log(leftapples);
-    ReactDOM.createRoot(document.getElementById("root")).render(
-      <AppleContainer />
-    );
-  }
+  // function rightclickHandler() {
+  //   console.log("Right arrow");
+
+  //   rightApples--;
+  //   leftapples++;
+
+  //   console.log(rightApples);
+  //   console.log(leftapples);
+  //   ReactDOM.createRoot(document.getElementById("root")).render(
+  //     <App />
+  //   );
+  // }
 
   return (
     <>
@@ -46,19 +47,11 @@ const AppleContainer = function () {
           justifyContent: "space-between",
         }}
       >
-        <Basket count={leftapples} />
+        <Basket count={leftVal} />
 
-        <Button
-          clickHandler={leftclickHandler}
-          imageUrl={LeftArrow}
-          tit="left-arrow"
-        />
-        <Button
-          clickHandler={rightclickHandler}
-          imageUrl={RightArrow}
-          tit="rightt-arrow"
-        />
-        <Basket count={rightApples} />
+        <Button leftVal={leftVal} setLeftVal={setLeftVal} imageUrl={LeftArrow} direction="left" tit="left-arrow" rightVal={rightVal} setRightVal={setRightVal} />
+        <Button leftVal={leftVal} setLeftVal={setLeftVal} rightVal={rightVal} setRightVal={setRightVal} imageUrl={RightArrow} direction="right" tit="rightt-arrow" />
+        <Basket count={rightVal} />
       </div>
     </>
   );
