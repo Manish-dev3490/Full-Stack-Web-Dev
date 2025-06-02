@@ -7,7 +7,7 @@ const Header = () => {
                     <a href="/">Where in the world?</a>
                 </h2>
                 <p className="theme-changer">
-                    <i class="ri-moon-fill"></i>
+                    <i className="ri-moon-fill"></i>
                 </p>
             </div>
         </header>
