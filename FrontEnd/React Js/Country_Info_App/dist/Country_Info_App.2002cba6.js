@@ -160,15 +160,15 @@
       });
     }
   }
-})({"kCSNn":[function(require,module,exports,__globalThis) {
+})({"5GRMp":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 51971;
+var HMR_SERVER_PORT = 52086;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
-module.bundle.HMR_BUNDLE_ID = "a726bb8fe02fbd41";
+module.bundle.HMR_BUNDLE_ID = "ba1c20cf2002cba6";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_SERVER_PORT, HMR_ENV_HASH, HMR_SECURE, HMR_USE_SSE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -666,12 +666,12 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     }
 }
 
-},{}],"jOXmm":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$3d99 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$3d99.init();
+},{}],"aiwHB":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$c3dd = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$c3dd.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3d99.prelude(module);
+$parcel$ReactRefreshHelpers$c3dd.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -683,22 +683,22 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 var _app = require("./App");
 (0, _clientDefault.default).createRoot(document.getElementById("root")).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _react.StrictMode), {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
-        fileName: "index.js",
+        fileName: "index.jsx",
         lineNumber: 8,
         columnNumber: 9
     }, undefined)
 }, void 0, false, {
-    fileName: "index.js",
+    fileName: "index.jsx",
     lineNumber: 7,
     columnNumber: 5
 }, undefined));
 
-  $parcel$ReactRefreshHelpers$3d99.postlude(module);
+  $parcel$ReactRefreshHelpers$c3dd.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./App":"blcJa","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","./App":"96tIl","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -16097,12 +16097,12 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"jMk1U"}],"blcJa":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$4931 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$4931.init();
+},{"6f0162e9ab224cd4":"jMk1U"}],"96tIl":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$b29b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$b29b.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
 var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$4931.prelude(module);
+$parcel$ReactRefreshHelpers$b29b.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -16115,7 +16115,7 @@ const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: "App"
     }, void 0, false, {
-        fileName: "App.js",
+        fileName: "App.jsx",
         lineNumber: 5,
         columnNumber: 5
     }, undefined);
@@ -16124,7 +16124,7 @@ _c = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$4931.postlude(module);
+  $parcel$ReactRefreshHelpers$b29b.postlude(module);
 } finally {
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
@@ -18437,6 +18437,6 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["kCSNn","jOXmm"], "jOXmm", "parcelRequire978c", {}, null, null, "http://localhost:51971")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}]},["5GRMp","aiwHB"], "aiwHB", "parcelRequire978c", {}, null, null, "http://localhost:52086")
 
-//# sourceMappingURL=Country_Info_App.e02fbd41.js.map
+//# sourceMappingURL=Country_Info_App.2002cba6.js.map
