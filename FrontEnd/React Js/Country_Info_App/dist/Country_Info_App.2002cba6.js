@@ -18699,7 +18699,6 @@ var _countriesDataDefault = parcelHelpers.interopDefault(_countriesData);
 var _countryCard = require("./CountryCard");
 var _countryCardDefault = parcelHelpers.interopDefault(_countryCard);
 function CountriesList() {
-    console.log((0, _countriesDataDefault.default));
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "countries-container",
         children: (0, _countriesDataDefault.default).map((country)=>{
@@ -18711,13 +18710,13 @@ function CountriesList() {
                 capital: country.capital?.[0]
             }, country.name.common, false, {
                 fileName: "src/components/CountryList.jsx",
-                lineNumber: 12,
+                lineNumber: 11,
                 columnNumber: 21
             }, this);
         })
     }, void 0, false, {
         fileName: "src/components/CountryList.jsx",
-        lineNumber: 9,
+        lineNumber: 8,
         columnNumber: 9
     }, this);
 }
@@ -73270,7 +73269,6 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 function CountryCard({ name, flag, population, region, capital }) {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
         className: "country-card",
-        href: `/country.html?name=${name.common}`,
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 src: flag,

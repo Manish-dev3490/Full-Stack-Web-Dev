@@ -3,7 +3,6 @@ import countriesData from '../../CountriesData';
 import CountryCard from './CountryCard';
 
 export default function CountriesList() {
-    console.log(countriesData);
     
     return (
         <div className="countries-container">
