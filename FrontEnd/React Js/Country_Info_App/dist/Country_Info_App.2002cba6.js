@@ -18708,8 +18708,7 @@ function CountriesList() {
                 className: "input-tag",
                 type: "text",
                 onChange: function(e) {
-                    console.log(e.target.value);
-                    setVal(e.target.value);
+                    setVal(e.target.value.toLowerCase());
                 }
             }, void 0, false, {
                 fileName: "src/components/CountryList.jsx",
@@ -18729,13 +18728,13 @@ function CountriesList() {
                         capital: data.capital
                     }, data.name.common, false, {
                         fileName: "src/components/CountryList.jsx",
-                        lineNumber: 23,
+                        lineNumber: 22,
                         columnNumber: 32
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "src/components/CountryList.jsx",
-                lineNumber: 18,
+                lineNumber: 17,
                 columnNumber: 13
             }, this)
         ]

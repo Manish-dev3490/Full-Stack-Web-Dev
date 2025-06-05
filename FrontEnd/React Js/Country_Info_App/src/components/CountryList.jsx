@@ -10,10 +10,9 @@ export default function CountriesList() {
 
     return (
         <>
-            <input className='input-tag' type='text' onChange={function(e){
-                console.log(e.target.value);
-                setVal(e.target.value);
-                
+            <input className='input-tag' type='text' onChange={function (e) {
+                setVal(e.target.value.toLowerCase());
+
             }} />
             <div className="countries-container">
                 {
