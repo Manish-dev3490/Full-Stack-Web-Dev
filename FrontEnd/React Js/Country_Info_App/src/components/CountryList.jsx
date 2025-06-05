@@ -2,18 +2,14 @@ import React, { useState } from 'react'
 import countriesData from '../../CountriesData';
 import CountryCard from './CountryCard';
 
-export default function CountriesList() {
-    const [val, setVal] = useState('');
+export default function CountriesList({val}) {
 
 
 
 
     return (
         <>
-            <input className='input-tag' type='text' onChange={function (e) {
-                setVal(e.target.value.toLowerCase());
-
-            }} />
+            <input className='input-tag' type='text' />
             <div className="countries-container">
                 {
                     countriesData.filter(function (data) {
