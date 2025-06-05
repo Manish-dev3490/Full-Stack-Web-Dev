@@ -18698,28 +18698,50 @@ var _countriesData = require("../../CountriesData");
 var _countriesDataDefault = parcelHelpers.interopDefault(_countriesData);
 var _countryCard = require("./CountryCard");
 var _countryCardDefault = parcelHelpers.interopDefault(_countryCard);
+var _s = $RefreshSig$();
 function CountriesList() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "countries-container",
-        children: (0, _countriesDataDefault.default).map((country)=>{
-            return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countryCardDefault.default), {
-                name: country.name.common,
-                flag: country.flags.svg,
-                population: country.population,
-                region: country.region,
-                capital: country.capital?.[0]
-            }, country.name.common, false, {
+    _s();
+    const [val, setVal] = (0, _react.useState)('');
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                className: "input-tag",
+                type: "text",
+                onChange: function(e) {
+                    console.log(e.target.value);
+                    setVal(e.target.value);
+                }
+            }, void 0, false, {
                 fileName: "src/components/CountryList.jsx",
-                lineNumber: 11,
-                columnNumber: 21
-            }, this);
-        })
-    }, void 0, false, {
-        fileName: "src/components/CountryList.jsx",
-        lineNumber: 8,
-        columnNumber: 9
-    }, this);
+                lineNumber: 13,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "countries-container",
+                children: (0, _countriesDataDefault.default).filter(function(data) {
+                    return data.name.common.includes(val);
+                }).map(function(data) {
+                    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _countryCardDefault.default), {
+                        name: data.name.common,
+                        flag: data.flags.png,
+                        population: data.population,
+                        region: data.region,
+                        capital: data.capital
+                    }, data.name.common, false, {
+                        fileName: "src/components/CountryList.jsx",
+                        lineNumber: 23,
+                        columnNumber: 32
+                    }, this);
+                })
+            }, void 0, false, {
+                fileName: "src/components/CountryList.jsx",
+                lineNumber: 18,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true);
 }
+_s(CountriesList, "V6SIQC3+2Sl42l4zs35zB3hiCfs=");
 _c = CountriesList;
 var _c;
 $RefreshReg$(_c, "CountriesList");

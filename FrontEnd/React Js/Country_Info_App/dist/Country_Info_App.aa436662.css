@@ -137,6 +137,15 @@ a {
   box-shadow: 0 0 8px #00000026;
 }
 
+.input-tag {
+  border-radius: 8px;
+  outline: none;
+  width: 30%;
+  height: 40px;
+  margin-inline: 5rem;
+  padding-left: 27px;
+}
+
 @media (width <= 768px) {
   .countries-container {
     justify-content: center;
