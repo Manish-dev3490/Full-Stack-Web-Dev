@@ -28,7 +28,7 @@ const React = {
 // Now create element by using React.createElement
 const h1 = React.createElement(
   "h1",
-  { fontSize: "30px", backgroundColor: "red" },
+  { fontSize: "30px", backgroundColor: "red" ,color:"blue"},
   "hello to the world"
 );
 const h2 = React.createElement(
