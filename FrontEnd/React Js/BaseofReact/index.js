@@ -1,35 +1,35 @@
 // This is how actual code of react is written behind the scenes by the facebook engineers
-const React = {
-  createElement: function (tagName, styles, children) {
-    const element = document.createElement(tagName);
+// const React = {
+//   createElement: function (tagName, styles, children) {
+//     const element = document.createElement(tagName);
 
-    // looping over css styles
-    for (let key in styles) {
-      element.style[key] = styles[key];
-    }
+//     // looping over css styles
+//     for (let key in styles) {
+//       element.style[key] = styles[key];
+//     }
 
-    // if children is array
-    if (typeof children === 'object') {
-      for (let val of children) {
-        element.append(val);
-      }
-    }
+//     // if children is array
+//     if (typeof children === 'object') {
+//       for (let val of children) {
+//         element.append(val);
+//       }
+//     }
 
-    // if children is string
-    else {
-      element.innerText = children;
+//     // if children is string
+//     else {
+//       element.innerText = children;
 
-    }
-    return element;
-  },
-};
+//     }
+//     return element;
+//   },
+// };
 
 // Behind the scenes of library RECATDOM
-const ReactDOM = {
-  render: function (element, root) {
-    root.append(element);
-  }
-}
+// const ReactDOM = {
+//   render: function (element, root) {
+//     root.append(element);
+//   }
+// }
 
 // Now create element by using React.createElement
 const h1 = React.createElement("h1", { fontSize: "30px", backgroundColor: "red", color: "blue" }, "hello to the world");
