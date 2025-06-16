@@ -160,11 +160,11 @@
       });
     }
   }
-})({"bKnKB":[function(require,module,exports,__globalThis) {
+})({"364p6":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 64591;
+var HMR_SERVER_PORT = 50582;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -73384,6 +73384,6 @@ $RefreshReg$(_c, "CountryCard");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["bKnKB","aiwHB"], "aiwHB", "parcelRequire978c", {}, null, null, "http://localhost:64591")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["364p6","aiwHB"], "aiwHB", "parcelRequire978c", {}, null, null, "http://localhost:50582")
 
 //# sourceMappingURL=Country_Info_App.2002cba6.js.map
