@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 
 // This is our whole application where all the components will come
+
 function App() {
     return (
         <>
