@@ -1,7 +1,15 @@
-import React from "react";
+import ReactDOM from "react-dom/client"
+import App from "../App";
+import { reRender } from "../Main";
+// I am trying to change the value onClick but i am unable to because App component ek baar render hora hai usme ek heee baar Hero render hora hai a ki value toh change hri hai lekin re-render krna padega humko value dikhane ke liye
+let a = 10;
 
-let a = 0;
 function Hero() {
+
+    function increase() {
+        a++;
+       reRender();
+    }
     return (
         <div
             style={{
@@ -14,10 +22,12 @@ function Hero() {
                 gap: "1rem"
             }}
         >
-            <p style={{ fontSize: "1rem" }}>{a}</p>
-            <button style={{ cursor: "pointer" }}>Increase the count</button>
+            <p style={{ fontSize: "2rem" }}>{a}</p>
+            <button onClick={increase} style={{ cursor: "pointer" }}>Increase the count</button>
         </div>
     );
 }
+
+
 
 export default Hero;
