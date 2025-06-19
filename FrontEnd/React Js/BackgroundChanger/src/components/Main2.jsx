@@ -6,8 +6,7 @@ let a = 0;
 function Main2() {
 
     // This is for verifying that our component is getting re-rendered or not
-    console.log("Main function is rendering first",a);
-    a++;
+    console.log("Main function is rendering first",a++);
 
     // creating state variables for this Main component
     const [color, setColor] = useState("black");
