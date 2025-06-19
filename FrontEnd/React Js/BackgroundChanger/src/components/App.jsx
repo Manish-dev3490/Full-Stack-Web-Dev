@@ -1,11 +1,15 @@
-import Main from "./Main"
+import Main2 from "./Main2"
 
 
 // This is the whole react-appication all the components will dig under this App component
 function App() {
     return (
 
-        <Main></Main>
+        <>
+            <Main2>
+            </Main2>
+        </>
+
 
     )
 }
