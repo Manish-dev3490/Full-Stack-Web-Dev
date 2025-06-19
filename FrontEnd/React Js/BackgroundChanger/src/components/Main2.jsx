@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 let a = 0;
 
@@ -6,21 +6,27 @@ let a = 0;
 function Main2() {
 
     // This is for verifying that our component is getting re-rendered or not
-    console.log(a);
+    console.log("Main function is rendering first",a);
     a++;
 
     // creating state variables for this Main component
     const [color, setColor] = useState("black");
 
-
-    // initilizing default color for document body
-    document.body.style.backgroundColor = color;
-
     // created a function for color changing 
     function changeColor(event) {
-        setColor(event.target.innerText)
+        setColor(event.target.innerText);
     }
 
+
+    // useEffect hook excecutes in the end of the component when component is rendered completely
+    useEffect(function () {
+        console.log("use effect call hogya last me sab kuch render hone ke baad");
+        document.body.style.backgroundColor = color;
+    }, [color])
+
+
+    console.log("main component render hogya ");
+    
     return (
         <>
             <h2>Background Color Changer</h2>
