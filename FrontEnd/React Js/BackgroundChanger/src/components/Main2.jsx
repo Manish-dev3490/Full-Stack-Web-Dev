@@ -12,9 +12,7 @@ function Main2() {
 
     // created a function for color changing 
     function changeColor(event) {
-        console.log(event.target.innerText);
         setColor(event.target.innerText)
-        document.body.style.backgroundColor = color;
     }
 
     return (
