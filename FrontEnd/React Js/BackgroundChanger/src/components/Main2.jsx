@@ -1,7 +1,13 @@
 import { useState } from "react";
 
+let a = 0;
+
 // This is the main compnent
 function Main2() {
+
+    // This is for verifying that our component is getting re-rendered or not
+    console.log(a);
+    a++;
 
     // creating state variables for this Main component
     const [color, setColor] = useState("black");
