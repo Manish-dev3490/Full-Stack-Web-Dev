@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-function Body(props) {
-  
+function Body({ count, setcount }) {
+
   return (
     <div>
-      <h2>Child count is :{props.count}</h2>
-      <button onClick={()=>props.setcount(props.count+1)}>Increase</button>
+      <h2>Child count is :{count}</h2>
+      <button onClick={() => setcount(count + 1)}>Increase</button>
     </div>
   )
 }
