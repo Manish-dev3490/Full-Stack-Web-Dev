@@ -4,7 +4,7 @@ import Body from './Body';
 function App() {
     const [count, setcount] = useState(0);
     return (
-        <div className='App' style={{textAlign:'center', fontSize:'1rem'}}>
+        <div className='App' style={{textAlign:'center', fontSize:'1rem', backgroundColor:'lavender'}}>
             <p>count is {count}</p>
             <Body></Body>
         </div>
