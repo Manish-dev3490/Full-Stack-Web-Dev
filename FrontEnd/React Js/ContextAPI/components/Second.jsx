@@ -1,11 +1,11 @@
 import React from 'react'
 import Third from './Third'
 
-function Second({count,setcount}) {
+function Second() {
   return (
     <div style={{backgroundColor:'green'}}>
         <h1>Second Compo</h1>
-        <Third  count={count} setcount={setcount}/>
+        <Third/>
     </div>
   )
 }

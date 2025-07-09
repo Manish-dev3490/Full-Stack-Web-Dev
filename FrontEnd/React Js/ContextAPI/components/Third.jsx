@@ -1,9 +1,14 @@
 import React from 'react'
+import { useContext } from 'react';
+import globalContext from '../Global';
 
-function Third(props) {
+function Third() {
+   const data= useContext(globalContext);
+   console.log(data);
+   
   return (
     <div style={{backgroundColor:'aqua'}}>
-        <h2>Third Compo  count is : {props.count} </h2>
+        <h2>Third Compo  count is : {data} </h2>
     </div>
   )
 }

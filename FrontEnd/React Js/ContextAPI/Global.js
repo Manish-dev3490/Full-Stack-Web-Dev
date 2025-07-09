@@ -1,3 +1,5 @@
 import { createContext, useState } from "react";
 
-const globalContext=createContext([count,setcount]=useState(0));
+const globalContext=createContext("0");
+
+export default globalContext;
