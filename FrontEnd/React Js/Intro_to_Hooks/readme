@@ -1,0 +1,7 @@
+## Created a basic react js project for undersatdningthe concepts of the hooks .
+
+## I have created main.jsx , App.jsx and Hero.jsx and in hero.jsx create a button increase the count for dom manipulation and let a=0 krke ek value daal di button click par value th incrasee ho rhi hai lekin show nhi hori ui me kyuki Hero component dubara render nahi hora .isliye mene forcefully pure app ko re render krvaya woh hogya but it is not recommednded
+
+## Now i have use React-Hook --> React hook is nothing but normal javascript utility function which is used to re-render the existing component i havfe used useState . React me hooks use keyword se shuru hote hai like useState,useRef,useeffect,useMemo and many more.
+
+## useState->it is normal javascript function which is used to re-render the existing component it is a function where we can pass a value it return a array which have two elements first one is our value and second element is function to update the first value or usme koi bhi operation krne ke liye jese hee useState ka second function call hota hai react existing component ko re-render karta hai pure App ko nahi jis component me useState variables hote hai only usi ko

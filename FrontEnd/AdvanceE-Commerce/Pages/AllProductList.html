@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clothes Paradise Collection Web Application</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2015/11/16/16/30/clothing-1045960_1280.jpg"
+    type="image/x-icon" />
+  <link rel="stylesheet" href="../Stylesheets/AllProduct.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>
+      <i class="fas fa-tag" style="color: black"></i>E-Commerce Paradise
+      Collection
+    </h1>
+    <nav>
+      <nav>
+        <button id="lightMode">
+          <i id="theme-toggle-icon" class="fas fa-moon" style="cursor: pointer; font-size: 24px"></i>
+        </button>
+        <button id="darkMode">
+          <i class="fas fa-sun" style="font-size: 24px; color: orange"></i>
+        </button>
+
+        <a href="../index.html">Home</a>
+        <a href="#">All Products</a>
+        <a href="./CartList.html" id="cart-length">Cart List</a>
+
+        <a href="#" class="user-name"></a>
+
+
+        <button id="user-logo"><i class="fas fa-user"></i></button>
+      </nav>
+    </nav>
+    <input type="button" id="logout-btn" value="Logout" />
+  </header>
+
+
+
+
+  <!--All category-list of the products -->
+  <div class="big-container">
+    <div class="filter-section">
+
+
+      <div class="filter-by-price">
+
+        <h4 class="price-filter">Filter By Price</h4>
+
+        <div class="min-max-price">
+          <button class="min-price">
+            <label for="Min-Price">Min Price</label>
+            <select name="Min-Price" id="min-price">
+
+
+              <option value="0">0</option>
+              <option value="100">100</option>
+              <option value="250">250</option>
+              <option value="1000">1000</option>
+              <option value="2000">2000</option>
+
+            </select>
+          </button>
+
+
+          <button class="max-price">
+            <label for="Max-Price">Max Price</label>
+
+            <select name="Max-Price" id="max-price">
+
+
+              <option value="50">50</option>
+              <option value="250">250</option>
+              <option value="1000">1000</option>
+              <option value="2000">2000</option>
+              <option value="3000">3000</option>
+
+            </select>
+          </button>
+        </div>
+        <button class="apply-filter">Apply Filter</button>
+      </div>
+
+
+
+
+
+      <input type="text" class="search-area" id="srch-btn" placeholder="Search your desired product here ">
+      <input type="button" class="search-button" id="srch" value="Search">
+
+    </div>
+
+    <div class="product-container"></div>
+
+
+
+    <button id="load-more-button">Load More</button>
+  </div>
+
+
+  <footer>
+    <p>&copy; 2025 Raste Ka Maal Saste Mein. All rights reserved.</p>
+  </footer>
+
+  <script src="../Js-Files/AllProduct.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: lightpink;
+  padding: 1.3rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+nav a {
+  color: black;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.Maincontainer {
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  background-color: lightpink;
+  /* height: 5rem; */
+  color: black;
+  text-align: center;
+  width: 100vw;
+  font-size: 1.2rem;
+  padding-block: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+#user-logo {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border-color: white;
+  border: none;
+}
+
+#logout-btn {
+  position: absolute;
+  right: 1%;
+  /* bottom: -26%; */
+  top: 4.7rem;
+  /* top: -1%; */
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
+  background-color: white;
+  border: 2px solid;
+}
+
+#lightMode {
+  width: 2.2rem;
+  background-color: white;
+  height: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#darkMode {
+  width: 2.2rem;
+  background-color: white;
+  height: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.hero-image {
+  width: 100%;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.product-container {
+  width: 100%;
+  background-color: pink;
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-block: 5rem;
+  padding-inline: 2rem;
+  justify-content: center;
+}
+.product-box {
+      height: 5rem;
+    width: 12rem;
+    cursor: pointer;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 1rem;
+    border-radius: 10px;
+    gap: 1rem;
+    background-color: lightpink;
+    padding-inline: 2rem;
+}
+.product-box h2 {
+  color: black;
+}
+.product-box a {
+  text-decoration: none;
+}
+.product-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+  position: relative;
+}
+.product-box:hover {
+  transform: scaleX(1.1);
+}
+.heading{
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.filter-heading{
+  text-align: center;
+  background-color:pink;
+  padding-top: 1rem;
+}

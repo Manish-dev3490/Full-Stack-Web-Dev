@@ -1,0 +1,79 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Login Container */
+  .login-container {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  form {
+    display: block;
+  }
+  
+  /* Input Fields */
+  input[type="email"],
+  input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  /* Focus State for Inputs */
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Submit Button */
+  button {
+    background-color: #007BFF;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Hover Effect for Button */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message */
+  #errorMessage {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  #loginForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }

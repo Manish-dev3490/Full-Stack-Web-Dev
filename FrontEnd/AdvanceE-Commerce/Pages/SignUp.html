@@ -1,0 +1,32 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up To The Application</title>
+    <link rel="stylesheet" href="/FrontEnd/AdvanceE-Commerce/Stylesheets/signup.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <h2>Create your account</h2>
+        <form id="signupForm">
+            <input id="firstName"  class="newEmail" placeholder="Enter your first name" required>
+            <input id="lastName" class="newEmail" placeholder="Enter your second name" required>
+
+            <input type="email" id="newEmail" placeholder="Enter your email" required>
+            <input type="password" id="newPassword" placeholder="Enter your password" required>
+            <input type="number" id="newNumber" placeholder="Enter your number" required>
+
+            <button type="submit">Sign-Up</button>
+            <a href="SignIn.html">Login to your Account if you have </a>
+        </form>
+        <p id="successMessage"></p>
+    </div>
+
+   <script src="../Js-Files/SignUp.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background-color: lavender;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 3rem;
+    width: 100%;
+    justify-content: center;
+}
+header h2{
+    font-size: 2.5rem;
+}
+.input-group{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+#query-area{
+    width: 40rem;
+    height: 40px;
+    border-radius: 8px;
+    padding-left: 23px;
+    font-size: 1.1rem;
+
+}
+#add-btn{
+    width: 10rem;
+    height: 40px;
+    
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.filter-group{
+    display: flex;
+    gap: 2rem;
+}
+#task-list{
+    background-color: white;
+    
+    border-radius: 10px;
+    margin-top: 2rem;
+
+}
+#edit-btn{
+    width: 10rem;
+    height: 35px;
+    background-color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#delete-btn{
+    width: 10rem;
+    height: 35px;
+    background-color: white;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.todo-list{
+    margin-inline: 1.5rem;
+    /* margin-block: 1.2rem; 
+    /* margin-top: 1.2rem; */
+    display: flex
+;
+    padding-block: 1.6rem;
+    gap: 1.4rem
+}
+.todo-list #list{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.checkbox{
+    width: 2.4rem;
+    
+}
+#edit-btn{
+    padding-inline: 15px;
+    cursor: pointer;
+}
+.list{
+    padding-left: 15px;
+    pointer-events: none;
+    width: 100%;
+    
+    
+}
+#delete-btn{
+    padding-inline: 15px;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#clear-all{
+    width: 10rem;
+    margin-top: 2rem;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+
+}

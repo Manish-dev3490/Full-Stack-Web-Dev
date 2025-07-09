@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: lightpink;
+  padding: 1.3rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+nav a {
+  color: black;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: lightpink;
+  /* height: 5rem; */
+  color: black;
+  text-align: center;
+  width: 100vw;
+  font-size: 1.2rem;
+  padding-block: 2rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+#user-logo {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  border-color: white;
+  border: none;
+}
+
+#logout-btn {
+  position: absolute;
+  right: 1%;
+  /* bottom: -26%; */
+  top: 4.7rem;
+  /* top: -1%; */
+  width: 6rem;
+  height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: none;
+  background-color: white;
+  border: 2px solid;
+}
+
+#lightMode {
+  width: 2.2rem;
+  background-color: white;
+  height: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#darkMode {
+  width: 2.2rem;
+  background-color: white;
+  height: 2.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+
+.big-container {
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-list-two {
+  height: 100vh;
+  padding: 20px;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
+
+.filter-by-price {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.product-gallary {
+  width: 19rem;
+  height: 20rem;
+}
+
+.product-gallary a img {
+  height: 80%;
+  width: 100%;
+}
+
+.filter-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.min-max-price {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.min-max-price button {
+  padding-block: 0.6rem;
+  padding-inline: 0.9rem;
+}
+
+.price-filter {
+  font-size: 1.4rem;
+}
+
+.search-filter {
+  padding-inline: 1rem;
+  padding-block: 0.4rem;
+}
+
+#load-more-button {
+  padding-block: 0.7rem;
+  padding-inline: 1rem;
+  cursor: pointer;
+}
+
+.desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#srch-btn {
+  width: 25rem;
+  margin-top: 1.1rem;
+  height: 2rem;
+  padding-inline: 13px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+#srch {
+  margin-top: 1.2rem;
+  padding-inline: 1.2rem;
+  padding-block: 0.4rem;
+  font-size: 14px;
+  border-radius: 5px;
+}

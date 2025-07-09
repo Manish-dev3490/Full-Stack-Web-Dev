@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add to Cart Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.pixabay.com/photo/2015/11/16/16/30/clothing-1045960_1280.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../Stylesheets/CartPage.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>
+        <i class="fas fa-tag" style="color: black"></i>E-Commerce Paradise
+        Collection
+      </h1>
+      <nav>
+        <nav>
+          <button id="lightMode">
+            <i
+              id="theme-toggle-icon"
+              class="fas fa-moon"
+              style="cursor: pointer; font-size: 24px"
+            ></i>
+          </button>
+          <button id="darkMode">
+            <i class="fas fa-sun" style="font-size: 24px; color: orange"></i>
+          </button>
+
+          <a href="../index.html">Home</a>
+          <a href="../Pages/AllProductList.html">All Products</a>
+          <a href="#" id="cart-length">Cart List</a>
+
+        <a href="#" class="user-name"> Manish Kumar</a>
+
+          <button id="user-logo"><i class="fas fa-user"></i></button>
+        </nav>
+      </nav>
+      <input type="button" id="logout-btn" value="Logout" />
+    </header>
+
+
+
+
+    <!-- category-list of the products -->
+     <div id="cart-container">
+      
+     </div>
+     <div style="text-align:center; margin-top: 20px;">
+  <button id="checkout-btn">Proceed to Checkout</button>
+</div>
+
+    
+      <footer>
+        <p>&copy; 2025 Raste Ka Maal Saste Mein. All rights reserved.</p>
+      </footer>
+
+    <script src="../Js-Files/CartPage.js"></script>
+  </body>
+</html>

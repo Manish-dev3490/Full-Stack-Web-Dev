@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.root {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-block: 2rem 32px;
+  padding-inline: 1rem;
+  display: flex;
+  width: 35%;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.main-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  padding-block: 10px;
+  padding-inline: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
