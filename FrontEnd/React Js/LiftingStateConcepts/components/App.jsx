@@ -5,8 +5,8 @@ function App() {
     const [count, setcount] = useState(0);
     return (
         <div className='App' style={{textAlign:'center', fontSize:'1rem', backgroundColor:'lavender'}}>
-            <p>count is {count}</p>
-            <Body></Body>
+            <p>Parents Count is {count}</p>
+            <Body count={count} setcount={setcount} />
         </div>
     )
 }
