@@ -8,7 +8,7 @@ function Third() {
    
   return (
     <div style={{backgroundColor:'aqua'}}>
-        <h2>Third Compo  count is : {data} </h2>
+        <h2>Third Compo  count is : {data.count} </h2>
     </div>
   )
 }
