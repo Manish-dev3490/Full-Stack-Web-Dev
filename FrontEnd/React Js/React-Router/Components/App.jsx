@@ -4,6 +4,11 @@ import Home from './Home';
 import About from './About'
 import Contact from './Contact'
 import Help from './Help'
+import Details from './Details';
+import Zero from './Zero';
+import Hi from "./Hi"
+import Hello from "./Hello"
+
 
 
 function App() {
@@ -15,6 +20,7 @@ function App() {
                 <Link to="/About">About</Link>
                 <Link to="/Contact">Contact</Link>
                 <Link to="/Help">Help</Link>
+                <Link to="/Details">Details</Link>
 
             </nav>
 
@@ -23,6 +29,17 @@ function App() {
                 <Route path='/About' element={<About></About>} ></Route>
                 <Route path='/Contact' element={<Contact></Contact>} ></Route>
                 <Route path='/Help' element={<Help></Help>} ></Route>
+
+
+                {/*  This is how we create nested routes using react router library  */}
+                <Route path='/Details' element={<Details></Details>}>
+                    {/* This will render by default in details page */}
+                    <Route index element={<Zero></Zero>}></Route>
+                    <Route path='Hi' element={<Hi></Hi>}></Route>
+                    <Route path='Hello' element={<Hello></Hello>}></Route>
+
+
+                </Route>
             </Routes>
         </BrowserRouter>
     )
