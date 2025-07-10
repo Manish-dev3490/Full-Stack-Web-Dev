@@ -35,6 +35,7 @@ function App() {
                 <Route path='/Details' element={<Details></Details>}>
                     {/* This will render by default in details page */}
                     <Route index element={<Zero></Zero>}></Route>
+
                     <Route path='Hi' element={<Hi></Hi>}></Route>
                     <Route path='Hello' element={<Hello></Hello>}></Route>
 
