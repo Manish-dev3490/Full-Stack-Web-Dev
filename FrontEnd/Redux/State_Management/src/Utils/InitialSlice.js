@@ -12,6 +12,7 @@ const firstSlice = createSlice({
 })
 
 
-
-export const {Increment,Decrement,Reset}=firstSlice.actions  
+// Humne yaha par in reducer function ko firstSlice.actions krke export kyu kiya hai kyuki abh yeh actions bann gye hai abh yeh apne andar ek special information rakhte hai ki yeh kiss slice se belong karte hai aur now they are the action now..
+export const { Increment, Decrement, Reset } = firstSlice.actions;
+export {firstSlice};
 export default firstSlice.reducer;

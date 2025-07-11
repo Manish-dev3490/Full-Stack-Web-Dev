@@ -1,7 +1,14 @@
 import React from 'react'
 import Counter from './components/Counter';
 import Stores from './Utils/Store';
-import {Provider} from "react-redux"
+import {Provider} from "react-redux";
+
+
+// hum dekhege hamara slice jo create karte hai woh behind the scenes kesi hai kya hai
+import { firstSlice } from './Utils/InitialSlice';
+console.log(firstSlice);
+
+
 
 function App() {
   return (
