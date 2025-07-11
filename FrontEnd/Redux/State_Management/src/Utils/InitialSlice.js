@@ -1,5 +1,4 @@
-import createSlice from '@reduxjs/toolkit';
-
+import { createSlice } from "@reduxjs/toolkit"
 const firstSlice = createSlice({
     name: "pehliSlice",
     initialState: {
@@ -12,4 +11,5 @@ const firstSlice = createSlice({
     }
 })
 
+  
 export default firstSlice.reducer;
