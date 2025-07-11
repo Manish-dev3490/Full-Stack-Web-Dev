@@ -11,5 +11,7 @@ const firstSlice = createSlice({
     }
 })
 
-  
+
+
+export const {Increment,Decrement,Reset}=firstSlice.actions  
 export default firstSlice.reducer;
