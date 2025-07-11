@@ -11,3 +11,5 @@ const firstSlice = createSlice({
         Reset: (state) => { state.count = 0 },
     }
 })
+
+export default firstSlice.reducer;
