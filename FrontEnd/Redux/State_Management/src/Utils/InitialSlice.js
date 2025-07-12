@@ -8,11 +8,12 @@ const firstSlice = createSlice({
         Increment: (state) => { state.count = state.count + 1 },
         Decrement: (state) => { state.count = state.count - 1 },
         Reset: (state) => { state.count = 0 },
+        IncreWithVal:(state,action)=>{state.count=state.count+action.payload}
     }
 })
 
 
 // Humne yaha par in reducer function ko firstSlice.actions krke export kyu kiya hai kyuki abh yeh actions bann gye hai abh yeh apne andar ek special information rakhte hai ki yeh kiss slice se belong karte hai aur now they are the action now..
-export const { Increment, Decrement, Reset } = firstSlice.actions;
+export const { Increment, Decrement, Reset,IncreWithVal } = firstSlice.actions;
 export {firstSlice};
 export default firstSlice.reducer;
