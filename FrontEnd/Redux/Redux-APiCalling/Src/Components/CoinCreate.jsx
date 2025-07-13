@@ -15,7 +15,7 @@ function CoinCreate() {
 
     return (
         <div style={{
-            display: flex,
+            display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
             flexWrap: 'wrap',
