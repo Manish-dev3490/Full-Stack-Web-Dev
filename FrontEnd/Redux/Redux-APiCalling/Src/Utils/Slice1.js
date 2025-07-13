@@ -37,3 +37,6 @@ const slice1 = createSlice({
     }
 
 })
+
+export default slice1.reducer;
+export {fetchCyrpto};
