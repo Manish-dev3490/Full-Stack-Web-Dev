@@ -1,0 +1,20 @@
+{
+  "name": "basicapicalling",
+  "version": "1.0.0",
+  "description": "Locally calling Api and store data into store ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
