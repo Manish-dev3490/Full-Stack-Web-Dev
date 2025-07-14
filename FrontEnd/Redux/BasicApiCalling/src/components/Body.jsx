@@ -1,17 +1,17 @@
-import React, { useEffect } from 'react'
+import React, { useEffect} from 'react';
+import {useSelector} from 'react-redux'
 import FetchDataComponent from '../utils/FetchData';
 function Body() {
 
 // it will make api call when body component rendered 
-FetchDataComponent();
+
+
 
   
 
   return (
     <div>
-      {
-
-      }
+      <FetchDataComponent></FetchDataComponent>
     </div>
   )
 }
