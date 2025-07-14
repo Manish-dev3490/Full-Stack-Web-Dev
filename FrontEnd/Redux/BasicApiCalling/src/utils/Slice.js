@@ -9,7 +9,6 @@ const Slice1 = createSlice({
             state.Data = action.payload;
         },
         loadingData: (state, action) => {
-            state.loading = true;
             state.loading = action.payload;
         },
         errorHandler: (state, action) => {
