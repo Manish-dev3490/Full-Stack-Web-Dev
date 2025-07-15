@@ -42,4 +42,4 @@ function manipulateDOM() {
 
 
 
-// Conclusion --> This type of prgramming where we are changing the values of variables and then telling the dom to update it into the DOM this type of programming is knwon as imperitive programming where we have to update all the changes into the DOm but react is based on declarative programming when the value || state change react automatically changes the DOM this type of programming is known as declarative programming.
+// Conclusion --> This type of prgramming where we are changing the values of variables and then telling the dom to update it into the DOM this type of programming is knwon as imperitive programming where we have to update all the changes into the DOm but react is based on declarative programming when the value || state change react automatically changes the DOM this type of programming is known as declarative programming.So we have to learn react js because it is very good to make web applications
