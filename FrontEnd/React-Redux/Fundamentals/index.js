@@ -11,5 +11,5 @@ function incrementCount(currentState){
     return {...currentState,count:currentState.count+1};
 }
 
-// This incrementCount is returning us a new object with updated value
+// This incrementCount is returning us a new object with updated value and we are not even mutating our object
 const updatedState=incrementCount(Store);
