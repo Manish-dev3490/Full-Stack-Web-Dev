@@ -17,4 +17,22 @@ function incrementCount(currentState) {
 
 // This incrementCount is returning us a new object with updated value and we are not even mutating our object
 Store = incrementCount(Store);
-console.log(Store);
+
+
+
+
+// Now i am going to tell you how redux works behind the scenes assume kro yeh hamar belw store main redux store hai. SO redux kahta hai agar apko state update krni hai toh bina mutate kiye krni pdegi mutate ka matlab hai direct access krke nahi kar skte . toh without mutate toh ek hee tarika hai object ko copy kro aur usme change krke return krdo aur haan redux kahta hai apko state function ke through change krni pdegi jisko redux reducer bolta hai 
+let reduxState={
+    count:0,
+    name:'manish',
+    age:22
+}
+
+console.log(reduxState);
+
+// Abh yeh function jisko redux updater || reducer kahta hai termonology hai ek naya object return krega with update value aur copyied value ke saath usko hum reduxState me assign krdenge.uska naya refrence milte hee component ko re render kr deta hai this is how react works behin the scenes 
+function reducer(state){
+    return {...state,count:state.count+1};
+}
+reduxState=reducer(reduxState);
+console.log(reduxState);
