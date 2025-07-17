@@ -73,3 +73,12 @@ console.log(reduxState);
 
 reduxState=reducer(reduxState,{type:'count/incrementBy',payload:10});
 console.log(reduxState);
+
+
+reduxState=reducer(reduxState,{type:'count/incrementBy',payload:10});
+console.log(reduxState);
+
+
+
+reduxState=reducer(reduxState,{type:'count/incrementBy',payload:10});
+console.log(reduxState);
