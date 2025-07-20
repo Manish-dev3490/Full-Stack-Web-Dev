@@ -11,12 +11,23 @@ export function createStore(Reducer) {
         qualiication: "BCA",
     };
 
+    let listeners=[];
+
     const store = {
         dispatch(action) {
            initialState=Reducer(initialState,action);
-        },
-        subscribe() {
 
+            for (let listener of listeners) {
+                listener(); // listener ko call karna = update trigger
+            }
+        },
+        subscribe(listner) {
+            listeners.push(listner);
+
+            // unsubscribe function return karna
+            return function unsubscribe() {
+                listeners = listeners.filter(l => l !== listner);
+            };
         },
         getState() {
             return initialState
