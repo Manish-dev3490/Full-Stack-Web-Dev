@@ -36,7 +36,7 @@ function reducer(state = initialState, action) {
 }
 
 // createStore is a function which was used in the early days but now the people hve been migrated to the redux toolkit but before move to the redux toolkit let us learn the core redux . and nowdays we use configureStore() for creating the store but earlier we used createStore for creating the stiore as the name defines.So createStore function reducer ko leta hai reducer ko access hota hai initialState ka aur actions ka.
-const Store = createStore(reducer);
+const Store = createStore(reducer,__REDUX_DEVTOOLS_EXTENSION__());
 
 
 // Abh jese hee state update hori hai toh humko store.getState() karke dekhni padd rhi hai uske liye bhi ek function hai subscribe
@@ -48,11 +48,14 @@ Store.subscribe(function () {
 
 
 // Abh me chahta hu ki states ko update kru lekin woh kese hogi toh humko store ek function deta hai dispatch(action) iske andar humko action daalna padta hai aur dispatch store ke paas jaayega aur reducer ko call krega behind the scenes aur us action ke andar type,payload hoga reducer ke andar define hoga toh reducer usko call kar dega.let see in the example
+Store.dispatch({ type: INCREASE_BY, payload: 10 });
+Store.dispatch({ type: DECREASE_BY, payload: 10 });
+
+
 Store.dispatch({ type: INCREMENT, payload: undefined });
 Store.dispatch({ type: DECREMENT, payload: undefined });
 
-Store.dispatch({ type: INCREASE_BY, payload: 10 });
-Store.dispatch({ type: DECREASE_BY, payload: 10 });
+
 
 
 
