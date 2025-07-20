@@ -13,7 +13,7 @@ export function createStore(Reducer) {
 
     const store = {
         dispatch(action) {
-            Reducer(State,action);
+           initialState=Reducer(initialState,action);
         },
         subscribe() {
 
@@ -22,5 +22,8 @@ export function createStore(Reducer) {
             return initialState
         }
     }
+
+
+    store.dispatch({type:"@@INITi"})
     return store;
 }

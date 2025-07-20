@@ -29,4 +29,5 @@ function reducer(state = initialState, action) {
 
 
 const Store=createStore(reducer);
-console.log(Store);
+Store.dispatch({type:INCREASE_BY,payload:10});
+console.log(Store.getState())
