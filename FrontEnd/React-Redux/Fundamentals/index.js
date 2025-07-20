@@ -56,9 +56,4 @@ Store.dispatch({ type: DECREASE_BY, payload: 10 });
 
 
 
-Store.dispatch({ type: INCREASE_BY, payload: 10 });
-Store.dispatch({ type: DECREASE_BY, payload: 10 });
-
-Store.dispatch({ type: INCREASE_BY, payload: 10 });
-Store.dispatch({ type: DECREASE_BY, payload: 10 });
 
