@@ -50,7 +50,12 @@ Store.subscribe(function () {
 // Abh me chahta hu ki states ko update kru lekin woh kese hogi toh humko store ek function deta hai dispatch(action) iske andar humko action daalna padta hai aur dispatch store ke paas jaayega aur reducer ko call krega behind the scenes aur us action ke andar type,payload hoga reducer ke andar define hoga toh reducer usko call kar dega.let see in the example
 Store.dispatch({ type: INCREMENT, payload: undefined });
 Store.dispatch({ type: DECREMENT, payload: undefined });
+
 Store.dispatch({ type: INCREASE_BY, payload: 10 });
 Store.dispatch({ type: DECREASE_BY, payload: 10 });
 
+
+
+Store.dispatch({ type: INCREASE_BY, payload: 10 });
+Store.dispatch({ type: DECREASE_BY, payload: 10 });
 
