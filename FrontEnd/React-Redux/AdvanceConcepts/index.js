@@ -27,16 +27,8 @@ function reducer(state = initialState, action) {
   } else return state;
 }
 
+const Store = createStore(reducer);
 
-const Store=createStore(reducer);
-
-
-Store.subscribe(()=>{
-    console.log("State changed:", Store.getState());
-})
-
-Store.dispatch({type:INCREASE_BY,payload:10});
-Store.dispatch({type:INCREASE_BY,payload:10});
-
-
-
+Store.subscribe(() => {
+  console.log("State changed:", Store.getState());
+});
