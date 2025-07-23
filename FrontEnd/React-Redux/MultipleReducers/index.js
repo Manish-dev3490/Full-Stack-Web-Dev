@@ -1,6 +1,10 @@
 import productList from "./productList";
 import { createStore } from "redux";
 
+
+// So in this reducer i am only doing cartItems insertion and deletion and logic dekho kitna bada hogya so agar assume kro humko ek ecommerce ka pura logic likhna padd jaaye toh reducer kitna untidy un maintainer hojayega koi nahi samjh paayega . s hum alag alag reducer likhte hai according to the work and unko combine kr dete hai ek reducer me 
+
+
 // creating the initial state for the reducer
 let initialState = {
   products: productList,
