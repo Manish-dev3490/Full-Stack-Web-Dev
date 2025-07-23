@@ -13,10 +13,21 @@ function reducer(state = initialState, action) {
   if(action.type=='cart/addItems'){
     return {...state,cartItems:[...state.cartItems,action.payload]}
   }
+
+  else if(action.type=='cart/removeItems'){
+    console.log(action.payload);
+    
+    return {...state,cartItems:state.cartItems.filter((cart)=>{return cart.productID!==action.payload.productID})}
+  }
   return state;
 }
 
 // creating the global redux store --> Store takes two parameters first one is reducer and second one for connecting react with redux dev tools
 const Store = createStore(reducer,window.__REDUX_DEVTOOLS_EXTENSION__?.());
 Store.dispatch({type:'cart/addItems',payload:{productID:1,quantity:1}});
+Store.dispatch({type:'cart/addItems',payload:{productID:2,quantity:1}});
+Store.dispatch({type:'cart/addItems',payload:{productID:3,quantity:1}});
+Store.dispatch({type:'cart/removeItems',payload:{productID:3}});
+
+
 console.log(Store.getState()); 
