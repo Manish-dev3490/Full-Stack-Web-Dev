@@ -30,7 +30,8 @@ let initialState = {
 }
 
 
-// Now i am explianing about Reducers in redux ----> So reducer is the function in the redux js which is used to handle state changes in the redux js library because it has access to the initial state and the action and action are nothing but just an object which contains two key values pairs type:'',payload:'' . i will also explain action later but first let us understood reducers first
+// Now i am explianing about whole functionaliies of Reducers in redux ----> So reducer is the function in the redux js which is used to handle state changes in the redux js library because it has access to the initial state and the action and action are nothing but just an object which contains two key values pairs type:'',payload:'' . i will also explain action later but first let us understood reducers first.
+
 function Reducer(initialState, action) {
     // This is the action for incrementing the count 
     if (action.type === 'count/increment') {
@@ -43,6 +44,18 @@ function Reducer(initialState, action) {
         return { ...initialState, count: initialState.count - 1 };
 
     }
+
+
+    // This is the action for decrementing the count by payload will recive an argument 
+    else if (action.type === 'count/decrementby') {
+        return { ...initialState, count: initialState.count - action.payload };
+    }
+
+    // This is the action for incrementing the count by payload will recive an argument 
+    else if (action.type === 'count/incrementby') {
+        return { ...initialState, count: initialState.count + action.payload };
+    }
+
     else {
         return initialState;
 
@@ -56,4 +69,14 @@ console.log(initialState);
 
 // this is calling the reducer by passing initial state and actin in reducer calling 
 initialState = Reducer(initialState, { type: 'count/decrement', payload: undefined });
+console.log(initialState);
+
+
+// this is calling the reducer by passing initial state and actin in reducer calling and also using payload
+initialState = Reducer(initialState, { type: 'count/incrementby', payload: 20 });
+console.log(initialState);
+
+
+// this is calling the reducer by passing initial state and actin in reducer calling and also using payload
+initialState = Reducer(initialState, { type: 'count/decrementby', payload: 10 });
 console.log(initialState);
