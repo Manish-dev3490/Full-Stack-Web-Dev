@@ -39,7 +39,8 @@ function Reducer(state = initialState, action) {
 
 
 // Detail about the  createStore  -----> is a function which is used to create Store but it  is deprecasted now it is only used for learning purposes now because redux offers redux toolkit for building application which is a easier way to integrate redux js in your application.So createStore takes three parameters reducer,preloadedState,enhancer but only reducer is mandatory other 2 are optional.Store return some of the vry major difficult jargon like dispatch,susbscribe,replacereducers,observal and some more we awill do a deep dive into that 
-const store = createStore(Reducer);
+const store = createStore(Reducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 store.subscribe(() => {
     console.log(store.getState());
