@@ -38,8 +38,13 @@ function createStore(reducer) {
         },
 
         dispatch(action) {
+            
             state = reducer(state, action);
         },
+
+        subscribe(){
+
+        }
     };
     store.dispatch({ type: "@@INIT" });
     return store;
