@@ -1,7 +1,0 @@
-## I am learning redux js from begining to advance level in this file i am going to write all things about the redux js and functionality it offers.
-
-## Now i am going to tell yu redux is javascript state management library which is used for managing the state.So earlier in the redux when there is no redux toolkit we use only redux so that time for creating a store they offfers a function called createStore(reducers,_REDUX_EXTENSION_()).This functions takes 2 parameters first one is REDUCER-->Reducer is a function which have access to the initial state and actions defined in it.ACTION-->Actions are the work function which we want to do action consist two key value pairs type which state that this actions belongs to the which state and function and payload concist the arguments.
-
-## SO look at the example const STore=createStore(Reducer,_REDUX_DEV_EXTENSION_()) this function will rertun a store and stores have multiple key value pairs like subscribe,dispatch,reducer,observal and 1 2 more .
-
-## Dispatch is a function whicih store gives us if we want to make a action call we have to dispatch that action using dispatch function which directly goes to the store and store calls the reducer and action hav info to which function wanted to run this is all about how redux works fundamentally in upper direction
