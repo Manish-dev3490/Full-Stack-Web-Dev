@@ -32,3 +32,7 @@ createUser.commonMethods = {
 
 const user1 = createUser("manish", 12, 21);
 const user2 = createUser("manish kumar", 12, 21);
+
+
+
+// abh hamne apni functionality acheve krli hai but code jyada krna pdra hai actually me kiya kya hai hamne function ke andar jo ki behind the scenes khud ek object hai uske andar ek object bana kr methods daal diye hai abh jo bhi naye object create honge using that factory function unke paas yeh methods aa jayege yaha enrty hoti hai PRTOTYPES Ki 
