@@ -1,1 +1,25 @@
 ## Getting React Into Our Application----> Initially we do not have react in our project we have to import it there are two ways to get react into our project first is through using cdn links which is not recommendede way and other one is using npm or yarn.
+
+## React.CreateElement() ---->Now we are going to make a react element which is created by using react library method React.createElement().It takes 3 parameters first is element type example h1,h2,p,div,b,ietc second parameter it takes is props example classname,id,attributes and third parameters it takes is children either it is text or react element
+
+## Behind the sceenes of what React.createElement('h1',{},'Hello world) || koi bhi react element behind the scenes is nothng but an simple object like this .
+
+example:{
+    "type": "h1",
+    "key": null,
+    "ref": null,
+    "props": {
+        "children": "heelo"
+    },
+    "_owner": null,
+    "_store": {}
+}
+
+
+## Browser does not understand react element--> So behind the scenes browser does not understand react brwser only understand javascript so jo react element hum create karte hai fhir render krte hai dom me so jo render() method hota hai us react element ko DOm element me convert krta hai khud se and append krdeta hai given root me 
+
+
+## Render On Dom---->To render ReactElement on DOM we need REACTDOM library which interacts with the dom and we need render() method which takes an react element and convert it into the dom element and then append it into the dom.This is all about react element and render method.
+
+
+## ReactElement is OBJECT --->So react element behind the scenes ek object hai toh hum render method ko directly object paas bhi kr skte let me show you just for understanding real world me hum react.createElement se kaam nahi krte because uska sytax bahut unreadble,lengthy,messy,unstructured hai we use JSX hum dekehege usko bhi.
