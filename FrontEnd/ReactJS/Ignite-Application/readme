@@ -1,0 +1,15 @@
+## Setup React Project Without CDN links -> pehle hum cdn links ka use krte the react,react-dom le aaye fhir humko jsx ka use krna tha toh babel ka cdn link daala lekin yeh shi tarika nahi hai kyuki ase krte krte hum production ready code nhi likh skte uske liye ek tool hota hai bundler woh use krna hoga humko there are many bundlers in the market like webpack,vite and parcel in this we are going to use the parcel.
+
+## Recommended way to setup project is using npm->npm is a node package manager this is not defination of it but irt works like this pehle hum cdn links se react , react dom , babel ko laa rhe the abh npm se install kr skte hai package || library || depandancy ko . so we are going to install parcel but usse pehle apne application ko npm integrate krdo using npm init .
+
+
+## Package.JSON ->It is file jab npm install hogya hamare project mein yeh package.json file me saari configuration hai jo humne npm init ke during di thi and jo jo depandancy hum install krege apne project application me uska approximatey vrion handle krta hai package.json file 
+
+## Installing the bundler parcel-> Humko parcel ki jrurt isliye padi kyuki hamara code production ready tabhi banega jab woh minified , compressed,modular,optimized,fast,perofmant,hoga usme code splitting ho rkhi hogi jese me apne project me react react dom library use krra hoo toh in library ka jo part use krrra hoo buss wohi code production me push ho toh yeh sab handle krleta hai parcel.
+
+## Node Modules->jese hee koi bhi depandancy install hoti hai naah ek folder create hota hai which is named as node modules iske andar us depandacny ka code hota hai aur woh depandancy jin pacakges ke upar depand hoti hai unka bhi code hota hai which is called transitive depandancy.
+
+## Two Types Depandancy->Depandancy bhi do type ki hoti hai ek toh development phase depandancy jese humko dev phase me fast enviorment chahiye, cached code chahiye fast build chahiye toh parcel ko -D krke insatll kro.Ek hoti hai normal depandancy jo dev phse + production me bhejne ke liye code ready krti hai jesi ki minification, lazy loading,code splitting,compressing yeh sab bundler krta hai jab humko production ke liye code build krte hai
+
+## Enabled parcel in our application->abhi tak humne parcel ko only install kiya tha excecute nahi abh humne npx parcel index.html ko excecute krdiya and a lot of fucking things are happend behind we are going to talk about that after some time and now we have also get react and react-dom into our proejct.
+
