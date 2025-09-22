@@ -1,0 +1,17 @@
+{
+  "name": "laying-foundation",
+  "version": "1.0.0",
+  "description": "Layinfg the fondation of jsx and components",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "manish kumar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  }
+}
