@@ -13,3 +13,36 @@
 
 ## Enabled parcel in our application->abhi tak humne parcel ko only install kiya tha excecute nahi abh humne npx parcel index.html ko excecute krdiya and a lot of fucking things are happend behind we are going to talk about that after some time and now we have also get react and react-dom into our proejct.
 
+
+## features of the parcel : 
+
+1 Created Dev Build -> so when we have excecuted npx parcel index.html command in our project alot of shhit happend behind the scenes all our files html css js and inside node modules which library code i am using are minified into three files and bundled together and development build is formed and that is hosted on local host port by the parcel.
+
+2 .parcel-cache->one more folder is created .parcel-cache it is a folder win which our code has been cached now if i am going to change anything in my files and save then new dev will build for us with the faster time because hamara code cached hogya tha aur abh jo change hua hai only woh update hua hai.
+
+
+3 Hot Module Replcement->Parcel is also ding HMR behind the scense when we do any update it will create a new dev build for us in lesser time because it is also using caching and this thing is done by the file watching algorithums.
+
+4 Image OptimizaTION->tHIS IS MOST EXPENSIVE OPERATIONS INSIDE THE BROWSER TO LOAD THE IMAGE INTO OUR PROJECT SO IT IS ALSO HANDLED BY THE PARCEL BEHIND THE SCENES.
+
+5 File watching Algorithum--> Parcel uses file watching algorithums which keeps eye on our files jese hee kuch changes hue code me vese hee code update hojayega naya dev build create hjayega inside dist folder.
+
+6 Diagnostic error->when we are developing application agar koi error aata hai toh us error ko bahut hee productive way me show krta hai taaki developer ka experince accha ho .
+
+7 Https-->agar hum chahe tph apna application https par bhi host kr skte hai using parcel it provide this functionality as well.
+
+8 Diffrential Bundling-->Hum difrrent bundle bhi create kar sakte hai which enabled our applications for lder borowsers like internet explorer ke older version this is done by the help of library browserList.
+
+
+9 Making the application production ready need a command npx parcel build index.html-->jese hee hum yeh command eneter karte hai alot of engineering happens behind the scenes .
+
+Minification->saari files jo jo hum use krre hai html,css js and node modules ke andar jo jo library ka code use krre hai unko sbko bundler parcel minify karta hai short me krta hai .
+
+Compressing->Fhir us minified code ko compress krta hai aur 3 files generate krta hai dist folder me jo bundle hota hai hamari production ready files ka this is also known as bundling .Now our application is ready to push into production.
+
+Code Splitting->jo jo libraries ka code hum use krre hai apni project me us us code ko tod kar ek bundle create krta hai html css js files ka naah ki puri library ka code push krte this is known as code splitting.
+
+
+Now we can push our code into the production.So dekha not only react is making our fast behind the scenes bundler parcel browser list babel react dom these all library are working together then our application is becoming so fast .so wehn you are going in the interview explian when interviewer asked how is our react fast.
+
+
