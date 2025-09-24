@@ -1,0 +1,4 @@
+## We are going to see babel in very very depth how things are working behind the scenes what and how bebels do the things:
+
+## we are not using bundler here we are doing these things just for understaning core babel . so we are getting babel react react dom into our application using cdn links just for better understanding purposes.
+
