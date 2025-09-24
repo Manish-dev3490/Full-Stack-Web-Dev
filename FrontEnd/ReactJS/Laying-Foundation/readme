@@ -1,0 +1,10 @@
+## We are going to laying the foundation where we will learn about JSX and BABEL.
+
+## Need of JSX - So earlier when react js was created we have only one core way to create react element which is done by react library method React.createElement() but jese jese code structure complex hota gaya it becames very tough to maintain , unreadbale, unreusable so facebook developers has created JSX.Now we are going to see jsx.
+
+## What is JSX & BABEL- JSX is nothing it is a syntax to create react element . it is same syntax like html it is very developer friendly and code looks very clean maintanble resuable understandble . const h1=<h1>Hello world </h1> this is how we create element in jsx similar syntax like html but it is not html it is only syntax.But our browser js engine does not understand jsx so we need something jo jsx ko react element me convert kre which is done by the transpiler named babel. babel jsx code ko lekar react.createElement() vaale syntax me change krdeta hai aur woh object return krta hai at the end of the day react element is only object which have some basic propeties like key,ref,type,store,props,ref etc.This is how things start works jsx likhte hai -->babel usko react.createElement() syntax me tranfrom krdeta hai --> woh ek object me convert hojata hai ->jab render krte hai toh render() method usko DOm element me transform krdeta hai because browser js engine understand only javascript then usko render krdeta hai DOM me .
+
+
+
+## Behind The Scenes: So behind the scenes jsx also converts into react element by babel and React.crateElement() toh react element hee banata hai jo ki object hai so yeh ho raha hai behind the scenes 
+
