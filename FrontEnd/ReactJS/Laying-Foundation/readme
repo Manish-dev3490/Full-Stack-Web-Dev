@@ -8,3 +8,7 @@
 
 ## Behind The Scenes: So behind the scenes jsx also converts into react element by babel and React.crateElement() toh react element hee banata hai jo ki object hai so yeh ho raha hai behind the scenes 
 
+
+## Introduction to Component: So component is the way to create JSX and there are two types f components class and functional based components but class components is the older way to create components we are ging to learn function components.
+
+## functional Components: Functional components are the normal javscript function which return some peices of JSX which is created into React.createElement() syntax by babel and this syntax return a object which is called react element so kahne ka matlab hai functional component react elements he return krta hai.
