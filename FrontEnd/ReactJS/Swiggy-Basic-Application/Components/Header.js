@@ -8,7 +8,7 @@ const Header = () => {
           src="https://cdn.pixabay.com/photo/2017/02/17/17/33/food-2074638_1280.png"
           alt="logo"
         />
-        <h2>Gareeb Di Hatti</h2>
+        <h1>Desi Khao</h1>
       </div>
 
       <div className="navigation-bar">
