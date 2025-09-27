@@ -2,7 +2,6 @@
 const Card = (props) => {
   const { resData } = props;
   let data = resData.data.cards[4].card.card.gridElements.infoWithStyle.restaurants[0].info;
-  console.log(data);
 
 
 
