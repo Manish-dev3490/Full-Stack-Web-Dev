@@ -1,7 +1,7 @@
 // This is the footer level component for our application
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className="footer">Footer</div>
   )
 }
 

@@ -1,16 +1,19 @@
-*,::before,::after{
+*,
+::before,
+::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.App-comp{
-    margin-inline:1rem;
-    margin-block:1rem;
+
+.App-comp {
+    margin-inline: 1rem;
+    margin-block: 1rem;
 
 }
 
 /* Styling of the header components */
-.header{
+.header {
     display: flex;
     align-items: center;
     background-color: lightsalmon;
@@ -19,16 +22,18 @@
     height: 5rem;
 }
 
-.header img{
+.header img {
     width: 50px;
     height: 50px;
 }
-.logo-container{
+
+.logo-container {
     display: flex;
     gap: 1rem;
     align-items: center;
 }
-.navigation-bar ul{
+
+.navigation-bar ul {
     display: flex;
     gap: 1.8rem;
     font-size: 1.4rem;
@@ -36,20 +41,24 @@
 
 
 }
-.navigation-bar ul li{
+
+.navigation-bar ul li {
     list-style: none;
     cursor: pointer;
 }
-.logo-container h2{
+
+.logo-container h2 {
     font-size: 1.4rem;
     gap: 5px;
 }
-.cart-area{
+
+.cart-area {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.cart-area img{
+
+.cart-area img {
     width: 40px;
     height: 35px;
 }
@@ -58,6 +67,58 @@
 
 /* Styling of the body component */
 
+.body-container {
+    background-color: #f7f7f7;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* justify-content: center; */
+    /* margin-block: 0rem; */
+    padding-block: 2rem;
+    align-items: center;
+}
+
+.search-area {
+    height: 40px;
+    width: 30rem;
+    padding-inline: 19px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.srch-btn {
+    height: 40px;
+    width: 6rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color: lightsalmon;
+    font-size: 1rem;
+    color:black;
+    border-radius: 8px;
+
+
+}
+
+/* styling of the card*/
+.res-card {
+    height: 250px;
+    width: 200px;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border: 1px solid black;
+}
+
+.res-card img {
+    height: 150px;
+    width: 180px;
+}
 
 
 /* styling of the footer component */
+.footer {
+    background-color: wheat;
+    text-align: center;
+    padding-block: 10px;
+}

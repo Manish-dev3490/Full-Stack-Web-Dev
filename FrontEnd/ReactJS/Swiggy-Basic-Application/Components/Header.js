@@ -18,7 +18,6 @@ const Header = () => {
           <li>Contact</li>
           <li className="cart-area">
             Cart
-            <img src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG38.png"/>
           </li>
         </ul>
       </div>
