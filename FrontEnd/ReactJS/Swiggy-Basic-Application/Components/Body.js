@@ -15,6 +15,18 @@ const Body = () => {
 
       <div className="res-container">
         <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+
       </div>
     </div>
   )

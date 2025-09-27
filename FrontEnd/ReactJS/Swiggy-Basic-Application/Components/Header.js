@@ -5,7 +5,7 @@ const Header = () => {
     <div className="header">
       <div className="logo-container">
         <img
-          src="https://cdn.pixabay.com/photo/2017/02/17/17/33/food-2074638_1280.png"
+          src="https://logos-world.net/wp-content/uploads/2023/05/Food-Network-Logo-2003.png"
           alt="logo"
         />
         <h1>Desi Khao</h1>
