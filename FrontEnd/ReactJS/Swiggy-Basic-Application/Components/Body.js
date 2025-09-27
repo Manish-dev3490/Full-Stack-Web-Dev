@@ -1,6 +1,5 @@
 import Card from "../Components/Card";
-
-
+import data from "../mock";
 // This is the Body level componnent for our application
 const Body = () => {
   return (
@@ -14,19 +13,7 @@ const Body = () => {
 
 
       <div className="res-container">
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-
+        <Card resData={data}></Card>
       </div>
     </div>
   )
