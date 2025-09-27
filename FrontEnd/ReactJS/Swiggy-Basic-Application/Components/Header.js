@@ -8,7 +8,7 @@ const Header = () => {
           src="https://logos-world.net/wp-content/uploads/2023/05/Food-Network-Logo-2003.png"
           alt="logo"
         />
-        <h1>Desi Khao</h1>
+        <h1>Khaana Khao</h1>
       </div>
 
       <div className="navigation-bar">
