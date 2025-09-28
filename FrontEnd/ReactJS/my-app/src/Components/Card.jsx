@@ -16,8 +16,8 @@ const Card = (props) => {
         <h3>{resData.costForTwo}</h3>
         <h4>{}</h4>
         <p>{resData.name}</p>
-        <p>Delivery Time  {resData.sla.slaString}</p>
-        <p>cuisines {resData.cuisines}</p>
+        <p>Delivery Time-  {resData.sla.slaString}</p>
+        <p>cuisines- {resData.cuisines.join(",")}</p>
 
       </div>
 
