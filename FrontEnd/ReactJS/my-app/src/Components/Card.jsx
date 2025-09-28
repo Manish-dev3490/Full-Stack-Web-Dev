@@ -1,6 +1,6 @@
 // This is the card component for our application 
 const Card = (props) => {
-  const{id , resData}=props;
+  const{ resData}=props;
   
   
 
