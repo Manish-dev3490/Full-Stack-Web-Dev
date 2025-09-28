@@ -4,7 +4,6 @@ import Card from "./Card";
 // This is the Body level componnent for our application
 
 const Body = () => {
-  // console.log(data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
   
   return (
     <div className="body-container">
