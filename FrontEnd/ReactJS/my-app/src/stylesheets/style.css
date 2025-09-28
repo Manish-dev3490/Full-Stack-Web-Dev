@@ -69,7 +69,6 @@
 .body-container {
     background-color: #f7f7f7;
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -112,11 +111,12 @@
 
 .res-card {
     height: 300px;
-    width: 200px;
+    width: 250px;
     padding-inline: 10px;
     padding-block: 10px;
     border: 1px solid wheat;
     border-radius: 8px;
+    padding-bottom: 10px;
 }
 
 .res-card img {
@@ -137,5 +137,5 @@
 .footer {
     background-color: wheat;
     text-align: center;
-    padding-block: 10px;
+    padding-block: 40px;
 }

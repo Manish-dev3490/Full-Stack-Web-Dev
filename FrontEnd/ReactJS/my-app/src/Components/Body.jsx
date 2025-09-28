@@ -4,7 +4,7 @@ import Card from "./Card";
 // This is the Body level componnent for our application
 
 const Body = () => {
-  console.log(data.data.cards);
+  // console.log(data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants);
   
   return (
     <div className="body-container">
@@ -17,17 +17,13 @@ const Body = () => {
 
 
       <div className="res-container">
-        {
-          <>
-          <Card resData={data}/>
-          <Card resData={data}/>
-          <Card resData={data}/>
-          <Card resData={data}/>
-          <Card resData={data}/>
-          <Card resData={data}/>
-
-          </>
-        }
+       <>
+       {
+        data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants.map((resCard)=>{
+          return <Card id={resCard.info.id} resData={resCard.info}/>
+        })
+       }
+       </>
       </div>
     </div>
   )

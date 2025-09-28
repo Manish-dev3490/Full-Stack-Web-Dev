@@ -1,21 +1,23 @@
 // This is the card component for our application 
 const Card = (props) => {
-  const { resData } = props;
-  let data = resData.data.cards[4].card.card.gridElements.infoWithStyle.restaurants[0].info;
+  const{id , resData}=props;
+  console.log(resData);
+  
   
 
 
 
   return (
-    <div className="res-card">
-      <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${data.cloudinaryImageId
-        }`} alt="pizza" />
-      <div className="card-desc">
-        <h3>{data.name}</h3>
-        <h4>{data.avgRating}</h4>
-        <p>{data.costForTwo}</p>
-        <p>Delivery Time  {data.sla.slaString}</p>
-        <p>cuisines {data.cuisines[0]}</p>
+    <div className="res-card" >
+      
+      <div className="card-desc" key={id}>
+        <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${resData.cloudinaryImageId
+}`} alt="restaurants"/>
+        <h3>{resData.costForTwo}</h3>
+        <h4>{}</h4>
+        <p>{resData.name}</p>
+        <p>Delivery Time  {resData.sla.slaString}</p>
+        <p>cuisines {resData.cuisines}</p>
 
       </div>
 
