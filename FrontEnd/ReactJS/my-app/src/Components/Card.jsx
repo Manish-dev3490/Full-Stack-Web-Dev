@@ -1,7 +1,6 @@
 // This is the card component for our application 
 const Card = (props) => {
   const{id , resData}=props;
-  console.log(resData);
   
   
 
@@ -10,7 +9,7 @@ const Card = (props) => {
   return (
     <div className="res-card" >
       
-      <div className="card-desc" key={id}>
+      <div className="card-desc" >
         <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${resData.cloudinaryImageId
 }`} alt="restaurants"/>
         <h3>{resData.costForTwo}</h3>

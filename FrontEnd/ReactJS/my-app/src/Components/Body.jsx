@@ -17,7 +17,7 @@ const Body = () => {
        <>
        {
         data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants.map((resCard)=>{
-          return <Card id={resCard.info.id} resData={resCard.info}/>
+          return <Card key={resCard.info.id} resData={resCard.info}/>
         })
        }
        </>
