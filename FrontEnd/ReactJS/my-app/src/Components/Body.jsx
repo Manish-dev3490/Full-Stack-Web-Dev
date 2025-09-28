@@ -7,8 +7,6 @@ const Body = () => {
   
   return (
     <div className="body-container">
-
-      
       <div className="search-bar">
         <input className="search-area" type="text" placeholder="search your favourite restaurent"/>
         <button className="srch-btn">Search</button>
