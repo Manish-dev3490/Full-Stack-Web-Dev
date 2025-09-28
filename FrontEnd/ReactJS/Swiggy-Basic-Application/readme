@@ -1,6 +1,0 @@
-## We are going to create a basic swiggy food ordering application to learn how to aply concepts in real world applications like parcel,npm,jsx,babel,components,component composition,react element ,routing,add to cart,search bar and many other feautures to build our foundation strong.
-
-
-## Low Level Design Plannning for our application: Our application will have one major app component in which there will be 3 major components header,body and footer inke andar aur bhi components honge .
-
-## Config-Driven-Ui :jese hum delhi me hai swiggy chala rhe hai toh hum delhi ke hisab se web application dekhre hai saare resturnet fod dishes offers delhi ke aayege aur same web application dehradun me alag chalegi vaha par dehradun ke hisab se returents aayege so kya dehradun ke liye alag website hai delhi ke liye alag nahi this is called config driven ui . jisme application configuration ke hisab se data dikhati hai 
