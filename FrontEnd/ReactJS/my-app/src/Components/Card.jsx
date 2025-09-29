@@ -1,11 +1,6 @@
 // This is the card component for our application 
 const Card = (props) => {
   const{ resData}=props;
-  
-  
-
-
-
   return (
     <div className="res-card" >
       
