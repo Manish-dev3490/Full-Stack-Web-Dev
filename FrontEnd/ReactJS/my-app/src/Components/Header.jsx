@@ -1,3 +1,4 @@
+import { headerLogo } from "../utils/constData";
 // This is the Header Component for our application
 
 const Header = () => {
@@ -5,7 +6,7 @@ const Header = () => {
     <div className="header">
       <div className="logo-container">
         <img
-          src="https://logos-world.net/wp-content/uploads/2023/05/Food-Network-Logo-2003.png"
+          src={headerLogo}
           alt="logo"
         />
         <h1>Khaana Khao</h1>

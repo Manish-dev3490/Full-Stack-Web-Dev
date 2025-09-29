@@ -1,4 +1,4 @@
-import data from "../assets/mock";
+import data from "../utils/mock";
 import Card from "./Card";
 
 // This is the Body level componnent for our application

@@ -1,3 +1,4 @@
+import { imgURL } from "../utils/constData";
 // This is the card component for our application 
 const Card = (props) => {
   const{ resData}=props;
@@ -5,8 +6,7 @@ const Card = (props) => {
     <div className="res-card" >
       
       <div className="card-desc" >
-        <img src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/${resData.cloudinaryImageId
-}`} alt="restaurants"/>
+        <img src={imgURL+`${resData.cloudinaryImageId}`} alt="restaurants"/>
         <h3>{resData.costForTwo}</h3>
         <h4>{}</h4>
         <p>{resData.name}</p>
