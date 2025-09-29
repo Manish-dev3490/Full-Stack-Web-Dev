@@ -67,7 +67,7 @@
 /* Styling of the body component */
 
 .body-container {
-    background-color: #f7f7f7;
+    background-color: beige;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -76,6 +76,7 @@
     /* margin-block: 0rem; */
     padding-block: 2rem;
     align-items: center;
+    min-height: 100vh;
 }
 
 .search-area {

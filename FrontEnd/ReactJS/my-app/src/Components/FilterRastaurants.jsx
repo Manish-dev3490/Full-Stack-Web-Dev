@@ -2,7 +2,9 @@ import data from "../utils/mock";
 import ReactDOM from 'react-dom/client'
 import Card from "./Card"
 // This is the component to filter the data
-function FilterRastaurants() {
+function FilterRastaurants(props) {
+    const {  setValue } = props
+
     return (
         <>
             <button className="toprated-btn" onClick={() => {
@@ -10,18 +12,8 @@ function FilterRastaurants() {
                     return resCard.info.avgRating <= 4.2;
                 }
                 )
-                console.log(filtered);
 
-                const root=ReactDOM.createRoot(document.querySelector(".res-container"));
-                root.render(<>
-                {
-                    filtered.map((cardData)=>{
-                        return <Card resData={cardData.info}/>
-                    })
-                }
-                </>)
-                
-
+                setValue(filtered);
             }}>Toprated rastaurants</button>
         </>
     )
