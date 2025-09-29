@@ -1,28 +1,29 @@
 import data from "../utils/mock";
 import Card from "./Card";
+import FilterRastaurants from "./FilterRastaurants";
 
 // This is the Body level componnent for our application
 
 const Body = () => {
-  
+
   return (
     <div className="body-container">
       <div className="search-bar">
-        <input className="search-area" type="text" placeholder="search your favourite restaurent"/>
+        <input className="search-area" type="text" placeholder="search your favourite restaurent" />
         <button className="srch-btn">Search</button>
-        <button className="toprated-btn">Toprated rastaurants</button>
+        <FilterRastaurants />
 
       </div>
 
 
       <div className="res-container">
-       <>
-       {
-        data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants.map((resCard)=>{
-          return <Card key={resCard.info.id} resData={resCard.info}/>
-        })
-       }
-       </>
+        <>
+          {
+            data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants.map((resCard) => {
+              return <Card key={resCard.info.id} resData={resCard.info} />
+            })
+          }
+        </>
       </div>
     </div>
   )

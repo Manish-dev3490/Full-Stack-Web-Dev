@@ -2,7 +2,6 @@ import { imgURL } from "../utils/constData";
 // This is the card component for our application 
 const Card = (props) => {
   const{ resData}=props;
-  console.log(resData);
   
   return (
     <div className="res-card" >
