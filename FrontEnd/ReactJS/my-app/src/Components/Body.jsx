@@ -10,6 +10,8 @@ const Body = () => {
       <div className="search-bar">
         <input className="search-area" type="text" placeholder="search your favourite restaurent"/>
         <button className="srch-btn">Search</button>
+        <button className="toprated-btn">Toprated rastaurants</button>
+
       </div>
 
 

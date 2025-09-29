@@ -2,13 +2,15 @@ import { imgURL } from "../utils/constData";
 // This is the card component for our application 
 const Card = (props) => {
   const{ resData}=props;
+  console.log(resData);
+  
   return (
     <div className="res-card" >
       
       <div className="card-desc" >
         <img src={imgURL+resData.cloudinaryImageId} alt="restaurants"/>
         <h3>{resData.costForTwo}</h3>
-        <h4>{}</h4>
+        <h4>{resData.avgRating} Stars</h4>
         <p>{resData.name}</p>
         <p>Delivery Time-  {resData.sla.slaString}</p>
         <p>cuisines- {resData.cuisines.join(",")}</p>

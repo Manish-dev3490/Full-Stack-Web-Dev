@@ -84,6 +84,11 @@
     padding-inline: 19px;
     border-radius: 8px;
     font-size: 1rem;
+    
+}
+.search-bar{
+    display: flex;
+    align-items: center;
 }
 
 .srch-btn {
@@ -98,7 +103,16 @@
 
 
 }
-
+.toprated-btn{
+        height: 40px;
+    margin-left: 1rem;
+    cursor: pointer;
+    background-color: lightsalmon;
+    font-size: 1rem;
+    color: black;
+    border-radius: 8px;
+    padding-inline: 10px;
+}
 /* styling of the card*/
 
 .res-container{
