@@ -6,7 +6,7 @@ const Card = (props) => {
     <div className="res-card" >
       
       <div className="card-desc" >
-        <img src={imgURL+`${resData.cloudinaryImageId}`} alt="restaurants"/>
+        <img src={imgURL+resData.cloudinaryImageId} alt="restaurants"/>
         <h3>{resData.costForTwo}</h3>
         <h4>{}</h4>
         <p>{resData.name}</p>
