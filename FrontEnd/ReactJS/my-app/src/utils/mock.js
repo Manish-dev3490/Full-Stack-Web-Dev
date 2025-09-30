@@ -3,7 +3,7 @@ const data = {
   "data": {
     "statusMessage": "done successfully",
     "pageOffset": {
-      "nextOffset": "CJhlELQ4KICQgYKorIXoWTCnEzgE",
+      "nextOffset": "CJhlELQ4KICg2vHR8/C8MzCnEzgD",
       "widgetOffset": {
         "NewListingView_category_bar_chicletranking_TwoRows": "",
         "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
@@ -35,7 +35,7 @@ const data = {
               "horizontalScrollEnabled": true,
               "itemSpacing": 24,
               "widgetPadding": {
-
+                
               },
               "containerStyle": {
                 "containerPadding": {
@@ -58,24 +58,24 @@ const data = {
             "imageGridCards": {
               "info": [
                 {
-                  "id": "750581",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/05a939eb-fd4e-4308-b989-d1c54f4421b3_northindian1.png",
+                  "id": "750589",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
-                    "text": "North Indian",
+                    "link": "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
+                    "text": "Burgers",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurants curated for north indian",
+                    "altText": "restaurants curated for burger",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+                  "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
+                    
                   }
                 },
                 {
@@ -93,31 +93,10 @@ const data = {
                   },
                   "entityId": "swiggy://collectionV2?collection_id=83631&tags=layout_CCS_Pizza&search_context=pizza",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "750591",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83639?collection_id=83639&search_context=biryani&tags=layout_CCS_Biryani&type=rcv2",
-                    "text": "Biryani",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for biryani",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83639&tags=layout_CCS_Biryani&search_context=biryani",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
+                    
                   }
                 },
                 {
@@ -135,52 +114,10 @@ const data = {
                   },
                   "entityId": "swiggy://collectionV2?collection_id=83669&tags=layout_CCS_Rolls",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "750587",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/897bc750-6b57-4e7d-9365-87c1ab2c6d7e_Chinese2.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83636?collection_id=83636&tags=layout_CCS_Chinese&type=rcv2",
-                    "text": "Chinese",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for chinese",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83636&tags=layout_CCS_Chinese",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "750589",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
-                    "text": "Burgers",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for burger",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
+                    
                   }
                 },
                 {
@@ -198,31 +135,52 @@ const data = {
                   },
                   "entityId": "swiggy://collectionV2?collection_id=83655&tags=layout_CCS_Cake",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
+                    
                   }
                 },
                 {
-                  "id": "750131",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
+                  "id": "750591",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
-                    "text": "Dosa",
+                    "link": "https://www.swiggy.com/collections/83639?collection_id=83639&search_context=biryani&tags=layout_CCS_Biryani&type=rcv2",
+                    "text": "Biryani",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurants curated for dosa",
+                    "altText": "restaurants curated for biryani",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
+                  "entityId": "swiggy://collectionV2?collection_id=83639&tags=layout_CCS_Biryani&search_context=biryani",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
+                    
+                  }
+                },
+                {
+                  "id": "750587",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/897bc750-6b57-4e7d-9365-87c1ab2c6d7e_Chinese2.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83636?collection_id=83636&tags=layout_CCS_Chinese&type=rcv2",
+                    "text": "Chinese",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for chinese",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83636&tags=layout_CCS_Chinese",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
                   }
                 },
                 {
@@ -240,178 +198,52 @@ const data = {
                   },
                   "entityId": "swiggy://collectionV2?collection_id=80461&tags=layout_CCS_Momos",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
+                    
                   }
                 },
                 {
-                  "id": "750201",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
+                  "id": "750131",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
-                    "text": "Paratha",
+                    "link": "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
+                    "text": "Dosa",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurants curated for paratha",
+                    "altText": "restaurants curated for dosa",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
+                  "entityId": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
+                    
                   }
                 },
                 {
-                  "id": "750208",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pastry.png",
+                  "id": "750228",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_samosa.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/80355?collection_id=80355&tags=layout_CCS_Pastry&type=rcv2",
-                    "text": "Pastry",
+                    "link": "https://www.swiggy.com/collections/80396?collection_id=80396&tags=layout_BAU_Contextual%2Csamosa&type=rcv2",
+                    "text": "Samosa",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurant curated for Pastry",
+                    "altText": "restaurants curated for samosa",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=80355&tags=layout_CCS_Pastry",
+                  "entityId": "80396",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "749772",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                    "text": "Noodles",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for noodles",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "80463",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "750585",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83634?collection_id=83634&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
-                    "text": "South Indian",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for south indian",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83634&tags=layout_CCS_SouthIndian&search_context=southindian",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "750248",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
-                    "text": "Shawarma",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for shawarma",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "750596",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
-                    "text": "Ice Cream",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurants curated for icecream",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "750206",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
-                    "text": "Pasta",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for pasta",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
-                  }
-                },
-                {
-                  "id": "750635",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
-                  "action": {
-                    "link": "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
-                    "text": "Kebabs",
-                    "type": "WEBLINK"
-                  },
-                  "entityType": "BANNER",
-                  "accessibility": {
-                    "altText": "restaurant curated for kebabs",
-                    "altTextCta": "open"
-                  },
-                  "entityId": "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
-                  "frequencyCapping": {
-
-                  },
-                  "externalMarketing": {
-
+                    
                   }
                 },
                 {
@@ -429,31 +261,73 @@ const data = {
                   },
                   "entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
+                    
                   }
                 },
                 {
-                  "id": "750225",
-                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/186ebf5c-d9ad-4d2b-a2b0-77795e19241f_Salad2.png",
+                  "id": "750206",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
                   "action": {
-                    "link": "https://www.swiggy.com/collections/80394?collection_id=80394&tags=layout_CCS_Salad&type=rcv2",
-                    "text": "Salad",
+                    "link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
+                    "text": "Pasta",
                     "type": "WEBLINK"
                   },
                   "entityType": "BANNER",
                   "accessibility": {
-                    "altText": "restaurant curated for salad",
+                    "altText": "restaurant curated for pasta",
                     "altTextCta": "open"
                   },
-                  "entityId": "swiggy://collectionV2?collection_id=80394&tags=layout_CCS_Salad",
+                  "entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
+                    
+                  }
+                },
+                {
+                  "id": "745861",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83673?collection_id=83673&tags=layout_CCS_Shakes&type=rcv2",
+                    "text": "Shake",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for shakes",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  }
+                },
+                {
+                  "id": "750248",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+                    "text": "Shawarma",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for shawarma",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
                   }
                 },
                 {
@@ -471,10 +345,136 @@ const data = {
                   },
                   "entityId": "swiggy://collectionV2?collection_id=80382&tags=layout_CCS_CholeBhature",
                   "frequencyCapping": {
-
+                    
                   },
                   "externalMarketing": {
-
+                    
+                  }
+                },
+                {
+                  "id": "750118",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_dhokla.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80422?collection_id=80422&tags=layout_BAU_Contextual%2Cdhokla&type=rcv2",
+                    "text": "Dhokla",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for dhokla",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80422",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  }
+                },
+                {
+                  "id": "749772",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                    "text": "Noodles",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for noodles",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80463",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  }
+                },
+                {
+                  "id": "749790",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pakoda.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80469?collection_id=80469&tags=layout_BAU_Contextual%2Cpakoda&type=rcv2",
+                    "text": "Pakoda",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for pakoda",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80469",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  }
+                },
+                {
+                  "id": "750639",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/f45b3545-7867-4144-b0c3-1a6ac930aeaa_Kachori.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80448?collection_id=80448&tags=layout_BAU_Contextual%2Ckachori&type=rcv2",
+                    "text": "Kachori",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for kachori",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "80448",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  }
+                },
+                {
+                  "id": "750225",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/186ebf5c-d9ad-4d2b-a2b0-77795e19241f_Salad2.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/80394?collection_id=80394&tags=layout_CCS_Salad&type=rcv2",
+                    "text": "Salad",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurant curated for salad",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=80394&tags=layout_CCS_Salad",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
+                  }
+                },
+                {
+                  "id": "750598",
+                  "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_coffee.png",
+                  "action": {
+                    "link": "https://www.swiggy.com/collections/83907?collection_id=83907&tags=layout_CCS_Coffee&type=rcv2",
+                    "text": "Coffee",
+                    "type": "WEBLINK"
+                  },
+                  "entityType": "BANNER",
+                  "accessibility": {
+                    "altText": "restaurants curated for coffee",
+                    "altTextCta": "open"
+                  },
+                  "entityId": "swiggy://collectionV2?collection_id=83907&tags=layout_CCS_Coffee",
+                  "frequencyCapping": {
+                    
+                  },
+                  "externalMarketing": {
+                    
                   }
                 }
               ],
@@ -497,24 +497,24 @@ const data = {
                 "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.ImageInfoLayoutCard",
                 "info": [
                   {
-                    "id": "750581",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/05a939eb-fd4e-4308-b989-d1c54f4421b3_northindian1.png",
+                    "id": "750589",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/83633?collection_id=83633&search_context=northindian&tags=layout_CCS_NorthIndian&type=rcv2",
-                      "text": "North Indian",
+                      "link": "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
+                      "text": "Burgers",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurants curated for north indian",
+                      "altText": "restaurants curated for burger",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=83633&tags=layout_CCS_NorthIndian&search_context=northindian",
+                    "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
+                      
                     }
                   },
                   {
@@ -532,31 +532,10 @@ const data = {
                     },
                     "entityId": "swiggy://collectionV2?collection_id=83631&tags=layout_CCS_Pizza&search_context=pizza",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "750591",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83639?collection_id=83639&search_context=biryani&tags=layout_CCS_Biryani&type=rcv2",
-                      "text": "Biryani",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for biryani",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83639&tags=layout_CCS_Biryani&search_context=biryani",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
+                      
                     }
                   },
                   {
@@ -574,52 +553,10 @@ const data = {
                     },
                     "entityId": "swiggy://collectionV2?collection_id=83669&tags=layout_CCS_Rolls",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "750587",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/897bc750-6b57-4e7d-9365-87c1ab2c6d7e_Chinese2.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83636?collection_id=83636&tags=layout_CCS_Chinese&type=rcv2",
-                      "text": "Chinese",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for chinese",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83636&tags=layout_CCS_Chinese",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "750589",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_burger.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83637?collection_id=83637&search_context=burger&tags=layout_CCS_Burger&type=rcv2",
-                      "text": "Burgers",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for burger",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83637&tags=layout_CCS_Burger&search_context=burger",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
+                      
                     }
                   },
                   {
@@ -637,31 +574,52 @@ const data = {
                     },
                     "entityId": "swiggy://collectionV2?collection_id=83655&tags=layout_CCS_Cake",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
+                      
                     }
                   },
                   {
-                    "id": "750131",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
+                    "id": "750591",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Biryani.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
-                      "text": "Dosa",
+                      "link": "https://www.swiggy.com/collections/83639?collection_id=83639&search_context=biryani&tags=layout_CCS_Biryani&type=rcv2",
+                      "text": "Biryani",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurants curated for dosa",
+                      "altText": "restaurants curated for biryani",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
+                    "entityId": "swiggy://collectionV2?collection_id=83639&tags=layout_CCS_Biryani&search_context=biryani",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
+                      
+                    }
+                  },
+                  {
+                    "id": "750587",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/897bc750-6b57-4e7d-9365-87c1ab2c6d7e_Chinese2.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83636?collection_id=83636&tags=layout_CCS_Chinese&type=rcv2",
+                      "text": "Chinese",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for chinese",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83636&tags=layout_CCS_Chinese",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
                     }
                   },
                   {
@@ -679,178 +637,52 @@ const data = {
                     },
                     "entityId": "swiggy://collectionV2?collection_id=80461&tags=layout_CCS_Momos",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
+                      
                     }
                   },
                   {
-                    "id": "750201",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Paratha.png",
+                    "id": "750131",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Dosa.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/80475?collection_id=80475&tags=layout_CCS_Paratha&type=rcv2",
-                      "text": "Paratha",
+                      "link": "https://www.swiggy.com/collections/80424?collection_id=80424&tags=layout_CCS_Dosa&type=rcv2",
+                      "text": "Dosa",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurants curated for paratha",
+                      "altText": "restaurants curated for dosa",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=80475&tags=layout_CCS_Paratha",
+                    "entityId": "swiggy://collectionV2?collection_id=80424&tags=layout_CCS_Dosa",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
+                      
                     }
                   },
                   {
-                    "id": "750208",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pastry.png",
+                    "id": "750228",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_samosa.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/80355?collection_id=80355&tags=layout_CCS_Pastry&type=rcv2",
-                      "text": "Pastry",
+                      "link": "https://www.swiggy.com/collections/80396?collection_id=80396&tags=layout_BAU_Contextual%2Csamosa&type=rcv2",
+                      "text": "Samosa",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurant curated for Pastry",
+                      "altText": "restaurants curated for samosa",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=80355&tags=layout_CCS_Pastry",
+                    "entityId": "80396",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "749772",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
-                      "text": "Noodles",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for noodles",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "80463",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "750585",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Salad-1.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83634?collection_id=83634&search_context=southindian&tags=layout_CCS_SouthIndian&type=rcv2",
-                      "text": "South Indian",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for south indian",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83634&tags=layout_CCS_SouthIndian&search_context=southindian",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "750248",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
-                      "text": "Shawarma",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for shawarma",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "750596",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_chocolate icecream.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/83640?collection_id=83640&tags=layout_CCS_IceCreams&type=rcv2",
-                      "text": "Ice Cream",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurants curated for icecream",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=83640&tags=layout_CCS_IceCreams",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "750206",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
-                      "text": "Pasta",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for pasta",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
-                    }
-                  },
-                  {
-                    "id": "750635",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Kebabs.png",
-                    "action": {
-                      "link": "https://www.swiggy.com/collections/80451?collection_id=80451&tags=layout_CCS_Kebabs&type=rcv2",
-                      "text": "Kebabs",
-                      "type": "WEBLINK"
-                    },
-                    "entityType": "BANNER",
-                    "accessibility": {
-                      "altText": "restaurant curated for kebabs",
-                      "altTextCta": "open"
-                    },
-                    "entityId": "swiggy://collectionV2?collection_id=80451&tags=layout_CCS_Kebabs",
-                    "frequencyCapping": {
-
-                    },
-                    "externalMarketing": {
-
+                      
                     }
                   },
                   {
@@ -868,31 +700,73 @@ const data = {
                     },
                     "entityId": "swiggy://collectionV2?collection_id=80435&tags=layout_CCS_PureVeg",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
+                      
                     }
                   },
                   {
-                    "id": "750225",
-                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/186ebf5c-d9ad-4d2b-a2b0-77795e19241f_Salad2.png",
+                    "id": "750206",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pasta.png",
                     "action": {
-                      "link": "https://www.swiggy.com/collections/80394?collection_id=80394&tags=layout_CCS_Salad&type=rcv2",
-                      "text": "Salad",
+                      "link": "https://www.swiggy.com/collections/80479?collection_id=80479&search_context=pasta&tags=layout_CCS_Pasta&type=rcv2",
+                      "text": "Pasta",
                       "type": "WEBLINK"
                     },
                     "entityType": "BANNER",
                     "accessibility": {
-                      "altText": "restaurant curated for salad",
+                      "altText": "restaurant curated for pasta",
                       "altTextCta": "open"
                     },
-                    "entityId": "swiggy://collectionV2?collection_id=80394&tags=layout_CCS_Salad",
+                    "entityId": "swiggy://collectionV2?collection_id=80479&tags=layout_CCS_Pasta&search_context=pasta",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
+                      
+                    }
+                  },
+                  {
+                    "id": "745861",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_Shake.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83673?collection_id=83673&tags=layout_CCS_Shakes&type=rcv2",
+                      "text": "Shake",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for shakes",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83673&tags=layout_CCS_Shakes",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750248",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_shawarma.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80402?collection_id=80402&tags=layout_Shawarma_Contextual&type=rcv2",
+                      "text": "Shawarma",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for shawarma",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=80402&tags=layout_Shawarma_Contextual",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
                     }
                   },
                   {
@@ -910,10 +784,136 @@ const data = {
                     },
                     "entityId": "swiggy://collectionV2?collection_id=80382&tags=layout_CCS_CholeBhature",
                     "frequencyCapping": {
-
+                      
                     },
                     "externalMarketing": {
-
+                      
+                    }
+                  },
+                  {
+                    "id": "750118",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_dhokla.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80422?collection_id=80422&tags=layout_BAU_Contextual%2Cdhokla&type=rcv2",
+                      "text": "Dhokla",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for dhokla",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "80422",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    }
+                  },
+                  {
+                    "id": "749772",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/6ef07bda-b707-48ea-9b14-2594071593d1_Noodles.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80463?collection_id=80463&tags=layout_BAU_Contextual%2Cnoodles&type=rcv2",
+                      "text": "Noodles",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for noodles",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "80463",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    }
+                  },
+                  {
+                    "id": "749790",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/f1263395-5d4a-4775-95dc-80ab6f3bbd89_pakoda.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80469?collection_id=80469&tags=layout_BAU_Contextual%2Cpakoda&type=rcv2",
+                      "text": "Pakoda",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for pakoda",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "80469",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750639",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/2/4/f45b3545-7867-4144-b0c3-1a6ac930aeaa_Kachori.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80448?collection_id=80448&tags=layout_BAU_Contextual%2Ckachori&type=rcv2",
+                      "text": "Kachori",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for kachori",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "80448",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750225",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2025/1/24/186ebf5c-d9ad-4d2b-a2b0-77795e19241f_Salad2.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/80394?collection_id=80394&tags=layout_CCS_Salad&type=rcv2",
+                      "text": "Salad",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurant curated for salad",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=80394&tags=layout_CCS_Salad",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
+                    }
+                  },
+                  {
+                    "id": "750598",
+                    "imageId": "MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/2/8f508de7-e0ac-4ba8-b54d-def9db98959e_coffee.png",
+                    "action": {
+                      "link": "https://www.swiggy.com/collections/83907?collection_id=83907&tags=layout_CCS_Coffee&type=rcv2",
+                      "text": "Coffee",
+                      "type": "WEBLINK"
+                    },
+                    "entityType": "BANNER",
+                    "accessibility": {
+                      "altText": "restaurants curated for coffee",
+                      "altTextCta": "open"
+                    },
+                    "entityId": "swiggy://collectionV2?collection_id=83907&tags=layout_CCS_Coffee",
+                    "frequencyCapping": {
+                      
+                    },
+                    "externalMarketing": {
+                      
                     }
                   }
                 ],
@@ -941,7 +941,7 @@ const data = {
             "header": {
               "title": "Top restaurant chains in Delhi",
               "action": {
-
+                
               },
               "headerStyling": {
                 "padding": {
@@ -957,7 +957,7 @@ const data = {
               "horizontalScrollEnabled": true,
               "itemSpacing": 32,
               "widgetPadding": {
-
+                
               },
               "containerStyle": {
                 "containerPadding": {
@@ -996,11 +996,11 @@ const data = {
                 "restaurants": [
                   {
                     "info": {
-                      "id": "435678",
+                      "id": "709678",
                       "name": "Pizza Hut",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/98f45661-567b-44d2-adf9-6eef0662b239_435678.JPG",
-                      "locality": "Western Extension Area",
-                      "areaName": "Karol Bagh",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/f9e95640-5b85-4307-9607-34e83c71086a_709678.JPG",
+                      "locality": "Ashram Marg Metro",
+                      "areaName": "KAROL BAGH",
                       "costForTwo": "₹350 for two",
                       "cuisines": [
                         "Pizzas"
@@ -1008,58 +1008,58 @@ const data = {
                       "avgRating": 4.2,
                       "parentId": "721",
                       "avgRatingString": "4.2",
-                      "totalRatingsString": "6.7K+",
+                      "totalRatingsString": "1.2K+",
                       "sla": {
-                        "deliveryTime": 33,
-                        "lastMileTravel": 4.3,
+                        "deliveryTime": 47,
+                        "lastMileTravel": 2.1,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "30-35 mins",
-                        "lastMileTravelString": "4.3 km",
+                        "slaString": "45-50 mins",
+                        "lastMileTravelString": "2.1 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 04:00:00",
+                        "nextCloseTime": "2025-09-30 23:00:00",
                         "opened": true
                       },
                       "badges": {
-
+                        
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-
+                            
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹99"
+                        "subHeader": "AT ₹98"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -1069,929 +1069,10 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/pizza-hut-western-extension-area-karol-bagh-rest435678",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "152971",
-                      "name": "KFC",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/61a19651-713d-4f7d-849d-f4ba3a8d5e5f_152971.JPG",
-                      "locality": "Connaught Place",
-                      "areaName": "Connaught Place",
-                      "costForTwo": "₹400 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "Rolls & Wraps",
-                        "Fast Food"
-                      ],
-                      "avgRating": 4.5,
-                      "parentId": "547",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "6.5K+",
-                      "sla": {
-                        "deliveryTime": 7,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "5-10 mins",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 00:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/rx_5_10_min.png",
-                            "description": "bolt!"
-                          },
-                          {
-                            "imageId": "Rxawards/_CATEGORY-Burger.png",
-                            "description": "Delivery!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/rx_5_10_min.png"
-                                }
-                              },
-                              {
-                                "attributes": {
-                                  "description": "Delivery!",
-                                  "imageId": "Rxawards/_CATEGORY-Burger.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹139"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.2",
-                          "ratingCount": "6.5K+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/kfc-connaught-place-rest152971",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "8614",
-                      "name": "Burger King",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/ee1fdf16-ea5f-4a44-9e58-7b3a9dee2618_8614.jpg",
-                      "locality": "Connaught Place",
-                      "areaName": "Connaught Place",
-                      "costForTwo": "₹350 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "American"
-                      ],
-                      "avgRating": 4.4,
-                      "parentId": "166",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "43K+",
-                      "sla": {
-                        "deliveryTime": 11,
-                        "lastMileTravel": 0.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "10-15 mins",
-                        "lastMileTravelString": "0.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 03:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/rx_5_10_min.png",
-                            "description": "bolt!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/rx_5_10_min.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹39"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.2",
-                          "ratingCount": "9.2K+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/burger-king-connaught-place-rest8614",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "19989",
-                      "name": "Dunkin' - Donuts & Coffee",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/25/7168b116-64f6-4abc-983d-b7ae2d57bd8e_19989.jpg",
-                      "locality": "K.G. Marg",
-                      "areaName": "Kapashera",
-                      "costForTwo": "₹250 for two",
-                      "cuisines": [
-                        "Desserts",
-                        "Cafe",
-                        "Bakery",
-                        "Beverages",
-                        "Fast Food"
-                      ],
-                      "avgRating": 4.5,
-                      "parentId": "2276",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "12K+",
-                      "sla": {
-                        "deliveryTime": 15,
-                        "lastMileTravel": 1,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "1.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 02:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹99"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.0",
-                          "ratingCount": "885"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/dunkin-donuts-and-coffee-k-g-marg-kapashera-rest19989",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "651212",
-                      "name": "McDonald's",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/ba3c93cd-2af9-488a-acea-c833fdf5a342_651212.JPG",
-                      "locality": "ECE House",
-                      "areaName": "Kasturba Gandhi Marg",
-                      "costForTwo": "₹400 for two",
-                      "cuisines": [
-                        "American",
-                        "Fast Food"
-                      ],
-                      "avgRating": 4.5,
-                      "parentId": "630",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "2.1K+",
-                      "sla": {
-                        "deliveryTime": 19,
-                        "lastMileTravel": 0.8,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "0.8 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-27 23:59:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹117"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/mcdonalds-ece-house-kasturba-gandhi-marg-rest651212",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "467579",
-                      "name": "Louis Burger",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/20/762f1e61-af01-4aa5-87f1-36e22b9c273d_467579.JPG",
-                      "locality": "N Block",
-                      "areaName": "Connaught Place",
-                      "costForTwo": "₹600 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "American",
-                        "Fast Food"
-                      ],
-                      "avgRating": 4.3,
-                      "parentId": "22485",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "1.7K+",
-                      "sla": {
-                        "deliveryTime": 25,
-                        "lastMileTravel": 0.2,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "0.2 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 01:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          },
-                          {
-                            "imageId": "newg.png",
-                            "description": "Gourmet"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              },
-                              {
-                                "attributes": {
-                                  "description": "Gourmet",
-                                  "imageId": "newg.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "discountTag": "FLAT DEAL"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/louis-burger-n-block-connaught-place-rest467579",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "263663",
-                      "name": "Navratri Meals by Lunchbox",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/22/a2ef1299-9161-4017-915c-e2dc08f0e095_263663.JPG",
-                      "locality": "Gandhi Market",
-                      "areaName": "GANDHI MARKET",
-                      "costForTwo": "₹200 for two",
-                      "cuisines": [
-                        "Biryani",
-                        "North Indian",
-                        "Desserts",
-                        "Beverages"
-                      ],
-                      "avgRating": 4.2,
-                      "veg": true,
-                      "parentId": "21938",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "394",
-                      "sla": {
-                        "deliveryTime": 28,
-                        "lastMileTravel": 2,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
-                        "lastMileTravelString": "2.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-27 23:59:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                            "description": "pureveg"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "pureveg",
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹99"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/navratri-meals-by-lunchbox-gandhi-market-rest263663",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "467130",
-                      "name": "Cheesecake & Co.",
-                      "cloudinaryImageId": "b318c0b4bc2169550145ace1d6e791a2",
-                      "locality": "Khan Market",
-                      "areaName": "Asaf Ali Road",
-                      "costForTwo": "₹300 for two",
-                      "cuisines": [
-                        "Bakery",
-                        "Desserts"
-                      ],
-                      "avgRating": 4.7,
-                      "veg": true,
-                      "parentId": "387417",
-                      "avgRatingString": "4.7",
-                      "totalRatingsString": "2.9K+",
-                      "sla": {
-                        "deliveryTime": 16,
-                        "lastMileTravel": 2,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "2.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 00:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          },
-                          {
-                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Cheesecake.png",
-                            "description": "Delivery!"
-                          },
-                          {
-                            "imageId": "newg.png",
-                            "description": "Gourmet"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              },
-                              {
-                                "attributes": {
-                                  "description": "Delivery!",
-                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/Cheesecake.png"
-                                }
-                              },
-                              {
-                                "attributes": {
-                                  "description": "Gourmet",
-                                  "imageId": "newg.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "50% OFF",
-                        "subHeader": "UPTO ₹100"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.4",
-                          "ratingCount": "683"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/cheesecake-and-co-khan-market-asaf-ali-road-rest467130",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "355348",
-                      "name": "Grameen Kulfi",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/16/d60db686-5b39-416a-ad30-7d81a8d4b585_355348.jpg",
-                      "locality": "Bagh",
-                      "areaName": "Karol Bagh",
-                      "costForTwo": "₹120 for two",
-                      "cuisines": [
-                        "Ice Cream",
-                        "Desserts"
-                      ],
-                      "avgRating": 4.8,
-                      "veg": true,
-                      "parentId": "12175",
-                      "avgRatingString": "4.8",
-                      "totalRatingsString": "803",
-                      "sla": {
-                        "deliveryTime": 25,
-                        "lastMileTravel": 4.5,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "4.5 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 00:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "v1695133679/badges/Pure_Veg111.png",
-                            "description": "pureveg"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "pureveg",
-                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹148"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/grameen-kulfi-bagh-karol-bagh-rest355348",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "753312",
-                      "name": "The Belgian Waffle Co.",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/16/1e5a8243-2117-4f01-85e8-7887a5770ef1_753312.jpg",
-                      "locality": "Connaught Place",
-                      "areaName": "CONNAUGHT CIRCUS",
-                      "costForTwo": "₹200 for two",
-                      "cuisines": [
-                        "Waffle",
-                        "Desserts",
-                        "Ice Cream"
-                      ],
-                      "avgRating": 4.6,
-                      "parentId": "2233",
-                      "avgRatingString": "4.6",
-                      "totalRatingsString": "1.0K+",
-                      "sla": {
-                        "deliveryTime": 17,
-                        "lastMileTravel": 1.4,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "1.4 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 04:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹59"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.8",
-                          "ratingCount": "842"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/the-belgian-waffle-co-connaught-place-connaught-circus-rest753312",
+                      "link": "https://www.swiggy.com/city/delhi/pizza-hut-ashram-marg-metro-karol-bagh-rest709678",
                       "type": "WEBLINK"
                     }
                   },
@@ -2014,15 +1095,15 @@ const data = {
                       "avgRatingString": "4.3",
                       "totalRatingsString": "17K+",
                       "sla": {
-                        "deliveryTime": 30,
+                        "deliveryTime": 25,
                         "lastMileTravel": 0.8,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "25-30 mins",
+                        "slaString": "20-25 mins",
                         "lastMileTravelString": "0.8 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-27 23:59:00",
+                        "nextCloseTime": "2025-09-30 23:59:00",
                         "opened": true
                       },
                       "badges": {
@@ -2048,34 +1129,34 @@ const data = {
                             ]
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹49"
+                        "subHeader": "AT ₹59"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -2088,7 +1169,7 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
                       "link": "https://www.swiggy.com/city/delhi/dominos-pizza-connaught-circus-connaught-place-rest24207",
@@ -2097,39 +1178,41 @@ const data = {
                   },
                   {
                     "info": {
-                      "id": "16418",
-                      "name": "Subway",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/f165a434-143f-42bf-8943-2a5247363cf5_16418.jpg",
-                      "locality": "M Block",
-                      "areaName": "Connaught Place",
-                      "costForTwo": "₹350 for two",
+                      "id": "51710",
+                      "name": "Theobroma",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/14/537016c3-b35c-4728-a649-ef07ea0983d8_51710.JPG",
+                      "locality": "East Patel Nagar",
+                      "areaName": "East Patel Nagar",
+                      "costForTwo": "₹400 for two",
                       "cuisines": [
-                        "sandwich",
-                        "Salads",
-                        "wrap",
-                        "Healthy Food"
+                        "Bakery",
+                        "Desserts"
                       ],
-                      "avgRating": 4.3,
-                      "parentId": "2",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "19K+",
+                      "avgRating": 4.5,
+                      "parentId": "1040",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "7.7K+",
                       "sla": {
-                        "deliveryTime": 14,
-                        "lastMileTravel": 0.6,
+                        "deliveryTime": 47,
+                        "lastMileTravel": 6.2,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "10-15 mins",
-                        "lastMileTravelString": "0.6 km",
+                        "slaString": "45-50 mins",
+                        "lastMileTravelString": "6.2 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-27 23:59:00",
+                        "nextCloseTime": "2025-10-01 00:00:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
                           {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
+                            "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                            "description": "Delivery!"
+                          },
+                          {
+                            "imageId": "newg.png",
+                            "description": "Gourmet"
                           }
                         ]
                       },
@@ -2141,17 +1224,333 @@ const data = {
                             "badgeObject": [
                               {
                                 "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Gourmet",
+                                  "imageId": "newg.png"
                                 }
                               }
                             ]
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "15% OFF",
+                        "discountTag": "FLAT DEAL"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "3.2",
+                          "ratingCount": "71"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/theobroma-east-patel-nagar-rest51710",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "628870",
+                      "name": "Starbucks Coffee",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/22/1f5932c5-efbd-4dd4-91ec-9bdcf7cba0e0_628870.JPG",
+                      "locality": "Karol Bagh",
+                      "areaName": "Karol Bagh",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Beverages",
+                        "Cafe",
+                        "Snacks",
+                        "Desserts",
+                        "Bakery",
+                        "Ice Cream"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "195515",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "1.0K+",
+                      "sla": {
+                        "deliveryTime": 45,
+                        "lastMileTravel": 3.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "40-45 mins",
+                        "lastMileTravelString": "3.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-09-30 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Cafe.png",
+                            "description": "Delivery!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Green%20Dot%20Awards/Best%20In%20Veg%20Cafe.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Cafe%20&%20Chai.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "20% OFF",
+                        "discountTag": "FLAT DEAL"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.5",
+                          "ratingCount": "350"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/starbucks-coffee-karol-bagh-rest628870",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "512981",
+                      "name": "Mad Over Donuts",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/12/25ca7c7f-1cba-4a93-83eb-0013a77b9e72_512981.JPG",
+                      "locality": "DDA Market",
+                      "areaName": "Rajendra Place",
+                      "costForTwo": "₹200 for two",
+                      "cuisines": [
+                        "Desserts"
+                      ],
+                      "avgRating": 4.4,
+                      "veg": true,
+                      "parentId": "611",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "780",
+                      "sla": {
+                        "deliveryTime": 59,
+                        "lastMileTravel": 6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "55-60 mins",
+                        "lastMileTravelString": "6.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-09-30 23:59:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                            "description": "pureveg"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "pureveg",
+                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "25% OFF",
+                        "discountTag": "FLAT DEAL"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/mad-over-donuts-dda-market-rajendra-place-rest512981",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "752411",
+                      "name": "Olio - The Wood Fired Pizzeria",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/641ebeef-74f8-4ed4-9579-1b7a6a894d14_752411.JPG",
+                      "locality": "Payara Lal Road",
+                      "areaName": "Karol Bagh",
+                      "costForTwo": "₹300 for two",
+                      "cuisines": [
+                        "Pizzas",
+                        "Pastas",
+                        "Italian",
+                        "Fast Food",
+                        "Snacks",
+                        "Beverages",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "11633",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "3.3K+",
+                      "sla": {
+                        "deliveryTime": 66,
+                        "lastMileTravel": 4.9,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "65-70 mins",
+                        "lastMileTravelString": "4.9 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 05:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "newg.png",
+                            "description": "Gourmet"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Gourmet",
+                                  "imageId": "newg.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
                           }
                         }
                       },
@@ -2163,19 +1562,19 @@ const data = {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -2185,10 +1584,191 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/subway-m-block-connaught-place-rest16418",
+                      "link": "https://www.swiggy.com/city/delhi/olio-the-wood-fired-pizzeria-payara-lal-road-karol-bagh-rest752411",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "254131",
+                      "name": "McDonald's",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/9916307c-b387-46fd-94b7-550b8f79c2b4_254131.JPG",
+                      "locality": "Gupta Road",
+                      "areaName": "Paharganj",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "American"
+                      ],
+                      "avgRating": 4.5,
+                      "parentId": "630",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "12K+",
+                      "sla": {
+                        "deliveryTime": 33,
+                        "lastMileTravel": 2.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "2.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 01:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹117"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.1",
+                          "ratingCount": "4.6K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/mcdonalds-gupta-road-paharganj-rest254131",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "185160",
+                      "name": "KFC",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/7e099fb6-92a8-4582-a1ab-4be9d025f0b3_185160.JPG",
+                      "locality": "Desh Bandhu Gupta Road",
+                      "areaName": "Paharganj",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Rolls & Wraps",
+                        "Fast Food"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "547",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "8.7K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 2.7,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "2.7 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 06:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Burger.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹139"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/kfc-desh-bandhu-gupta-road-paharganj-rest185160",
                       "type": "WEBLINK"
                     }
                   },
@@ -2205,10 +1785,10 @@ const data = {
                         "Italian",
                         "Desserts"
                       ],
-                      "avgRating": 4.3,
+                      "avgRating": 4.4,
                       "parentId": "11216",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "172",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "175",
                       "sla": {
                         "deliveryTime": 25,
                         "lastMileTravel": 3,
@@ -2218,24 +1798,24 @@ const data = {
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 02:00:00",
+                        "nextCloseTime": "2025-10-01 02:00:00",
                         "opened": true
                       },
                       "badges": {
-
+                        
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-
+                            
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
@@ -2247,19 +1827,19 @@ const data = {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -2269,10 +1849,288 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
                       "link": "https://www.swiggy.com/city/delhi/leancrust-pizza-thincrust-experts-e-2-27-karol-bagh-rest857161",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "857158",
+                      "name": "WeFit - Protein Bowls, Salads & Sandwiches",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/3/133ad705-56fa-45a0-a396-d142c3740668_857158.jpg",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Healthy Food",
+                        "Salads",
+                        "Keto",
+                        "Snacks"
+                      ],
+                      "avgRating": 4.6,
+                      "parentId": "355285",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "385",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Healthy.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/Healthy.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹145"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/wefit-protein-bowls-salads-and-sandwiches-e-2-27-karol-bagh-rest857158",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "857163",
+                      "name": "Hola Pasta - Fresh Gourmet Pasta",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/cab4718e-8077-4b92-856d-0b32c88f1dde_857163.JPG",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Pastas",
+                        "Italian",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 3.6,
+                      "parentId": "418135",
+                      "avgRatingString": "3.6",
+                      "totalRatingsString": "44",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹109"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/hola-pasta-fresh-gourmet-pasta-e-2-27-karol-bagh-rest857163",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "857167",
+                      "name": "Daily Kitchen - Everyday Homely Meals",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/10/fd505633-821e-4f38-b2d1-f5d82f060d06_857167.jpg",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Home Food",
+                        "Indian",
+                        "Thalis"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "444382",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "639",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Newcomers.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/Newcomers.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/daily-kitchen-everyday-homely-meals-e-2-27-karol-bagh-rest857167",
                       "type": "WEBLINK"
                     }
                   },
@@ -2291,34 +2149,34 @@ const data = {
                       "avgRating": 4.5,
                       "parentId": "22452",
                       "avgRatingString": "4.5",
-                      "totalRatingsString": "523",
+                      "totalRatingsString": "532",
                       "sla": {
-                        "deliveryTime": 15,
+                        "deliveryTime": 25,
                         "lastMileTravel": 3,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "10-20 mins",
+                        "slaString": "20-30 mins",
                         "lastMileTravelString": "3.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 02:00:00",
+                        "nextCloseTime": "2025-10-01 02:00:00",
                         "opened": true
                       },
                       "badges": {
-
+                        
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-
+                            
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
@@ -2330,19 +2188,19 @@ const data = {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -2352,10 +2210,274 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
                       "link": "https://www.swiggy.com/city/delhi/nh1-bowls-highway-to-north-e-2-27-karol-bagh-rest857155",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "857154",
+                      "name": "Mealful Rolls - India's Biggest Rolls",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/d26b0e2e-fbf7-49e1-a606-950e8bc76b43_857154.JPG",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Fast Food",
+                        "Snacks",
+                        "Desserts"
+                      ],
+                      "avgRating": 4,
+                      "parentId": "10390",
+                      "avgRatingString": "4.0",
+                      "totalRatingsString": "96",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Rolls.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Rolls.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/mealful-rolls-indias-biggest-rolls-e-2-27-karol-bagh-rest857154",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "857159",
+                      "name": "BOOM - Sub Style Sandwiches",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/24/b84a3afc-0bc9-4fef-bc7d-22dc00ebe98f_857159.JPG",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Snacks",
+                        "Indian",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.7,
+                      "parentId": "401169",
+                      "avgRatingString": "4.7",
+                      "totalRatingsString": "97",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/boom-sub-style-sandwiches-e-2-27-karol-bagh-rest857159",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "857157",
+                      "name": "Bhatti Chicken - Grilled, NOT Fried!",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/18/647aaaf4-7080-478f-b021-c20253a34f77_857157.JPG",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Snacks",
+                        "Fast Food",
+                        "Tandoor"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "355286",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "33",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹125"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/bhatti-chicken-grilled-not-fried-e-2-27-karol-bagh-rest857157",
                       "type": "WEBLINK"
                     }
                   },
@@ -2371,20 +2493,20 @@ const data = {
                         "Biryani",
                         "Awadhi"
                       ],
-                      "avgRating": 4.4,
+                      "avgRating": 4.5,
                       "parentId": "22473",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "296",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "303",
                       "sla": {
-                        "deliveryTime": 15,
+                        "deliveryTime": 25,
                         "lastMileTravel": 3,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "10-20 mins",
+                        "slaString": "20-30 mins",
                         "lastMileTravelString": "3.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 02:00:00",
+                        "nextCloseTime": "2025-10-01 02:00:00",
                         "opened": true
                       },
                       "badges": {
@@ -2410,10 +2532,10 @@ const data = {
                             ]
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
@@ -2425,19 +2547,19 @@ const data = {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -2447,7 +2569,7 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
                       "link": "https://www.swiggy.com/city/delhi/zaza-mughal-biryani-e-2-27-karol-bagh-rest857156",
@@ -2456,191 +2578,155 @@ const data = {
                   },
                   {
                     "info": {
-                      "id": "526516",
-                      "name": "Salad Days",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/14/da84a0d0-52b6-4349-98cf-188f86e6a403_526516.jpg",
-                      "locality": "Gole Market",
-                      "areaName": "Gole Market",
-                      "costForTwo": "₹600 for two",
+                      "id": "857160",
+                      "name": "GLOBO Ice Creams Of The World",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/28/67937888-968f-4e3f-ad83-310762c41d78_857160.JPG",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹150 for two",
                       "cuisines": [
-                        "Salads"
+                        "Ice Cream",
+                        "Desserts",
+                        "Bakery"
                       ],
-                      "avgRating": 4.6,
-                      "parentId": "796",
-                      "avgRatingString": "4.6",
-                      "totalRatingsString": "4.6K+",
+                      "avgRating": 4.5,
+                      "parentId": "22303",
+                      "avgRatingString": "4.5",
+                      "totalRatingsString": "18",
                       "sla": {
-                        "deliveryTime": 18,
-                        "lastMileTravel": 2.5,
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "2.5 km",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-27 23:59:00",
+                        "nextCloseTime": "2025-10-01 02:00:00",
                         "opened": true
                       },
                       "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Healthy.png",
-                            "description": "Delivery!"
-                          },
-                          {
-                            "imageId": "newg.png",
-                            "description": "Gourmet"
-                          }
-                        ]
+                        
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "Delivery!",
-                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/Healthy.png"
-                                }
-                              },
-                              {
-                                "attributes": {
-                                  "description": "Gourmet",
-                                  "imageId": "newg.png"
-                                }
-                              }
-                            ]
+                            
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "40% OFF",
-                        "subHeader": "UPTO ₹80"
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
-                          "rating": "4.4",
-                          "ratingCount": "70"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                          "rating": "--"
+                        }
                       },
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/salad-days-gole-market-rest526516",
+                      "link": "https://www.swiggy.com/city/delhi/globo-ice-creams-of-the-world-e-2-27-karol-bagh-rest857160",
                       "type": "WEBLINK"
                     }
                   },
                   {
                     "info": {
-                      "id": "673905",
-                      "name": "Goila Butter Chicken",
-                      "cloudinaryImageId": "5e19832da032dd69547565e27104706f",
-                      "locality": "Pratap Building",
-                      "areaName": "Connaught Place",
-                      "costForTwo": "₹600 for two",
+                      "id": "857153",
+                      "name": "Itminaan Matka Biryani - Slow Cooked",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/19/e79fd13b-3345-4dd0-9403-1c3daac383e3_857153.JPG",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹250 for two",
                       "cuisines": [
-                        "North Indian",
                         "Biryani",
                         "Mughlai"
                       ],
-                      "avgRating": 3.9,
-                      "parentId": "322587",
-                      "avgRatingString": "3.9",
-                      "totalRatingsString": "165",
+                      "avgRating": 4.4,
+                      "parentId": "107673",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "87",
                       "sla": {
-                        "deliveryTime": 22,
-                        "lastMileTravel": 0.5,
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "20-25 mins",
-                        "lastMileTravelString": "0.5 km",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 00:00:00",
+                        "nextCloseTime": "2025-10-01 02:00:00",
                         "opened": true
                       },
                       "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "newg.png",
-                            "description": "Gourmet"
-                          }
-                        ]
+                        
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "Gourmet",
-                                  "imageId": "newg.png"
-                                }
-                              }
-                            ]
+                            
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹79"
+                        "subHeader": "AT ₹199"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -2650,312 +2736,83 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/goila-butter-chicken-pratap-building-connaught-place-rest673905",
+                      "link": "https://www.swiggy.com/city/delhi/itminaan-matka-biryani-slow-cooked-e-2-27-karol-bagh-rest857153",
                       "type": "WEBLINK"
                     }
                   },
                   {
                     "info": {
-                      "id": "438612",
-                      "name": "Baskin Robbins - Ice Cream Desserts",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/24/c8200b0c-f202-4acb-a13e-fde348a0e59a_438612.JPG",
-                      "locality": "Cannought Circus",
-                      "areaName": "Connaught Place",
-                      "costForTwo": "₹250 for two",
-                      "cuisines": [
-                        "Desserts",
-                        "Ice Cream"
-                      ],
-                      "avgRating": 4.6,
-                      "veg": true,
-                      "parentId": "5588",
-                      "avgRatingString": "4.6",
-                      "totalRatingsString": "481",
-                      "sla": {
-                        "deliveryTime": 17,
-                        "lastMileTravel": 0.6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "0.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-27 23:59:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          },
-                          {
-                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Icecream.png",
-                            "description": "Delivery!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              },
-                              {
-                                "attributes": {
-                                  "description": "Delivery!",
-                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/Icecream.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "30% OFF",
-                        "subHeader": "UPTO ₹75"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/baskin-robbins-ice-cream-desserts-cannought-circus-connaught-place-rest438612",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "8619",
-                      "name": "Bikkgane Biryani",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/15/40cb7f19-6a78-424c-8d4b-0163bc4f42b8_8619.jpg",
-                      "locality": "PVR Rivoli",
-                      "areaName": "Connaught Place",
+                      "id": "25397",
+                      "name": "Oven Story Pizza",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/29/8e4e013f-7c31-4c7b-b3e4-4c734008b775_25397.jpg",
+                      "locality": "Minto Road",
+                      "areaName": "Gandhi Market",
                       "costForTwo": "₹400 for two",
                       "cuisines": [
-                        "Biryani",
-                        "Mughlai",
-                        "North Indian"
+                        "Pizzas",
+                        "Pastas",
+                        "Italian",
+                        "Desserts",
+                        "Beverages"
                       ],
-                      "avgRating": 4.3,
-                      "parentId": "5070",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "30K+",
+                      "avgRating": 4.2,
+                      "parentId": "3534",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "5.1K+",
                       "sla": {
-                        "deliveryTime": 17,
-                        "lastMileTravel": 1.3,
+                        "deliveryTime": 22,
+                        "lastMileTravel": 2,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "1.3 km",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "2.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 01:00:00",
+                        "nextCloseTime": "2025-09-30 23:59:00",
                         "opened": true
                       },
                       "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          },
-                          {
-                            "imageId": "Rxawards/_CATEGORY-Biryani.png",
-                            "description": "Delivery!"
-                          }
-                        ]
+                        
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              },
-                              {
-                                "attributes": {
-                                  "description": "Delivery!",
-                                  "imageId": "Rxawards/_CATEGORY-Biryani.png"
-                                }
-                              }
-                            ]
+                            
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹79"
+                        "subHeader": "AT ₹99"
                       },
                       "differentiatedUi": {
                         "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
                         "differentiatedUiMediaDetails": {
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.1",
-                          "ratingCount": "8.2K+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/bikkgane-biryani-pvr-rivoli-connaught-place-rest8619",
-                      "type": "WEBLINK"
-                    }
-                  },
-                  {
-                    "info": {
-                      "id": "336057",
-                      "name": "Wendy's Burgers",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/11/f414a673-f5db-4601-9cd6-ad9d10b26d38_336057.JPG",
-                      "locality": "DDA Market",
-                      "areaName": "Rajendra Place",
-                      "costForTwo": "₹200 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "American",
-                        "Fast Food",
-                        "Snacks"
-                      ],
-                      "avgRating": 4.1,
-                      "parentId": "972",
-                      "avgRatingString": "4.1",
-                      "totalRatingsString": "2.8K+",
-                      "sla": {
-                        "deliveryTime": 49,
-                        "lastMileTravel": 6,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "45-50 mins",
-                        "lastMileTravelString": "6.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-27 23:59:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "textExtendedBadges": [
-                          {
-                            "iconId": "guiltfree/GF_Logo_android_3x",
-                            "shortDescription": "options available",
-                            "fontColor": "#7E808C"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "",
-                                  "fontColor": "#7E808C",
-                                  "iconId": "guiltfree/GF_Logo_android_3x",
-                                  "shortDescription": "options available"
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹59"
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -2965,10 +2822,10 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/wendys-burgers-dda-market-rajendra-place-rest336057",
+                      "link": "https://www.swiggy.com/city/delhi/oven-story-pizza-minto-road-gandhi-market-rest25397",
                       "type": "WEBLINK"
                     }
                   }
@@ -3042,7 +2899,7 @@ const data = {
                     "label": "Fast Delivery",
                     "id": "deliveryTimefacetquery1",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   }
@@ -3059,7 +2916,7 @@ const data = {
                     "label": "Afghani",
                     "id": "query_afghani",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3067,7 +2924,7 @@ const data = {
                     "label": "American",
                     "id": "query_american",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3075,7 +2932,7 @@ const data = {
                     "label": "Andhra",
                     "id": "query_andhra",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3083,7 +2940,7 @@ const data = {
                     "label": "Arabian",
                     "id": "query_arabian",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3091,7 +2948,15 @@ const data = {
                     "label": "Asian",
                     "id": "query_asian",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Assamese",
+                    "id": "query_assamese",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3099,7 +2964,7 @@ const data = {
                     "label": "Awadhi",
                     "id": "query_awadhi",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3107,7 +2972,7 @@ const data = {
                     "label": "Bakery",
                     "id": "query_bakery",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3115,7 +2980,7 @@ const data = {
                     "label": "Barbecue",
                     "id": "query_barbecue",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3123,7 +2988,7 @@ const data = {
                     "label": "Bengali",
                     "id": "query_bengali",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3131,7 +2996,7 @@ const data = {
                     "label": "Beverages",
                     "id": "query_beverages",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3139,7 +3004,7 @@ const data = {
                     "label": "Bihari",
                     "id": "query_bihari",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3147,7 +3012,15 @@ const data = {
                     "label": "Biryani",
                     "id": "query_biryani",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "British",
+                    "id": "query_british",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3155,7 +3028,7 @@ const data = {
                     "label": "Bubble Tea",
                     "id": "query_bubble_tea",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3163,7 +3036,7 @@ const data = {
                     "label": "Burger",
                     "id": "query_burger",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3171,7 +3044,7 @@ const data = {
                     "label": "Burgers",
                     "id": "query_burgers",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3179,7 +3052,7 @@ const data = {
                     "label": "Burmese",
                     "id": "query_burmese",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3187,7 +3060,7 @@ const data = {
                     "label": "Cafe",
                     "id": "query_cafe",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3195,7 +3068,7 @@ const data = {
                     "label": "Cakes",
                     "id": "query_cakes",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3203,7 +3076,7 @@ const data = {
                     "label": "Cakes & Pastries",
                     "id": "query_cakes_&_pastries",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3211,7 +3084,7 @@ const data = {
                     "label": "Cakes and Pastries",
                     "id": "query_cakes_and_pastries",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3219,7 +3092,7 @@ const data = {
                     "label": "Chaat",
                     "id": "query_chaat",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3227,7 +3100,7 @@ const data = {
                     "label": "Chinese",
                     "id": "query_chinese",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3235,7 +3108,7 @@ const data = {
                     "label": "Coastal",
                     "id": "query_coastal",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3243,15 +3116,7 @@ const data = {
                     "label": "Coffee",
                     "id": "query_coffee",
                     "analytics": {
-
-                    },
-                    "openFilter": true
-                  },
-                  {
-                    "label": "Combo",
-                    "id": "query_combo",
-                    "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3259,15 +3124,15 @@ const data = {
                     "label": "Combos",
                     "id": "query_combos",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
                   {
-                    "label": "Confectionery",
-                    "id": "query_confectionery",
+                    "label": "Combs",
+                    "id": "query_combs",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3275,7 +3140,7 @@ const data = {
                     "label": "Continental",
                     "id": "query_continental",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3283,7 +3148,7 @@ const data = {
                     "label": "Dessert",
                     "id": "query_dessert",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3291,7 +3156,7 @@ const data = {
                     "label": "Desserts",
                     "id": "query_desserts",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3299,7 +3164,7 @@ const data = {
                     "label": "European",
                     "id": "query_european",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3307,7 +3172,7 @@ const data = {
                     "label": "Fast Food",
                     "id": "query_fast_food",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3315,7 +3180,7 @@ const data = {
                     "label": "Fast food",
                     "id": "query_fast_food",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3323,7 +3188,7 @@ const data = {
                     "label": "French",
                     "id": "query_french",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3331,7 +3196,7 @@ const data = {
                     "label": "Greek",
                     "id": "query_greek",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3339,7 +3204,7 @@ const data = {
                     "label": "Grill",
                     "id": "query_grill",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3347,15 +3212,7 @@ const data = {
                     "label": "Gujarati",
                     "id": "query_gujarati",
                     "analytics": {
-
-                    },
-                    "openFilter": true
-                  },
-                  {
-                    "label": "Haleem",
-                    "id": "query_haleem",
-                    "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3363,7 +3220,7 @@ const data = {
                     "label": "Healthy Food",
                     "id": "query_healthy_food",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3371,7 +3228,7 @@ const data = {
                     "label": "Healthy food",
                     "id": "query_healthy_food",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3379,7 +3236,7 @@ const data = {
                     "label": "Home Food",
                     "id": "query_home_food",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3387,7 +3244,7 @@ const data = {
                     "label": "Home food",
                     "id": "query_home_food",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3395,7 +3252,7 @@ const data = {
                     "label": "Hyderabadi",
                     "id": "query_hyderabadi",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3403,7 +3260,7 @@ const data = {
                     "label": "Ice Cream",
                     "id": "query_ice_cream",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3411,7 +3268,7 @@ const data = {
                     "label": "Ice Cream Cakes",
                     "id": "query_ice_cream_cakes",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3419,7 +3276,7 @@ const data = {
                     "label": "Ice cream",
                     "id": "query_ice_cream",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3427,7 +3284,7 @@ const data = {
                     "label": "Indian",
                     "id": "query_indian",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3435,7 +3292,7 @@ const data = {
                     "label": "Italian",
                     "id": "query_italian",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3443,7 +3300,7 @@ const data = {
                     "label": "Italian-American",
                     "id": "query_italian-american",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3451,7 +3308,7 @@ const data = {
                     "label": "Jain",
                     "id": "query_jain",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3459,7 +3316,7 @@ const data = {
                     "label": "Japanese",
                     "id": "query_japanese",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3467,7 +3324,7 @@ const data = {
                     "label": "Juice and shake",
                     "id": "query_juice_and_shake",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3475,7 +3332,7 @@ const data = {
                     "label": "Juices",
                     "id": "query_juices",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3483,7 +3340,7 @@ const data = {
                     "label": "Kashmiri",
                     "id": "query_kashmiri",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3491,7 +3348,7 @@ const data = {
                     "label": "Kebabs",
                     "id": "query_kebabs",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3499,7 +3356,7 @@ const data = {
                     "label": "Kerala",
                     "id": "query_kerala",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3507,7 +3364,7 @@ const data = {
                     "label": "Keto",
                     "id": "query_keto",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3515,7 +3372,7 @@ const data = {
                     "label": "Korean",
                     "id": "query_korean",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3523,7 +3380,7 @@ const data = {
                     "label": "Lebanese",
                     "id": "query_lebanese",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3531,7 +3388,7 @@ const data = {
                     "label": "Lucknowi",
                     "id": "query_lucknowi",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3539,7 +3396,15 @@ const data = {
                     "label": "Maharashtrian",
                     "id": "query_maharashtrian",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Mangalorean",
+                    "id": "query_mangalorean",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3547,7 +3412,15 @@ const data = {
                     "label": "Meal",
                     "id": "query_meal",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Meat",
+                    "id": "query_meat",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3555,7 +3428,7 @@ const data = {
                     "label": "Mediterranean",
                     "id": "query_mediterranean",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3563,7 +3436,7 @@ const data = {
                     "label": "Mexican",
                     "id": "query_mexican",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3571,7 +3444,7 @@ const data = {
                     "label": "Middle Eastern",
                     "id": "query_middle_eastern",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3579,7 +3452,7 @@ const data = {
                     "label": "Milkshakes",
                     "id": "query_milkshakes",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3587,7 +3460,7 @@ const data = {
                     "label": "Momos",
                     "id": "query_momos",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3595,7 +3468,7 @@ const data = {
                     "label": "Mughlai",
                     "id": "query_mughlai",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3603,7 +3476,7 @@ const data = {
                     "label": "Navratri Special",
                     "id": "query_navratri_special",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3611,7 +3484,7 @@ const data = {
                     "label": "Nepalese",
                     "id": "query_nepalese",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3619,7 +3492,7 @@ const data = {
                     "label": "North Eastern",
                     "id": "query_north_eastern",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3627,7 +3500,7 @@ const data = {
                     "label": "North Indian",
                     "id": "query_north_indian",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3635,7 +3508,7 @@ const data = {
                     "label": "North indian",
                     "id": "query_north_indian",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3643,7 +3516,15 @@ const data = {
                     "label": "Oriental",
                     "id": "query_oriental",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Oriya",
+                    "id": "query_oriya",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3651,7 +3532,7 @@ const data = {
                     "label": "PRANTHAS",
                     "id": "query_pranthas",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3659,7 +3540,7 @@ const data = {
                     "label": "Paan",
                     "id": "query_paan",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3667,7 +3548,7 @@ const data = {
                     "label": "Pakistani",
                     "id": "query_pakistani",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3675,7 +3556,7 @@ const data = {
                     "label": "Pan-Asian",
                     "id": "query_pan-asian",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3683,7 +3564,7 @@ const data = {
                     "label": "Parsi",
                     "id": "query_parsi",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3691,7 +3572,7 @@ const data = {
                     "label": "Pasta",
                     "id": "query_pasta",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3699,7 +3580,7 @@ const data = {
                     "label": "Pastas",
                     "id": "query_pastas",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3707,7 +3588,7 @@ const data = {
                     "label": "Pizza",
                     "id": "query_pizza",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3715,7 +3596,7 @@ const data = {
                     "label": "Pizzas",
                     "id": "query_pizzas",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3723,7 +3604,7 @@ const data = {
                     "label": "Punjabi",
                     "id": "query_punjabi",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3731,7 +3612,7 @@ const data = {
                     "label": "Rajasthani",
                     "id": "query_rajasthani",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3739,7 +3620,7 @@ const data = {
                     "label": "Ramen",
                     "id": "query_ramen",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3747,7 +3628,7 @@ const data = {
                     "label": "Rolls",
                     "id": "query_rolls",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3755,7 +3636,7 @@ const data = {
                     "label": "Rolls & Wraps",
                     "id": "query_rolls_&_wraps",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3763,7 +3644,7 @@ const data = {
                     "label": "Salad",
                     "id": "query_salad",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3771,7 +3652,7 @@ const data = {
                     "label": "Salads",
                     "id": "query_salads",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3779,7 +3660,7 @@ const data = {
                     "label": "Sandwich",
                     "id": "query_sandwich",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3787,7 +3668,7 @@ const data = {
                     "label": "Seafood",
                     "id": "query_seafood",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3795,7 +3676,15 @@ const data = {
                     "label": "Shawarma",
                     "id": "query_shawarma",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Singaporean",
+                    "id": "query_singaporean",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3803,7 +3692,15 @@ const data = {
                     "label": "Snacks",
                     "id": "query_snacks",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "South American",
+                    "id": "query_south_american",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3811,7 +3708,7 @@ const data = {
                     "label": "South Indian",
                     "id": "query_south_indian",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3819,7 +3716,15 @@ const data = {
                     "label": "Special Discount from (Last Supper)",
                     "id": "query_special_discount_from_(last_supper)",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Steakhouse",
+                    "id": "query_steakhouse",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3827,7 +3732,7 @@ const data = {
                     "label": "Street Food",
                     "id": "query_street_food",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3835,7 +3740,7 @@ const data = {
                     "label": "Sushi",
                     "id": "query_sushi",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3843,7 +3748,7 @@ const data = {
                     "label": "Sweets",
                     "id": "query_sweets",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3851,7 +3756,7 @@ const data = {
                     "label": "Tandoor",
                     "id": "query_tandoor",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3859,7 +3764,15 @@ const data = {
                     "label": "Tandoori",
                     "id": "query_tandoori",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Tea",
+                    "id": "query_tea",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -3867,7 +3780,7 @@ const data = {
                     "label": "Tex-Mex",
                     "id": "query_tex-mex",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3875,7 +3788,7 @@ const data = {
                     "label": "Thai",
                     "id": "query_thai",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3883,7 +3796,7 @@ const data = {
                     "label": "Thali",
                     "id": "query_thali",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3891,7 +3804,7 @@ const data = {
                     "label": "Thalis",
                     "id": "query_thalis",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3899,7 +3812,7 @@ const data = {
                     "label": "Tibetan",
                     "id": "query_tibetan",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3907,7 +3820,7 @@ const data = {
                     "label": "Turkish",
                     "id": "query_turkish",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3915,23 +3828,7 @@ const data = {
                     "label": "Waffle",
                     "id": "query_waffle",
                     "analytics": {
-
-                    },
-                    "openFilter": true
-                  },
-                  {
-                    "label": "barbeque",
-                    "id": "query_barbeque",
-                    "analytics": {
-
-                    },
-                    "openFilter": true
-                  },
-                  {
-                    "label": "briyani",
-                    "id": "query_briyani",
-                    "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3939,7 +3836,7 @@ const data = {
                     "label": "burger",
                     "id": "query_burger",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3947,7 +3844,7 @@ const data = {
                     "label": "dessert",
                     "id": "query_dessert",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3955,7 +3852,7 @@ const data = {
                     "label": "desserts",
                     "id": "query_desserts",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3963,7 +3860,7 @@ const data = {
                     "label": "fast food",
                     "id": "query_fast_food",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3971,7 +3868,7 @@ const data = {
                     "label": "fastfood",
                     "id": "query_fastfood",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -3979,39 +3876,7 @@ const data = {
                     "label": "healthy",
                     "id": "query_healthy",
                     "analytics": {
-
-                    },
-                    "openFilter": true
-                  },
-                  {
-                    "label": "indian",
-                    "id": "query_indian",
-                    "analytics": {
-
-                    },
-                    "openFilter": true
-                  },
-                  {
-                    "label": "indian snacks",
-                    "id": "query_indian_snacks",
-                    "analytics": {
-
-                    },
-                    "openFilter": true
-                  },
-                  {
-                    "label": "jar cakes",
-                    "id": "query_jar_cakes",
-                    "analytics": {
-
-                    },
-                    "openFilter": true
-                  },
-                  {
-                    "label": "kebabs",
-                    "id": "query_kebabs",
-                    "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4019,7 +3884,7 @@ const data = {
                     "label": "paratha",
                     "id": "query_paratha",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4027,7 +3892,15 @@ const data = {
                     "label": "pastas",
                     "id": "query_pastas",
                     "analytics": {
-
+                      
+                    },
+                    "openFilter": true
+                  },
+                  {
+                    "label": "pav bhaji",
+                    "id": "query_pav_bhaji",
+                    "analytics": {
+                      
                     },
                     "openFilter": true
                   },
@@ -4035,7 +3908,7 @@ const data = {
                     "label": "pizza",
                     "id": "query_pizza",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4043,7 +3916,7 @@ const data = {
                     "label": "pure veg",
                     "id": "query_pure_veg",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4051,7 +3924,7 @@ const data = {
                     "label": "rolls",
                     "id": "query_rolls",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4059,7 +3932,7 @@ const data = {
                     "label": "sandwich",
                     "id": "query_sandwich",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4067,7 +3940,7 @@ const data = {
                     "label": "shawarma",
                     "id": "query_shawarma",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4075,7 +3948,7 @@ const data = {
                     "label": "wrap",
                     "id": "query_wrap",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   }
@@ -4094,7 +3967,7 @@ const data = {
                     "label": "New on Swiggy",
                     "id": "newfacetquery1",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   }
@@ -4110,14 +3983,14 @@ const data = {
                     "label": "Ratings 4.5+",
                     "id": "ratingfacetquery3",
                     "analytics": {
-
+                      
                     }
                   },
                   {
                     "label": "Ratings 4.0+",
                     "id": "ratingfacetquery4",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4125,7 +3998,7 @@ const data = {
                     "label": "Ratings 3.5+",
                     "id": "ratingfacetquery5",
                     "analytics": {
-
+                      
                     }
                   }
                 ],
@@ -4141,7 +4014,7 @@ const data = {
                     "label": "Pure Veg",
                     "id": "isVegfacetquery2",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4149,7 +4022,7 @@ const data = {
                     "label": "Non Veg",
                     "id": "isVegfacetquery3",
                     "analytics": {
-
+                      
                     }
                   }
                 ],
@@ -4165,7 +4038,7 @@ const data = {
                     "label": "Offers",
                     "id": "restaurantOfferMultiTdfacetquery3",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   }
@@ -4182,7 +4055,7 @@ const data = {
                     "label": "Rs. 300-Rs. 600",
                     "id": "costForTwofacetquery3",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   },
@@ -4190,14 +4063,14 @@ const data = {
                     "label": "Greater than Rs. 600",
                     "id": "costForTwofacetquery4",
                     "analytics": {
-
+                      
                     }
                   },
                   {
                     "label": "Less than Rs. 300",
                     "id": "costForTwofacetquery5",
                     "analytics": {
-
+                      
                     },
                     "openFilter": true
                   }
@@ -4224,168 +4097,80 @@ const data = {
                   {
                     "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                     "info": {
-                      "id": "435678",
-                      "name": "Pizza Hut",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/98f45661-567b-44d2-adf9-6eef0662b239_435678.JPG",
-                      "locality": "Western Extension Area",
-                      "areaName": "Karol Bagh",
-                      "costForTwo": "₹350 for two",
+                      "id": "24207",
+                      "name": "Domino's Pizza",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/8/431ae3dc-16d1-4112-a4ca-a332bfcc5109_24207.JPG",
+                      "locality": "Connaught Circus",
+                      "areaName": "Connaught Place",
+                      "costForTwo": "₹400 for two",
                       "cuisines": [
-                        "Pizzas"
-                      ],
-                      "avgRating": 4.2,
-                      "parentId": "721",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "6.7K+",
-                      "sla": {
-                        "deliveryTime": 33,
-                        "lastMileTravel": 4.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "30-35 mins",
-                        "lastMileTravelString": "4.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 04:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹99"
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-
-                        },
-                        "subTitle": {
-
-                        },
-                        "message": {
-
-                        },
-                        "customIcon": {
-
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "--"
-                        }
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/pizza-hut-western-extension-area-karol-bagh-rest435678",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                    "info": {
-                      "id": "691733",
-                      "name": "Chinese Wok",
-                      "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
-                      "locality": "Kashmiri Gate",
-                      "areaName": "Kashmiri Gate",
-                      "costForTwo": "₹250 for two",
-                      "cuisines": [
-                        "Chinese",
-                        "Asian",
-                        "Tibetan",
+                        "Pizzas",
+                        "Italian",
+                        "Pastas",
                         "Desserts"
                       ],
-                      "avgRating": 4.2,
-                      "parentId": "61955",
-                      "avgRatingString": "4.2",
-                      "totalRatingsString": "704",
+                      "avgRating": 4.3,
+                      "parentId": "2456",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "17K+",
                       "sla": {
-                        "deliveryTime": 45,
-                        "lastMileTravel": 7.6,
+                        "deliveryTime": 25,
+                        "lastMileTravel": 0.8,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "40-45 mins",
-                        "lastMileTravelString": "7.6 km",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "0.8 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 01:00:00",
+                        "nextCloseTime": "2025-09-30 23:59:00",
                         "opened": true
                       },
                       "badges": {
-
+                        "imageBadges": [
+                          {
+                            "imageId": "android/static-assets/icons/big_rx.png",
+                            "description": "bolt!"
+                          }
+                        ]
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                }
+                              }
+                            ]
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹119"
+                        "subHeader": "AT ₹59"
                       },
                       "orderabilityCommunication": {
                         "title": {
-
+                          
                         },
                         "subTitle": {
-
+                          
                         },
                         "message": {
-
+                          
                         },
                         "customIcon": {
-
+                          
                         }
                       },
                       "differentiatedUi": {
@@ -4393,24 +4178,24 @@ const data = {
                         "differentiatedUiMediaDetails": {
                           "mediaType": "ADS_MEDIA_ENUM_IMAGE",
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
-                          "rating": "2.5",
-                          "ratingCount": "50"
+                          "rating": "4.0",
+                          "ratingCount": "11K+"
                         },
                         "source": "GOOGLE",
                         "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
@@ -4418,10 +4203,10 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/chinese-wok-kashmiri-gate-rest691733",
+                      "link": "https://www.swiggy.com/city/delhi/dominos-pizza-connaught-circus-connaught-place-rest24207",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4430,67 +4215,78 @@ const data = {
                   {
                     "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                     "info": {
-                      "id": "691734",
-                      "name": "Big Bowl",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/22/30548ac4-2e57-4c1d-ba73-8372f74a1ad2_691734.JPG",
-                      "locality": "Eldeco Junction",
-                      "areaName": "Kashmere Gate Metro Station",
-                      "costForTwo": "₹250 for two",
+                      "id": "512981",
+                      "name": "Mad Over Donuts",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/12/25ca7c7f-1cba-4a93-83eb-0013a77b9e72_512981.JPG",
+                      "locality": "DDA Market",
+                      "areaName": "Rajendra Place",
+                      "costForTwo": "₹200 for two",
                       "cuisines": [
-                        "Chinese",
-                        "Tibetan",
                         "Desserts"
                       ],
-                      "avgRating": 4.3,
-                      "parentId": "434792",
-                      "avgRatingString": "4.3",
-                      "totalRatingsString": "517",
+                      "avgRating": 4.4,
+                      "veg": true,
+                      "parentId": "611",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "780",
                       "sla": {
-                        "deliveryTime": 40,
-                        "lastMileTravel": 7.6,
+                        "deliveryTime": 59,
+                        "lastMileTravel": 6,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "35-40 mins",
-                        "lastMileTravelString": "7.6 km",
+                        "slaString": "55-60 mins",
+                        "lastMileTravelString": "6.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 01:00:00",
+                        "nextCloseTime": "2025-09-30 23:59:00",
                         "opened": true
                       },
                       "badges": {
-
+                        "imageBadges": [
+                          {
+                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                            "description": "pureveg"
+                          }
+                        ]
                       },
                       "isOpen": true,
                       "type": "F",
                       "badgesV2": {
                         "entityBadges": {
                           "imageBased": {
-
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "pureveg",
+                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                              }
+                            ]
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹129"
+                        "header": "25% OFF",
+                        "discountTag": "FLAT DEAL"
                       },
                       "orderabilityCommunication": {
                         "title": {
-
+                          
                         },
                         "subTitle": {
-
+                          
                         },
                         "message": {
-
+                          
                         },
                         "customIcon": {
-
+                          
                         }
                       },
                       "differentiatedUi": {
@@ -4498,19 +4294,19 @@ const data = {
                         "differentiatedUiMediaDetails": {
                           "mediaType": "ADS_MEDIA_ENUM_IMAGE",
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -4520,10 +4316,10 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/big-bowl-eldeco-junction-kashmere-gate-metro-station-rest691734",
+                      "link": "https://www.swiggy.com/city/delhi/mad-over-donuts-dda-market-rajendra-place-rest512981",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -4552,15 +4348,15 @@ const data = {
                       "avgRatingString": "4.2",
                       "totalRatingsString": "3.3K+",
                       "sla": {
-                        "deliveryTime": 37,
+                        "deliveryTime": 66,
                         "lastMileTravel": 4.9,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "35-40 mins",
+                        "slaString": "65-70 mins",
                         "lastMileTravelString": "4.9 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 05:00:00",
+                        "nextCloseTime": "2025-10-01 05:00:00",
                         "opened": true
                       },
                       "badges": {
@@ -4586,10 +4382,10 @@ const data = {
                             ]
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
@@ -4599,16 +4395,16 @@ const data = {
                       },
                       "orderabilityCommunication": {
                         "title": {
-
+                          
                         },
                         "subTitle": {
-
+                          
                         },
                         "message": {
-
+                          
                         },
                         "customIcon": {
-
+                          
                         }
                       },
                       "differentiatedUi": {
@@ -4616,19 +4412,19 @@ const data = {
                         "differentiatedUiMediaDetails": {
                           "mediaType": "ADS_MEDIA_ENUM_IMAGE",
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -4638,7 +4434,7 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
                       "link": "https://www.swiggy.com/city/delhi/olio-the-wood-fired-pizzeria-payara-lal-road-karol-bagh-rest752411",
@@ -4650,39 +4446,140 @@ const data = {
                   {
                     "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
                     "info": {
-                      "id": "152971",
-                      "name": "KFC",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/9/61a19651-713d-4f7d-849d-f4ba3a8d5e5f_152971.JPG",
-                      "locality": "Connaught Place",
-                      "areaName": "Connaught Place",
-                      "costForTwo": "₹400 for two",
+                      "id": "857161",
+                      "name": "LeanCrust Pizza- ThinCrust Experts",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/30/645cb86e-b9ae-4e24-b7b2-b98d329688ef_857161.jpg",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹300 for two",
                       "cuisines": [
-                        "Burgers",
-                        "Rolls & Wraps",
-                        "Fast Food"
+                        "Pizzas",
+                        "Italian",
+                        "Desserts"
                       ],
-                      "avgRating": 4.5,
-                      "parentId": "547",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "6.5K+",
+                      "avgRating": 4.4,
+                      "parentId": "11216",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "175",
                       "sla": {
-                        "deliveryTime": 7,
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
                         "serviceability": "SERVICEABLE",
-                        "slaString": "5-10 mins",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
                         "iconType": "ICON_TYPE_EMPTY"
                       },
                       "availability": {
-                        "nextCloseTime": "2025-09-28 00:00:00",
+                        "nextCloseTime": "2025-10-01 02:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/leancrust-pizza-thincrust-experts-e-2-27-karol-bagh-rest857161",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                    "info": {
+                      "id": "857158",
+                      "name": "WeFit - Protein Bowls, Salads & Sandwiches",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/2/3/133ad705-56fa-45a0-a396-d142c3740668_857158.jpg",
+                      "locality": "E-2/27",
+                      "areaName": "KAROL BAGH",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Healthy Food",
+                        "Salads",
+                        "Keto",
+                        "Snacks"
+                      ],
+                      "avgRating": 4.6,
+                      "parentId": "355285",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "385",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-10-01 02:00:00",
                         "opened": true
                       },
                       "badges": {
                         "imageBadges": [
                           {
-                            "imageId": "android/static-assets/icons/rx_5_10_min.png",
-                            "description": "bolt!"
-                          },
-                          {
-                            "imageId": "Rxawards/_CATEGORY-Burger.png",
+                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Healthy.png",
                             "description": "Delivery!"
                           }
                         ]
@@ -4695,42 +4592,36 @@ const data = {
                             "badgeObject": [
                               {
                                 "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/rx_5_10_min.png"
-                                }
-                              },
-                              {
-                                "attributes": {
                                   "description": "Delivery!",
-                                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/Healthy.png"
                                 }
                               }
                             ]
                           },
                           "textBased": {
-
+                            
                           },
                           "textExtendedBadges": {
-
+                            
                           }
                         }
                       },
                       "aggregatedDiscountInfoV3": {
                         "header": "ITEMS",
-                        "subHeader": "AT ₹139"
+                        "subHeader": "AT ₹145"
                       },
                       "orderabilityCommunication": {
                         "title": {
-
+                          
                         },
                         "subTitle": {
-
+                          
                         },
                         "message": {
-
+                          
                         },
                         "customIcon": {
-
+                          
                         }
                       },
                       "differentiatedUi": {
@@ -4738,370 +4629,19 @@ const data = {
                         "differentiatedUiMediaDetails": {
                           "mediaType": "ADS_MEDIA_ENUM_IMAGE",
                           "lottie": {
-
+                            
                           },
                           "video": {
-
+                            
                           }
                         }
                       },
                       "reviewsSummary": {
-
+                        
                       },
                       "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
                       "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.2",
-                          "ratingCount": "6.5K+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/kfc-connaught-place-rest152971",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                    "info": {
-                      "id": "8614",
-                      "name": "Burger King",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/ee1fdf16-ea5f-4a44-9e58-7b3a9dee2618_8614.jpg",
-                      "locality": "Connaught Place",
-                      "areaName": "Connaught Place",
-                      "costForTwo": "₹350 for two",
-                      "cuisines": [
-                        "Burgers",
-                        "American"
-                      ],
-                      "avgRating": 4.4,
-                      "parentId": "166",
-                      "avgRatingString": "4.4",
-                      "totalRatingsString": "43K+",
-                      "sla": {
-                        "deliveryTime": 11,
-                        "lastMileTravel": 0.3,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "10-15 mins",
-                        "lastMileTravelString": "0.3 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 03:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/rx_5_10_min.png",
-                            "description": "bolt!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/rx_5_10_min.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹39"
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-
-                        },
-                        "subTitle": {
-
-                        },
-                        "message": {
-
-                        },
-                        "customIcon": {
-
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.2",
-                          "ratingCount": "9.2K+"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/burger-king-connaught-place-rest8614",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                    "info": {
-                      "id": "19989",
-                      "name": "Dunkin' - Donuts & Coffee",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/25/7168b116-64f6-4abc-983d-b7ae2d57bd8e_19989.jpg",
-                      "locality": "K.G. Marg",
-                      "areaName": "Kapashera",
-                      "costForTwo": "₹250 for two",
-                      "cuisines": [
-                        "Desserts",
-                        "Cafe",
-                        "Bakery",
-                        "Beverages",
-                        "Fast Food"
-                      ],
-                      "avgRating": 4.5,
-                      "parentId": "2276",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "12K+",
-                      "sla": {
-                        "deliveryTime": 15,
-                        "lastMileTravel": 1,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "1.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-28 02:00:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹99"
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-
-                        },
-                        "subTitle": {
-
-                        },
-                        "message": {
-
-                        },
-                        "customIcon": {
-
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
-                      },
-                      "externalRatings": {
-                        "aggregatedRating": {
-                          "rating": "4.0",
-                          "ratingCount": "885"
-                        },
-                        "source": "GOOGLE",
-                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
-                      },
-                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-                    },
-                    "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
-                    },
-                    "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/dunkin-donuts-and-coffee-k-g-marg-kapashera-rest19989",
-                      "text": "RESTAURANT_MENU",
-                      "type": "WEBLINK"
-                    },
-                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
-                  },
-                  {
-                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                    "info": {
-                      "id": "651212",
-                      "name": "McDonald's",
-                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/ba3c93cd-2af9-488a-acea-c833fdf5a342_651212.JPG",
-                      "locality": "ECE House",
-                      "areaName": "Kasturba Gandhi Marg",
-                      "costForTwo": "₹400 for two",
-                      "cuisines": [
-                        "American",
-                        "Fast Food"
-                      ],
-                      "avgRating": 4.5,
-                      "parentId": "630",
-                      "avgRatingString": "4.5",
-                      "totalRatingsString": "2.1K+",
-                      "sla": {
-                        "deliveryTime": 19,
-                        "lastMileTravel": 0.8,
-                        "serviceability": "SERVICEABLE",
-                        "slaString": "15-20 mins",
-                        "lastMileTravelString": "0.8 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                      },
-                      "availability": {
-                        "nextCloseTime": "2025-09-27 23:59:00",
-                        "opened": true
-                      },
-                      "badges": {
-                        "imageBadges": [
-                          {
-                            "imageId": "android/static-assets/icons/big_rx.png",
-                            "description": "bolt!"
-                          }
-                        ]
-                      },
-                      "isOpen": true,
-                      "type": "F",
-                      "badgesV2": {
-                        "entityBadges": {
-                          "imageBased": {
-                            "badgeObject": [
-                              {
-                                "attributes": {
-                                  "description": "bolt!",
-                                  "imageId": "android/static-assets/icons/big_rx.png"
-                                }
-                              }
-                            ]
-                          },
-                          "textBased": {
-
-                          },
-                          "textExtendedBadges": {
-
-                          }
-                        }
-                      },
-                      "aggregatedDiscountInfoV3": {
-                        "header": "ITEMS",
-                        "subHeader": "AT ₹117"
-                      },
-                      "orderabilityCommunication": {
-                        "title": {
-
-                        },
-                        "subTitle": {
-
-                        },
-                        "message": {
-
-                        },
-                        "customIcon": {
-
-                        }
-                      },
-                      "differentiatedUi": {
-                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-                        "differentiatedUiMediaDetails": {
-                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
-                          "lottie": {
-
-                          },
-                          "video": {
-
-                          }
-                        }
-                      },
-                      "reviewsSummary": {
-
-                      },
-                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-                      "restaurantOfferPresentationInfo": {
-
+                        
                       },
                       "externalRatings": {
                         "aggregatedRating": {
@@ -5111,10 +4651,329 @@ const data = {
                       "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
                     },
                     "analytics": {
-                      "context": "seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a"
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
                     },
                     "cta": {
-                      "link": "https://www.swiggy.com/city/delhi/mcdonalds-ece-house-kasturba-gandhi-marg-rest651212",
+                      "link": "https://www.swiggy.com/city/delhi/wefit-protein-bowls-salads-and-sandwiches-e-2-27-karol-bagh-rest857158",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                    "info": {
+                      "id": "940492",
+                      "name": "Baap Of Rolls",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/25/39485723-26c9-471f-8cc5-9101ffdb4038_940492.jpg",
+                      "locality": "Karol Bagh",
+                      "areaName": "Karol Bagh",
+                      "costForTwo": "₹249 for two",
+                      "cuisines": [
+                        "Rolls",
+                        "Snacks",
+                        "Momos",
+                        "Beverages",
+                        "Dessert",
+                        " Shawarma",
+                        "Biryani"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "14310",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "290",
+                      "sla": {
+                        "deliveryTime": 33,
+                        "lastMileTravel": 2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "2.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-09-30 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹105"
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/baap-of-rolls-karol-bagh-rest940492",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                    "info": {
+                      "id": "1158655",
+                      "name": "Popeyes",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/27/4fa54d4c-3705-4179-9766-59c2b9b4e78e_1158655.jpg",
+                      "locality": "CHANKYA PURI",
+                      "areaName": "Rajeev Chowk",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Fast Food",
+                        "Rolls & Wraps"
+                      ],
+                      "avgRating": 4.7,
+                      "parentId": "397044",
+                      "avgRatingString": "4.7",
+                      "totalRatingsString": "69",
+                      "sla": {
+                        "deliveryTime": 30,
+                        "lastMileTravel": 0.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "0.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-09-30 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹59"
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "isNewlyOnboarded": true,
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/popeyes-chankya-puri-rajeev-chowk-rest1158655",
+                      "text": "RESTAURANT_MENU",
+                      "type": "WEBLINK"
+                    },
+                    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                  },
+                  {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                    "info": {
+                      "id": "468003",
+                      "name": "Krishna Sweets",
+                      "cloudinaryImageId": "pa5tvosexybiliklrnum",
+                      "areaName": "Rama Mandi",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Sweets",
+                        "Snacks"
+                      ],
+                      "veg": true,
+                      "parentId": "120982",
+                      "avgRatingString": "--",
+                      "sla": {
+                        "deliveryTime": 32,
+                        "lastMileTravel": 3.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "3.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-09-30 21:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                            "description": "pureveg"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+                        
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "pureveg",
+                                  "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+                            
+                          },
+                          "textExtendedBadges": {
+                            
+                          }
+                        }
+                      },
+                      "orderabilityCommunication": {
+                        "title": {
+                          
+                        },
+                        "subTitle": {
+                          
+                        },
+                        "message": {
+                          
+                        },
+                        "customIcon": {
+                          
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                          "lottie": {
+                            
+                          },
+                          "video": {
+                            
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+                        
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+                        
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-a431f605-9bbd-4f3f-808d-4233382dc938"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/delhi/krishna-sweets-rama-mandi-rest468003",
                       "text": "RESTAURANT_MENU",
                       "type": "WEBLINK"
                     },
@@ -8204,7 +8063,7 @@ const data = {
             "lat": "28.63270",
             "lng": "77.21980",
             "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
-            "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-02c876a0-e641-43b2-b7ba-bd2853759c8a\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
+            "gandalfRequest": "{\"sortAttribute\":\"relevance\",\"isFiltered\":false,\"queryId\":\"seo-data-a431f605-9bbd-4f3f-808d-4233382dc938\",\"seoParams\":{\"apiName\":\"FoodHomePage\",\"brandId\":\"\",\"seoUrl\":\"www.swiggy.com\",\"pageType\":\"FOOD_HOME_PAGE\",\"businessLine\":\"FOOD\"}}",
             "id": "meta_data",
             "metaInfo": {
               "pageType": "FOOD_HOME_PAGE",
@@ -8232,9 +8091,9 @@ const data = {
     "cacheExpiryTime": 240,
     "nextFetch": 1
   },
-  "tid": "a8cb17ca-6da6-4e7a-8bb0-58eaf18831db",
-  "sid": "n3zc674f-6fdf-4338-9754-c35e576f936a",
+  "tid": "dd3b6d49-d3d3-4504-8167-a35210eab1b3",
+  "sid": "n5u16a0d-c71d-43ee-b374-992991055f3e",
   "deviceId": "1f5adb7a-bd1e-b6a5-1221-b6a3d0a851da",
-  "csrfToken": "Td2U6gmnMoeg-S_vZ4Btvs9WFiyp-SyLVLZIvDTU"
+  "csrfToken": "2j4jyYFPb3cH-jHDP3qCkkGeMyFpTrYpYWz7BA60"
 }
 export default data;

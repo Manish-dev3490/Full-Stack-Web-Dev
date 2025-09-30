@@ -1,14 +1,26 @@
 import { useState } from "react";
-import data from "../utils/mock";
 import Card from "./Card";
 import FilterRastaurants from "./FilterRastaurants";
+import { useEffect } from "react";
+import { swiggyApi } from "../utils/constData";
 
 // This is the Body level componnent for our application
 
 const Body = () => {
-  const restaurants = data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
-  const[value,setValue]=useState(restaurants);
-  
+  // state variables for our compnents
+  const [value, setValue] = useState([]);
+
+  // iske andar ka callback function will run after component will render
+  useEffect(() => {
+    fetchData()
+  }, [])
+
+  const fetchData = async function () {
+    const data = await fetch(swiggyApi);
+    const res = await data.json();
+    const restaurants = res.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
+    setValue(restaurants);
+  }
 
   return (
     <div className="body-container">
