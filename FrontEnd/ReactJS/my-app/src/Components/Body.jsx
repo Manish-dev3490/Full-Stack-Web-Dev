@@ -2,24 +2,20 @@ import { useState } from "react";
 import Card from "./Card";
 import FilterRastaurants from "./FilterRastaurants";
 import { useEffect } from "react";
-import { swiggyApi } from "../utils/constData";
+import fetchData from "../hooks/fetchData";
 
-// This is the Body level componnent for our application
 const Body = () => {
-  // state variables for our compnents
   const [value, setValue] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  // iske andar ka callback function will run after component will render
   useEffect(() => {
-    fetchData()
-  }, [])
-
-  const fetchData = async function () {
-    const data = await fetch(swiggyApi);
-    const res = await data.json();
-    const restaurants = res.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
-    setValue(restaurants);
-  }
+    const getData = async () => {
+      const data = await fetchData();
+      setValue(data);
+      setLoading(false);
+    };
+    getData();
+  }, []);
 
   return (
     <div className="body-container">
@@ -28,15 +24,19 @@ const Body = () => {
         <button className="srch-btn">Search</button>
         <FilterRastaurants value={value} setValue={setValue} />
       </div>
-      <div className="res-container">
-        <>
-          {
-            value.map((resCard) => {
-              return <Card key={resCard.info.id} resData={resCard.info} />
-            })
-          }
-        </>
+
+     <div className="res-container">
+        {loading ? (
+          <h2>Loading restaurants...</h2>
+        ) : value.length === 0 ? (
+          <h2>No restaurants found</h2>
+        ) : (
+          value.map((resCard) => (
+            <Card key={resCard.info.id} resData={resCard.info} />
+          ))
+        )}
       </div>
+
     </div>
   )
 }
