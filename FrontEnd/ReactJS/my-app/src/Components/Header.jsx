@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { headerLogo } from "../utils/constData";
 // This is the Header Component for our application
 
 const Header = () => {
+ const [status,setStatus]=useState("Login");
+ 
   return (
     <div className="header">
       <div className="logo-container">
@@ -18,7 +21,11 @@ const Header = () => {
           <li>About</li>
           <li>Contact</li>
           <li className="cart-area">Cart</li>
-          <button className="btn-login">Login</button>
+          <button className="btn-login" onClick={()=>{
+            if(status==="Login")setStatus("Logout");
+            else setStatus("Login");
+            
+          }}>{status}</button>
         </ul>
       </div>
     </div>
