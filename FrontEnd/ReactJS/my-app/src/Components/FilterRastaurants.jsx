@@ -1,7 +1,7 @@
 import data from "../utils/mock";
 import ReactDOM from 'react-dom/client'
 import Card from "./Card"
-// This is the component to filter the data
+
 function FilterRastaurants(props) {
     const {  setValue } = props
 

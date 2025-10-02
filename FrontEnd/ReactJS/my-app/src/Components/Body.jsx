@@ -5,7 +5,6 @@ import { useEffect } from "react";
 import { swiggyApi } from "../utils/constData";
 
 // This is the Body level componnent for our application
-
 const Body = () => {
   // state variables for our compnents
   const [value, setValue] = useState([]);
@@ -28,10 +27,7 @@ const Body = () => {
         <input className="search-area" type="text" placeholder="search your favourite restaurent" />
         <button className="srch-btn">Search</button>
         <FilterRastaurants value={value} setValue={setValue} />
-
       </div>
-
-
       <div className="res-container">
         <>
           {
@@ -44,5 +40,4 @@ const Body = () => {
     </div>
   )
 }
-
 export default Body
