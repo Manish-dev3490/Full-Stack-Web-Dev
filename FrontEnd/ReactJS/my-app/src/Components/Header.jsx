@@ -12,7 +12,7 @@ const Header = () => {
           src={headerLogo}
           alt="logo"
         />
-        <h1>Khaana Khao</h1>
+        <h1>Desi Dhaaba</h1>
       </div>
 
       <div className="navigation-bar">
