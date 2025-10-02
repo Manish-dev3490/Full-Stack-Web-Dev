@@ -3,6 +3,7 @@ import Card from "./Card";
 import FilterRastaurants from "./FilterRastaurants";
 import { useEffect } from "react";
 import { swiggyApi } from "../utils/constData";
+import Shimmer from "./Shimmer";
 
 // This is the Body level componnent for our application
 const Body = () => {
@@ -34,7 +35,7 @@ const Body = () => {
       </div>
       <div className="res-container">
         {value.length === 0 ? (
-          <h1>Data is loading...</h1>
+          <Shimmer/>
         ) : (
           value.map((resCard) => <Card key={resCard.info.id} resData={resCard.info} />
           )

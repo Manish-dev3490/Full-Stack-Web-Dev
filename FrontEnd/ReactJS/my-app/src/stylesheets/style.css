@@ -148,6 +148,26 @@
     flex-direction: column;
     gap: 5px;
 }
+/* styling for shimmer ui */
+.shimmer-ui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+.shimmer-card{
+    height: 250px;
+    width: 200px;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
 /* styling of the footer component */
 .footer {
     background-color: wheat;
