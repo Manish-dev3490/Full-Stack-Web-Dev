@@ -29,7 +29,7 @@ const Body = () => {
         <input
           className="search-area"
           type="text"
-          placeholder="search your favourite restaurent"
+          placeholder="search your favourite restaurant"
         />
         <button className="srch-btn">Search</button>
         <FilterRastaurants value={value} setValue={setValue} />
