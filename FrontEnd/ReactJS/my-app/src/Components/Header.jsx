@@ -17,9 +17,8 @@ const Header = () => {
           <li>Home</li>
           <li>About</li>
           <li>Contact</li>
-          <li className="cart-area">
-            Cart
-          </li>
+          <li className="cart-area">Cart</li>
+          <button className="btn-login">Login</button>
         </ul>
       </div>
     </div>

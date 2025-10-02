@@ -165,9 +165,17 @@
     border: 1px solid wheat;
     border-radius: 8px;
     padding-bottom: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: lightyellow;
 }
-
+.btn-login{
+        padding-block: 6px;
+    padding-inline: 15px;
+    font-size: 1rem;
+    /* border-radius: 0px; */
+    cursor: pointer;
+    background-color: lightyellow;
+    border-radius: 8px;
+}
 /* styling of the footer component */
 .footer {
     background-color: wheat;
