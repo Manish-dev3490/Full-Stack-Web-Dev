@@ -31,11 +31,8 @@ const Body = () => {
           placeholder="search your favourite restaurant"
           value={searchText}
           onChange={(e) => {
-            console.log(e.target.value);
-            
             setSearchText(e.target.value);
-          }}
-        />
+          }}/>
         <button
           className="srch-btn"
           onClick={() => {
@@ -44,13 +41,10 @@ const Body = () => {
                 .toLowerCase()
                 .includes(searchText.toLowerCase());
             });
-              
               setValue(filteredData);
-          }}
-        >
+          }} >
           Search
         </button>
-
         <FilterRastaurants value={value} setValue={setValue} />
       </div>
       <div className="res-container">
