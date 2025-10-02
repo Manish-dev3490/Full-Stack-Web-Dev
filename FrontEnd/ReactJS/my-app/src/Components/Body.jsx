@@ -18,7 +18,8 @@ const Body = () => {
   const fetchData = async function () {
     const data = await fetch(swiggyApi);
     const res = await data.json();
-    const restaurants = res.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
+    const restaurants =
+      res.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
     setValue(restaurants);
   };
 
@@ -34,11 +35,11 @@ const Body = () => {
         <FilterRastaurants value={value} setValue={setValue} />
       </div>
       <div className="res-container">
-        {value.length === 0 ? (
-          <Shimmer/>
-        ) : (
-          value.map((resCard) => <Card key={resCard.info.id} resData={resCard.info} />
-          )
+        {value.length === 0 ?<Shimmer />
+         : (
+          value.map((resCard) => (
+            <Card key={resCard.info.id} resData={resCard.info} />
+          ))
         )}
       </div>
     </div>
