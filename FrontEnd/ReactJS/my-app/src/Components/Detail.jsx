@@ -2,11 +2,18 @@ import React from 'react';
 import { useLocation } from 'react-router'; // make sure this is from 'react-router-dom'
 import Header from './Header';
 import { imgURL } from '../utils/constData';
+import { useEffect } from 'react';
+import Footer from "./Footer";
 
 function Detail() {
   const { state } = useLocation();
   const resData = state;
   
+
+  useEffect(()=>{
+
+  },[])
+
 
   if (!resData) {
     return <h2 style={{ textAlign: "center", marginTop: "50px" }}>No Restaurant Data Found!</h2>;
@@ -39,6 +46,7 @@ function Detail() {
           <p><strong>Open Now:</strong> {resData.isOpen ? "Yes ✅" : "No ❌"}</p>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 }
