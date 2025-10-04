@@ -1,11 +1,12 @@
 import { imgURL } from "../utils/constData";
-
+import {Link} from 'react-router'
 
 const Card = (props) => {
   const{ resData}=props;
   
   return (
-    <div className="res-card" >
+    <Link state={resData} to="/Detail" className="card-link">
+    <div className="res-card">
       <div className="card-desc" >
         <img src={imgURL+resData.cloudinaryImageId} alt="restaurants"/>
         <h3>{resData.costForTwo}</h3>
@@ -16,6 +17,7 @@ const Card = (props) => {
 
       </div>
     </div>
+    </Link>
   )
 }
 
