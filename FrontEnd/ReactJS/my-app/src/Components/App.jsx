@@ -8,17 +8,17 @@ import { createRoot } from 'react-dom/client'
 const App = () => {
     return (
         <div className="App-Comp">
-            <Header/>
-            <Body/>
-            <Footer/>
+            <Header />
+            <Body />
+            <Footer />
         </div>
     )
 }
 
 createRoot(document.getElementById('root')).render(
-
-    <App />
- 
+    <StrictMode>
+        <App />
+    </StrictMode>,
 )
 
 
