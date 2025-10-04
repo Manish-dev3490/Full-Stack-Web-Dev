@@ -2,17 +2,11 @@ import React from 'react';
 import { useLocation } from 'react-router'; // make sure this is from 'react-router-dom'
 import Header from './Header';
 import { imgURL } from '../utils/constData';
-import { useEffect } from 'react';
 import Footer from "./Footer";
 
 function Detail() {
   const { state } = useLocation();
   const resData = state;
-  
-
-  useEffect(()=>{
-
-  },[])
 
 
   if (!resData) {
@@ -24,10 +18,10 @@ function Detail() {
       <Header />
       <div className="detail-page">
         <div className="detail-left">
-          <img 
-            src={imgURL + resData.cloudinaryImageId} 
-            alt={resData.name} 
-            className="detail-image" 
+          <img
+            src={imgURL + resData.cloudinaryImageId}
+            alt={resData.name}
+            className="detail-image"
           />
         </div>
 
