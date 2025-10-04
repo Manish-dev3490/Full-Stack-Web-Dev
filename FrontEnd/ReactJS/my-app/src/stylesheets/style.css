@@ -46,6 +46,11 @@
     cursor: pointer;
 }
 
+.navigation-bar ul li a{
+   text-decoration: none;
+   color: black;
+}
+
 .logo-container h2 {
     font-size: 1.4rem;
     gap: 5px;

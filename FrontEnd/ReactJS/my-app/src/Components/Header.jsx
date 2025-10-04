@@ -18,7 +18,7 @@ const Header = () => {
 
       <div className="navigation-bar">
         <ul>
-          <li><Link to=''>Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/About">About</Link></li>
           <li><Link to="/Contact">Contact</Link></li>
           <li className="cart-area"><Link to="/Cart">Cart</Link></li>
