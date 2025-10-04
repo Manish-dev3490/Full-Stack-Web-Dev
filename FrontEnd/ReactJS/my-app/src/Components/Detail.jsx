@@ -6,6 +6,7 @@ import { imgURL } from '../utils/constData';
 function Detail() {
   const { state } = useLocation();
   const resData = state;
+  
 
   if (!resData) {
     return <h2 style={{ textAlign: "center", marginTop: "50px" }}>No Restaurant Data Found!</h2>;
