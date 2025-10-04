@@ -12,7 +12,7 @@ function Detail() {
 
   useEffect(()=>{
     fetchmenu();
-  }[])
+  },[])
 
   const fetchmenu=async ()=>{
     const data=await fetch(`https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.5376318&lng=77.2282863&restaurantId=${resData.id}&catalog_qa=undefined&query=Noodles&submitAction=ENTER`);
