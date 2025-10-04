@@ -1,26 +1,36 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
-    display: flex;
-    align-items: center;
-    background-color: lightsalmon;
-    justify-content: space-between;
-    padding-inline: 1.5rem;
-    height: 5rem;
+  display: flex;
+  align-items: center;
+  background-color: lightsalmon;
+  justify-content: space-between;
+  padding-inline: 1.5rem;
+  height: 5rem;
 }
 
 .navigation-bar ul {
-    display: flex;
-    gap: 1.8rem;
-    font-size: 1.4rem;
-    align-items: center;
+  display: flex;
+  gap: 1.8rem;
+  font-size: 1.4rem;
+  align-items: center;
 }
 
 .navigation-bar ul li {
-    list-style: none;
-    cursor: pointer;
+  list-style: none;
+  cursor: pointer;
+}
+.navigation-bar a {
+  text-decoration: none;
+  color: inherit; /* header ka hi color use hoga */
+}
+
+.navigation-bar li {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
 }

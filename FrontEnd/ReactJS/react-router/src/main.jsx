@@ -9,6 +9,8 @@ import About from "./components/About.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
+
+    
       <Routes>
         <Route path="/" element={<App></App>}></Route>
         <Route path="/Home" element={<Home/>}></Route>

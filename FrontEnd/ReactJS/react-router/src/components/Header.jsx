@@ -1,24 +1,25 @@
 import { useState } from "react";
-// This is the Header Component for our application
+import { Link } from "react-router";  // ✅ v7 me react-router se hi
 
 const Header = () => {
- const [status,setStatus]=useState("Login");
- 
+  const [status, setStatus] = useState("Login");
+
   return (
     <div className="header">
-        <h1>Learning React Router</h1>
-     
+      <h1>Learning React Router</h1>
+
       <div className="navigation-bar">
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><Link to="/Home">Home</Link></li>
+          <li><Link to="/About">About</Link></li>
+          <li><Link to="/Contact">Contact</Link></li>
           <li className="cart-area">Cart</li>
-          <button className="btn-login" onClick={()=>{
-            if(status==="Login")setStatus("Logout");
-            else setStatus("Login");
-            
-          }}>{status}</button>
+          <button
+            className="btn-login"
+            onClick={() => setStatus(status === "Login" ? "Logout" : "Login")}
+          >
+            {status}
+          </button>
         </ul>
       </div>
     </div>
