@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: lightsalmon;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    height: 5rem;
+}
+
+.navigation-bar ul {
+    display: flex;
+    gap: 1.8rem;
+    font-size: 1.4rem;
+    align-items: center;
+}
+
+.navigation-bar ul li {
+    list-style: none;
+    cursor: pointer;
+}

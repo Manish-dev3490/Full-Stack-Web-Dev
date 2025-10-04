@@ -1,9 +1,12 @@
+import Header from "./components/Header"
+
 // this is our app component
 function App() {
 
   return (
     <>
-   <h1>Learning React Router </h1>
+    
+    <Header></Header>
     </>
   )
 }
