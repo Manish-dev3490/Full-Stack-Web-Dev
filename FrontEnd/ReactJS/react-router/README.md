@@ -1,0 +1,2 @@
+## React Router : So react router is a library which is used to create routing in our application.we need it because in js application we have multiple webpages assume we have a plpication that have header in header nav bar there are multiple home conatct about help page and unpe click krte hee reload hota hai page aur naya content aajata hai that is called multi page application.But in react we have only single page application jisme ek hee html file hoti hai baki hum js ka use krke files me content change krte hai and now we are going to learn routing.
+
