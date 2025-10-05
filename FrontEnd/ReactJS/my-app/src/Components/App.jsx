@@ -1,6 +1,5 @@
 import Header from "./Header";
 import Body from "./Body";
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router";
 import About from "./About";
@@ -22,7 +21,7 @@ const App = () => {
 }
 
 createRoot(document.getElementById('root')).render(
-    <StrictMode>
+   
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App></App>}></Route>
@@ -33,7 +32,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/Cart" element={<Cart></Cart>}></Route>
             </Routes>
         </BrowserRouter>
-    </StrictMode>,
+    
 )
 
 

@@ -346,15 +346,15 @@
 .map-section iframe {
   border-radius: 10px;
 }
-.detail-page {
+.detail-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   padding: 40px;
-  gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  height: 100vh;
+  gap: 40px;
+  min-height: 80vh;
 }
 
 .detail-left {
@@ -367,36 +367,72 @@
   width: 100%;
   max-width: 400px;
   border-radius: 16px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
 }
 
 .detail-right {
   flex: 2;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 10px 20px;
-  background: #f8f8f8;
-  border-radius: 16px;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  gap: 12px;
 }
 
-.detail-right h1 {
-  margin-bottom: 10px;
-  font-size: 28px;
-  color: #333;
+.detail-title {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.detail-right p {
-  font-size: 16px;
+.detail-cuisines {
+  font-size: 1rem;
   color: #555;
 }
 
-.offer {
-  background: #ffe6cc;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-weight: 600;
-  color: #cc6600;
-  width: fit-content;
+.detail-area {
+  font-size: 1rem;
+  color: #666;
+}
+
+.detail-rating {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.detail-cost {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.detail-offer {
+  font-size: 1rem;
+  color: green;
+  font-weight: bold;
+}
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.spinner {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner-container p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
 }

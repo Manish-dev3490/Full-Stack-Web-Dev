@@ -1,51 +1,79 @@
 import React from 'react';
-import { useParams } from 'react-router'; // make sure this is from 'react-router-dom'
+import { useParams } from 'react-router'; 
 import Header from './Header';
-import { imgURL } from '../utils/constData';
 import Footer from "./Footer";
+import { imgURL } from '../utils/constData';
+import useDetail from '../hooks/useDetail';
 
 function Detail() {
-  const {id}=useParams();
-  
+  const { id } = useParams();
+  const resData = useDetail(id);
 
-const resData=null;
-
+  // 🌀 LOADING STATE (Jab resData null ho)
   if (!resData) {
     return (
       <>
-      <Header></Header>
-      <h2 style={{ textAlign: "center", marginTop: "50px" }}>No Restaurant Data Found!</h2>;
+        <Header />
+        <div className="spinner-container">
+          <div className="spinner"></div>
+          <p>Loading restaurant details...</p>
+        </div>
       </>
-    )
+    );
   }
+
+  const info = resData.data.cards[2].card.card.info;
+
   return (
     <>
       <Header />
-      <div className="detail-page">
+      <div className="detail-container">
+        {/* LEFT SIDE - IMAGE */}
         <div className="detail-left">
           <img
-            src={imgURL + resData.cloudinaryImageId}
-            alt={resData.name}
+            src={`${imgURL}${info.cloudinaryImageId}`}
+            alt={info.name}
             className="detail-image"
           />
         </div>
+
+        {/* RIGHT SIDE - TEXT DATA */}
         <div className="detail-right">
-          <h1>{resData.name}</h1>
-          <p><strong>Cuisines:</strong> {resData.cuisines.join(", ")}</p>
-          <p><strong>Cost for Two:</strong> {resData.costForTwo}</p>
-          <p><strong>Rating:</strong> ⭐ {resData.avgRating} ({resData.totalRatingsString} ratings)</p>
-          <p><strong>Location:</strong> {resData.locality}, {resData.areaName}</p>
-          <p><strong>Delivery Time:</strong> {resData.sla.slaString}</p>
-          {resData.aggregatedDiscountInfoV3 && (
-            <p className="offer">
-              <strong>Offer:</strong> {resData.aggregatedDiscountInfoV3.header} {resData.aggregatedDiscountInfoV3.subHeader}
-            </p>
+          <h1 className="detail-title">{info.name}</h1>
+          <p className="detail-cuisines">{info.cuisines.join(', ')}</p>
+          <p className="detail-area">
+            📍 {info.locality}, {info.areaName}
+          </p>
+
+          <div className="detail-stats">
+            <span>⭐ {info.avgRatingString} ({info.totalRatingsString})</span>
+            <span>🕒 {info.sla?.deliveryTime} mins</span>
+            <span>💰 {info.costForTwoMessage}</span>
+          </div>
+
+          {info.city && <p className="detail-city">🏙️ City: {info.city}</p>}
+          {info.type && <p className="detail-type">🍽️ Type: {info.type}</p>}
+
+          {info.aggregatedDiscountInfoV2?.header && (
+            <div className="detail-offer">
+              <h3>🔥 {info.aggregatedDiscountInfoV2.header}</h3>
+            </div>
           )}
-          <p><strong>Open Now:</strong> {resData.isOpen ? "Yes ✅" : "No ❌"}</p>
+
+          {info.expectationNotifiers?.length > 0 && (
+            <div className="detail-notifiers">
+              <h4>ℹ️ Extra Info</h4>
+              {info.expectationNotifiers.map((notifier, index) => (
+                <p key={index}>{notifier.enrichedText || notifier.text}</p>
+              ))}
+            </div>
+          )}
         </div>
       </div>
-      <Footer></Footer>
+
+      <Footer />
     </>
   );
 }
+
 export default Detail;
