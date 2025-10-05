@@ -1,25 +1,28 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Card from "./Card";
 import FilterRastaurants from "./FilterRastaurants";
-import { swiggyApi } from "../utils/constData";
 import Shimmer from "./Shimmer";
+import useBody from "../hooks/useBody";
 
 const Body = () => {
-  const [value, setValue] = useState([]);
-  const [localValue, setLocalValue] = useState([]);
+  const bodyData = useBody(); // original data from API
+  const [displayData, setDisplayData] = useState(null); // 👈 UI ke liye state
   const [searchText, setSearchText] = useState("");
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // ✅ Jaise hi bodyData aayega, displayData me copy kar dena
+  // isko direct render ke andar check karke update na karo warna infinite loop ho jayega
+  if (bodyData && displayData === null) {
+    setDisplayData(bodyData);
+  }
 
-  const fetchData = async function () {
-    const data = await fetch(swiggyApi);
-    const res = await data.json();
-    const restaurants =
-      res.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
-    setValue(restaurants);
-    setLocalValue(restaurants);
+  const handleSearch = () => {
+    if (!bodyData) return;
+
+    const filteredData = bodyData.filter((resCard) =>
+      resCard.info.name.toLowerCase().includes(searchText.toLowerCase())
+    );
+
+    setDisplayData(filteredData); // 👈 UI me filter apply ho jayega
   };
 
   return (
@@ -28,30 +31,23 @@ const Body = () => {
         <input
           className="search-area"
           type="text"
-          placeholder="search your favourite restaurant"
+          placeholder="Search your favourite restaurant"
           value={searchText}
-          onChange={(e) => {
-            setSearchText(e.target.value);
-          }}/>
-        <button
-          className="srch-btn"
-          onClick={() => {
-            const filteredData = localValue.filter((resCard) => {
-              return resCard.info.name
-                .toLowerCase()
-                .includes(searchText.toLowerCase());
-            });
-              setValue(filteredData);
-          }} >
+          onChange={(e) => setSearchText(e.target.value)}
+        />
+        <button className="srch-btn" onClick={handleSearch}>
           Search
         </button>
-        <FilterRastaurants value={value} setValue={setValue} />
+        <FilterRastaurants value={displayData} setValue={setDisplayData} />
       </div>
+
       <div className="res-container">
-        {value.length === 0 ? (
+        {!displayData ? (
           <Shimmer />
+        ) : displayData.length === 0 ? (
+          <p>No restaurants found 😔</p>
         ) : (
-          value.map((resCard) => (
+          displayData.map((resCard) => (
             <Card key={resCard.info.id} resData={resCard.info} />
           ))
         )}
@@ -59,4 +55,5 @@ const Body = () => {
     </div>
   );
 };
+
 export default Body;
