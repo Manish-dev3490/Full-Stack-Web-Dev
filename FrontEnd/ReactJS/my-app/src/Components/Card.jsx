@@ -5,7 +5,7 @@ const Card = (props) => {
   const{ resData}=props;
   
   return (
-    <Link state={resData} to="/Detail" className="card-link">
+    <Link  to={`/Detail/${resData.id}`} className="card-link">
     <div className="res-card">
       <div className="card-desc" >
         <img src={imgURL+resData.cloudinaryImageId} alt="restaurants"/>

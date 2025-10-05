@@ -1,22 +1,22 @@
 import React from 'react';
-import { useLocation } from 'react-router'; // make sure this is from 'react-router-dom'
+import { useParams } from 'react-router'; // make sure this is from 'react-router-dom'
 import Header from './Header';
 import { imgURL } from '../utils/constData';
 import Footer from "./Footer";
-import { useEffect } from 'react';
-import fetchmenu from '../hooks/useFetchMenu';
 
 function Detail() {
-  const { state } = useLocation();
-  const resData = state;
+  const {id}=useParams();
+  
 
-
-  useEffect(()=>{
-    fetchmenu(resData.id);
-  },[])
+const resData=null;
 
   if (!resData) {
-    return <h2 style={{ textAlign: "center", marginTop: "50px" }}>No Restaurant Data Found!</h2>;
+    return (
+      <>
+      <Header></Header>
+      <h2 style={{ textAlign: "center", marginTop: "50px" }}>No Restaurant Data Found!</h2>;
+      </>
+    )
   }
   return (
     <>
