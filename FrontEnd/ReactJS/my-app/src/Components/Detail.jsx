@@ -4,6 +4,7 @@ import Header from './Header';
 import { imgURL } from '../utils/constData';
 import Footer from "./Footer";
 import { useEffect } from 'react';
+import fetchmenu from '../hooks/useFetchMenu';
 
 function Detail() {
   const { state } = useLocation();
@@ -11,15 +12,8 @@ function Detail() {
 
 
   useEffect(()=>{
-    fetchmenu();
+    fetchmenu(resData.id);
   },[])
-
-  const fetchmenu=async ()=>{
-    const data=await fetch(`https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.5376318&lng=77.2282863&restaurantId=${resData.id}&catalog_qa=undefined&query=Noodles&submitAction=ENTER`);
-    const json= await  data.json();
-    console.log(json);
-    
-  }
 
   if (!resData) {
     return <h2 style={{ textAlign: "center", marginTop: "50px" }}>No Restaurant Data Found!</h2>;
