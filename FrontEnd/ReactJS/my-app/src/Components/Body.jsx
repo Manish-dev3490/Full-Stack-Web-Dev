@@ -3,6 +3,7 @@ import Card from "./Card";
 import FilterRastaurants from "./FilterRastaurants";
 import Shimmer from "./Shimmer";
 import useBody from "../hooks/useBody";
+import useOnlineStatus from '../hooks/useOnlineStatus'
 
 const Body = () => {
   const bodyData = useBody(); // original data from API
@@ -13,7 +14,17 @@ const Body = () => {
     setDisplayData(bodyData);
   }
 
-  return (
+
+  const state=useOnlineStatus();
+  console.log(state);
+  
+  if(state===false){
+    return (
+      <><h1>You are not online !! please check your internet connection </h1></>
+    )
+  }
+
+  return  (
     <div className="body-container">
       <div className="search-bar">
         <input
