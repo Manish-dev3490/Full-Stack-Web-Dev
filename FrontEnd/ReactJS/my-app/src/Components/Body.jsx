@@ -40,9 +40,7 @@ const Body = () => {
       <div className="res-container">
         {!displayData ? (
           <Shimmer />
-        ) : displayData.length === 0 ? (
-          <p>No restaurants found 😔</p>
-        ) : (
+        )  : (
           displayData.map((resCard) => (
             <Card key={resCard.info.id} resData={resCard.info} />
           ))
