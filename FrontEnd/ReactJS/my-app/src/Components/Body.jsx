@@ -14,9 +14,7 @@ const Body = () => {
     setDisplayData(bodyData);
   }
 
-
   const state=useOnlineStatus();
-  console.log(state);
   
   if(state===false){
     return (

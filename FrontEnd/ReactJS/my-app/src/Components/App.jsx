@@ -3,11 +3,12 @@ import Body from "./Body";
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router";
 import About from "./About";
-import Contact from "./Contact";
 import Cart from "./Cart";
 import NotFound from "./NotFound";
 import Detail from "./Detail";
 import Footer from "./Footer";
+import Contact from "./Contact"
+
 
 // This is our App level component all the other sub component will be inside it 
 const App = () => {
