@@ -8,6 +8,7 @@ import useDetail from '../hooks/useDetail';
 function Detail() {
   const { id } = useParams();
   const resData = useDetail(id);
+  
 
   // 🌀 LOADING STATE (Jab resData null ho)
   if (!resData) {
