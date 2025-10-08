@@ -51,6 +51,9 @@ const Body = () => {
           <Shimmer />
         )  : (
           displayData.map((resCard) => (
+
+
+            // if rescard has discount toh higher order component k render
             <Card key={resCard.info.id} resData={resCard.info} />
           ))
         )}
