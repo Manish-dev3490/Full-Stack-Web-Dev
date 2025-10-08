@@ -4,25 +4,27 @@ import FilterRastaurants from "./FilterRastaurants";
 import Shimmer from "./Shimmer";
 import useBody from "../hooks/useBody";
 import useOnlineStatus from '../hooks/useOnlineStatus'
+import { DiscountedCard } from "./Card";
 
 const Body = () => {
   const bodyData = useBody(); // original data from API
   const [displayData, setDisplayData] = useState(null); // 👈 UI ke liye state
   const [searchText, setSearchText] = useState("");
+  const enhancedCard = DiscountedCard(Card);
 
   if (bodyData && displayData === null) {
     setDisplayData(bodyData);
   }
 
-  const state=useOnlineStatus();
-  
-  if(state===false){
+  const state = useOnlineStatus();
+
+  if (state === false) {
     return (
       <><h1>You are not online !! please check your internet connection </h1></>
     )
   }
 
-  return  (
+  return (
     <div className="body-container">
       <div className="search-bar">
         <input
@@ -49,13 +51,17 @@ const Body = () => {
       <div className="res-container">
         {!displayData ? (
           <Shimmer />
-        )  : (
-          displayData.map((resCard) => (
+        ) : (
+          displayData.map((resCard) => {
+            const ComponentToRender = resCard.info.aggregatedDiscountInfoV3.discountTag
+              ? enhancedCard
+              : Card;
 
+              console.log(ComponentToRender);
+              
+            return <ComponentToRender key={resCard.info.id} resData={resCard.info} />;
+          })
 
-            // if rescard has discount toh higher order component k render
-            <Card key={resCard.info.id} resData={resCard.info} />
-          ))
         )}
       </div>
     </div>

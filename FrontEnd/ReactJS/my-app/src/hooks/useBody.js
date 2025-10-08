@@ -11,9 +11,7 @@ const useBody=()=>{
   const fetchData=async ()=>{
     const data = await fetch(swiggyApi);
     const res = await data.json();
-    const restaurants =res.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
-    console.log(restaurants);
-    
+    const restaurants =res.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;    
     setBodyData(restaurants);
   }
 
