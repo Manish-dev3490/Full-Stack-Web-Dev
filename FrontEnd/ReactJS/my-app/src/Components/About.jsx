@@ -3,11 +3,12 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 
+
 function About() {
   return (
     <>
       <Header />
-      <div className="about-page">
+      <div className="about-page  ">
         <h1>About Desi Dhaba</h1>
         
         <p>

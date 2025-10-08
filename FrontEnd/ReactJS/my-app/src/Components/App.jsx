@@ -8,7 +8,6 @@ import Detail from "./Detail";
 import Footer from "./Footer";
 import Contact from "./Contact";
 import { Suspense, lazy } from "react";
-
 const About = lazy(() => import("./About")); // ✅ fixed
 
 // App Component
