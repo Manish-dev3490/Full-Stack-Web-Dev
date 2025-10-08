@@ -25,9 +25,10 @@ const Card = (props) => {
  export const DiscountedCard=(Rescard)=>{
 
   return function(props){
+    
     return (
       <div className="dd">
-      <h2>Discount</h2>
+      <h2>{props.resData.aggregatedDiscountInfoV3.header}</h2>
 
       <Rescard  {...props}/>
       </div>

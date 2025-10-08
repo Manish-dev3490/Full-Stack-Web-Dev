@@ -123,6 +123,7 @@
 
 /* styling of the card*/
 .card-link{
+  position: relative;
   text-decoration: none;
   color: black;
 }
@@ -440,4 +441,15 @@
 .dd{
       text-align: center;
       height: 350px;
+}
+.dd h2{
+  position: absolute;
+    left: 62%;
+    top: 26%;
+    background-color: lightsalmon;
+    padding-inline: 10px;
+    padding-block: 7px;
+    border-radius: 10px;
+
+
 }
