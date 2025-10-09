@@ -24,10 +24,18 @@ function Detail() {
     );
   }
 
-  const categories = resData.data.cards[4].groupedCard.cardGroupMap.REGULAR;
-  console.log(categories);
-  
+
+
   const info = resData.data.cards[2].card.card.info;
+  const categories = resData.data.cards[4].groupedCard.cardGroupMap.REGULAR;
+  
+  const filteredCategory = categories.cards.filter(
+    (category) =>
+      category?.card?.card?.['@type'] ===
+      'type.googleapis.com/swiggy.presentation.food.v2.ItemCategory' ||
+      category?.card?.card?.['@type'] ===
+      'type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory'
+  );
 
   return (
     <>
@@ -78,9 +86,9 @@ function Detail() {
 
       {/* recommednded sextion for making acordions */}
       <div className='category'>
-        {/* {categories.map((category) => {
-          return <RastaurantCategory key={category?.card?.info?.id} data={category} />
-        })} */}
+        {filteredCategory.map((category) => {
+          return <RastaurantCategory data={category} />
+        })}
       </div>
 
       <Footer />
