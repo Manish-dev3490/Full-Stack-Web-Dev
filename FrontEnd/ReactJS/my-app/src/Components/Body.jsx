@@ -57,7 +57,6 @@ const Body = () => {
               ? enhancedCard
               : Card;
 
-              console.log(ComponentToRender);
               
             return <ComponentToRender key={resCard.info.id} resData={resCard.info} />;
           })

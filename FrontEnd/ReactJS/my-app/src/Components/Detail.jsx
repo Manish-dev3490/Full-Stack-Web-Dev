@@ -1,14 +1,15 @@
 import React from 'react';
-import { useParams } from 'react-router'; 
+import { useParams } from 'react-router';
 import Header from './Header';
 import Footer from "./Footer";
 import { imgURL } from '../utils/constData';
 import useDetail from '../hooks/useDetail';
+import RastaurantCategory from './RastaurantCategory';
 
 function Detail() {
   const { id } = useParams();
   const resData = useDetail(id);
-  
+
 
   // 🌀 LOADING STATE (Jab resData null ho)
   if (!resData) {
@@ -23,6 +24,9 @@ function Detail() {
     );
   }
 
+  const categories = resData.data.cards[4].groupedCard.cardGroupMap.REGULAR;
+  console.log(categories);
+  
   const info = resData.data.cards[2].card.card.info;
 
   return (
@@ -70,6 +74,13 @@ function Detail() {
             </div>
           )}
         </div>
+      </div>
+
+      {/* recommednded sextion for making acordions */}
+      <div className='category'>
+        {/* {categories.map((category) => {
+          return <RastaurantCategory key={category?.card?.info?.id} data={category} />
+        })} */}
       </div>
 
       <Footer />
