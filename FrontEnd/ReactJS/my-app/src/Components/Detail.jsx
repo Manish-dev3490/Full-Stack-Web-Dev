@@ -27,7 +27,7 @@ function Detail() {
 
 
   const info = resData.data.cards[2].card.card.info;
-  const categories = resData.data.cards[4].groupedCard.cardGroupMap.REGULAR;
+  const categories = resData.data.cards[4]?.groupedCard.cardGroupMap.REGULAR;
   
   const filteredCategory = categories.cards.filter(
     (category) =>
@@ -36,6 +36,8 @@ function Detail() {
       category?.card?.card?.['@type'] ===
       'type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory'
   );
+  console.log(filteredCategory);
+  
 
   return (
     <>
@@ -87,7 +89,7 @@ function Detail() {
       {/* recommednded sextion for making acordions */}
       <div className='category'>
         {filteredCategory.map((category) => {
-          return <RastaurantCategory data={category} />
+          return <RastaurantCategory key={category.card.card.categoryId} data={category} />
         })}
       </div>
 
