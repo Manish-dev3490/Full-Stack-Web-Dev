@@ -16,7 +16,7 @@ function RastaurantCategory({ data }) {
       </div>
 
       {/* Accordion Body */}
-      {isOpen && (
+      {isOpen? (
         <div className="ras-body">
           {items.length > 0 ? (
             <ul>
@@ -50,7 +50,7 @@ function RastaurantCategory({ data }) {
             <p className="no-items">No items available</p>
           )}
         </div>
-      )}
+      ):<></>}
     </div>
   );
 }
