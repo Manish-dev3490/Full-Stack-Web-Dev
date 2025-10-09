@@ -53,7 +53,7 @@ const Body = () => {
           <Shimmer />
         ) : (
           displayData.map((resCard) => {
-            const ComponentToRender = resCard.info.aggregatedDiscountInfoV3.discountTag
+            const ComponentToRender = resCard.info.aggregatedDiscountInfoV3?.discountTag
               ? enhancedCard
               : Card;
 
