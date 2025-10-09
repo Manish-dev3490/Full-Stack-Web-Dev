@@ -12,7 +12,7 @@ function RastaurantCategory({ data }) {
       {/* Accordion Header */}
       <div className="ras-header" onClick={() => setIsOpen(!isOpen)}>
         <h2>{title}</h2>
-        <span>{isOpen ? '−' : '+'}</span>
+        <span>{isOpen ? '➖' : '➕'}</span>
       </div>
 
       {/* Accordion Body */}
