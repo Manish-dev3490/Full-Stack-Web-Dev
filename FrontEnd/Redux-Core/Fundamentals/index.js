@@ -52,6 +52,5 @@ reduxState=reducer(reduxState,{type:'count/increaseBy',payload:50});
 console.log(reduxState);
 }
 
-
 reduxMechanism()
 
