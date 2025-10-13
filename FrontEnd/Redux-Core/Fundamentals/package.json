@@ -2,7 +2,6 @@
   "name": "fundamentals",
   "version": "1.0.0",
   "description": "1 store - hota hai jisme pure application ki states rakhte hai alag alag block me slices bol do.\r 2 Reducer function - yeh ek function hai jiski help se states ko update kiya jaata hai directy update nahi ho skti state isme.\r 3 subscribe-Notify that states has changed isko bhi samjhengey.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +9,8 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "redux": "^5.0.1"
   }
 }
