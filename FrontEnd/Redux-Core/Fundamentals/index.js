@@ -28,3 +28,5 @@ store.subscribe(()=>{
 store.dispatch({type:'count/increase',payload:undefined});
 store.dispatch({type:'count/increase',payload:undefined});
 store.dispatch({type:'count/increase',payload:undefined});
+store.dispatch({type:'count/increaseBy',payload:500});
+
