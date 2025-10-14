@@ -11,12 +11,12 @@ let initialState={
 
 // Creating the reducer function
 function reducer(state=initialState,action){
-
-
+return state;
 }
 
 
 
 
-
-const Store=legacy_createStore(reducer,initialState)
+// this is the store we are creating with the functin which is given us byb the redux library
+const Store=legacy_createStore(reducer,initialState,window.__REDUX_DEVTOOLS_EXTENSION__?.());
+console.log(Store.getState())
