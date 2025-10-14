@@ -1,6 +1,6 @@
 // This is the createStore function which redux offers us we are creating our own redux library
 const createStore = (reducer,initialState) => {
-  let state=initialState;
+  let state=undefined;
   return {
     getState: () => {
       return state;
