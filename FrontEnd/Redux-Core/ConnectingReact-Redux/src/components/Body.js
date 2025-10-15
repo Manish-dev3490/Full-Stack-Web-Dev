@@ -2,8 +2,8 @@ import React from "react";
 import Card from "./Card";
 import {useSelector} from "react-redux"
 const Body = () => {
-  const countValue=useSelector((state)=>state?.count);
-  console.log(countValue);
+  const products=useSelector((state)=>state?.products);
+  console.log(products);
   
 
   return (
@@ -19,7 +19,11 @@ const Body = () => {
       }}
     >
       {/* Sample product cards (tu baad me map() lagayega yahan) */}
-      <Card/>
+      {
+        products?.map((productItem)=>{
+          return <Card key={productItem.id} data={productItem}/>
+        })
+      }
     </main>
   );
 };
