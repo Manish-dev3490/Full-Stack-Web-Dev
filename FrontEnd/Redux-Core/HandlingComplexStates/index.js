@@ -12,8 +12,8 @@ const CartItemQunatityIncrease = 'cart/IncreaseQuantity';
 
 // This is where we are combining all the reducers and passing it to the store
 const reducer=combineReducers({
-    productList:ProductReducer,
-    wishList:wishlistReducer,
+    productLists:ProductReducer,
+    wishLists:wishlistReducer,
     cartItems:Cartreducer
 })
 
