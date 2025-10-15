@@ -6,6 +6,7 @@ import products from "./mockdata";
 
 // Creating the reducer function for the cartItems
  export default function ProductReducer(state = products, action) {
+    console.log("productReduer is called");
     
     return state;
 }

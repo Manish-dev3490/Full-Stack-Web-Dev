@@ -3,6 +3,7 @@
 
 // Creating the reducer function for the wishList
  export default function wishlistReducer(state = [], action) {
+    console.log("wishListReduer is called");
     
     return state;
 }

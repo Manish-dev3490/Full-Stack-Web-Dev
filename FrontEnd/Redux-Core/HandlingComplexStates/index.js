@@ -17,7 +17,6 @@ const reducer=combineReducers({
     cartItems:Cartreducer
 })
 
-console.log(reducer);
 
 
 

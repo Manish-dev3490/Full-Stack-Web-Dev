@@ -10,6 +10,8 @@ const CartItemQunatityIncrease = 'cart/IncreaseQuantity';
 
 // Creating the reducer function for the cartItems
  export default function Cartreducer(state = [], action) {
+    console.log("cartReduer is called");
+
     if (action.type === Addcart) {
         return [...state,action.payload];
     }
