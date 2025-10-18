@@ -1,0 +1,4 @@
+## Introduction to redux -> Redux is a state management library which is used to prevent us from props drilling and lifitng the state up in react we have context api but when our application becomes huge it becaome very complex to manages state with context api thatstwhy we need a state management library which we have choosen redux.
+
+
+## Flow of redux-> flow of the redux is we make a store in redux jisme hamari state hoti hai pure application ki but we dont have access to those state from outside because mistakes hone ke wajah se so store ko humko ek function paas karnba padta hai jisme har states ko update krne ka logic hota hai usko reducer bolte hai hum sab kuch dekhege.aur store ke andar jitni states hongi sbke liye ek alag reducer banta hai vrna code bekar hgojata hai.
