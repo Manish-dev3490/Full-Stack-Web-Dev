@@ -1,8 +1,0 @@
-## Introduction to Redux Fundamentals-we are going to learn redux now i have understood and learned html css js and react now i am going to learn state management library because in context api react when app becomes large it becaome very complex to manage state.so thatswhy we need a proper centralized state management library which is redux.
-
-## Redux at high Level : Redux is a state management library in which there are some part lets look at the following parts :
-
-1 store - hota hai jisme pure application ki states rakhte hai alag alag block me slices bol do.
-2 Reducer function - yeh ek function hai jiski help se states ko update kiya jaata hai directy update nahi ho skti state isme.
-3 subscribe-Notify that states has changed isko bhi samjhengey.
-
