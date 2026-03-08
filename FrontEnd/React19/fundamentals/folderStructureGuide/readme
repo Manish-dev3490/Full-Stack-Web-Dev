@@ -4,3 +4,9 @@
 
 
 ## Now we have understood why do we even need the bundler bundler kya kya kaam karta hai and there are diffrent types of bundler exist in the market like vite,parcel,create-react-app,webpack and many more but vite is dominating all the other bundlers so we are going to study bundler in this course.
+
+## So lets get react,reactDOM,babel,vite into our project manually vese ek command me sab khud hojata hai lekin lets do manually first of all npm int kro NPM->it works as node package manager ek repositry hai jisme js ki saari libraries ka code hai vaha se laana pdega humko through commands usse pehle npm init kro woh ek package,json file install krega which manages all the library which our project needs and unke approx version hamara app ka version,start krne ki command,test krne ki command,production build krne ki command,entry point of the app yeh sab rakhta hai packge.json.
+
+## Dependancy : dependancies ar the libraries which our application needs like react,reactDOM,.babel yeh sab depandancy hai but vite is devDepandancy the diffrence between them is normal depandancy production me hoti hai jese react reactDOM ka code but vite ka kaam hai hamaro faster dev experince dena building ke time par + dev build deta hai faster + code ko inified compressed optimization commens remove krke html css js and dependies ko bundle krke ek dev build deta hai during the development time but production me iska kuch kaam nahi hota .
+
+## Package-lock.json: It is a files jo jo transitive depandancy hai depandancy chianing un sbke exact version lock krke rakhta hai unke baare me information rakhta hai. 
