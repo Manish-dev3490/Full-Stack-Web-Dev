@@ -1,0 +1,5 @@
+## Need of JSX,babel-->So we were creating elements through react.createElement but that was very tough and hectic syntax to maintain such large application so here we need a mecahnism to create elment with easy syntax thats where jsx and babel came into the picture lets understand these concepts in very depth.
+
+## Explaining JSX And babel-->So when we used to create react element through the react.createElement() method if app is small so there were no problem but when our app used to grow it becaoes very tough to manage code because that was not readable at all so at this time we neeed a new mechanism to create react element than meta enginers came up with the jsx as alternative to react.createElement.
+
+Its just a html like syntax jiske thorugh hum elem bana skte hai but our js engine does not understand jsx so uske liye ek engine banaya babel jo jsx ko as a input lega and usko convert kardega react.createElement vaale syntax me and yeh method virtual dom create krke dega which shows the blueprint of our element and then reactDOM ko woh element denge virtual dom then real dom element bnagea and dom me apend hoga this was the whole cycle
