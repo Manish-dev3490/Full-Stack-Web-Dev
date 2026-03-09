@@ -9,4 +9,6 @@
 
 ## Dependancy : dependancies ar the libraries which our application needs like react,reactDOM,.babel yeh sab depandancy hai but vite is devDepandancy the diffrence between them is normal depandancy production me hoti hai jese react reactDOM ka code but vite ka kaam hai hamaro faster dev experince dena building ke time par + dev build deta hai faster + code ko inified compressed optimization commens remove krke html css js and dependies ko bundle krke ek dev build deta hai during the development time but production me iska kuch kaam nahi hota .
 
-## Package-lock.json: It is a files jo jo transitive depandancy hai depandancy chianing un sbke exact version lock krke rakhta hai unke baare me information rakhta hai. 
+## Package-lock.json: It is a files jo jo transitive depandancy hai depandancy chianing un sbke exact version lock krke rakhta hai unke baare me information rakhta hai.
+
+## Job of vite :The actual job of the vite is to optimize our application by give faster development expericnce and alot of things vite do behind the scenes give faster builds , hot moudle reloading , tree shaking,caching the code and give fast dev build ,optimize our code ,it takes only that code from the libraries like react reactDOm which we are using not the full source code .
