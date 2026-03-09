@@ -1,16 +1,8 @@
-# React + Vite
+## So there is a challenge --> create a counter=0 with increment and decrement increment par click ho toh value badhe and decrement par kare toh fghate and sab ui me show ho kar paaoge?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Answer-> So yes i have done this onclick par count badh raha hai and manually jaha value hai count ki us element ko pakad kar textcontent change krra hoo ek way yeh hai lekin yeh js ka way hai hum react use kar raha hai abh samajhte hai yaha hai concept hooks ka abh hooks samjhege.so yaha problem yeh hai maanlo ek component me 50 jagah count variable use ho raha toh kya me 50 jagah pehle element ko dom se launga aur text contetnt change krunga nahi naah isme galti hone ke chance bahut badh jayege kaam slow hoga dev experince khrb hoga so vese bhi hum react me dom manipulatuion nahi krte woh kaam reactDOM ka hai so humko kuch asa mechanism chahiye jese hee hamara variable ki value change ho ui par bhi change hojaye and woh var jaha jaha use hora hai vaha bhi change hojaye so yaha introduce hota hai concepts hooks ka.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction To Hooks : Hooks are nothing but prebuilt javascript functions these are the predefined js functions which are used to provide some functionalities to react devs . jese sort function hai array sort krdeta hai vese hee yeh hooks function hote hai predefined kuch functionality offer krte hai abh is feauture ke liye ek hook hai most important useState .
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Working of useState:so jese bina useState ke hum kar rahe the without manual dom manipulation kese hoga state change so ek baar component call ho gaya render hogya values hogyi ui par display abh hum increase krre hai onclick par toh value hee toh increase ho rahi hai function dubara thodi call ho raha hai jo new value aajayegi toh yahi mechanism hai useState ek array return krta hai value default and ek function jab state change krni ho function ko call krdo pura componnt re render hoga with updated values and jaha jaha stae variable  use kiya hai us change manipulation hogi  buss yeh kaam hai useState hooks ka is  process ko vese reconcillation bolte hai samjhege isko bhi aage.

@@ -1,25 +1,26 @@
-import ReactDOM from "react-dom/client"
+import ReactDOM from "react-dom/client";
+import { useState } from "react";
+
 export function App() {
-    let count = 0
-    return (
-        <>
-            <p className="para">{count}</p>
-            <button
-                onClick={function () {
-                    count++;
+  const [count, setCount] = useState(0);
 
-                }}
-            >
-                Increment
-            </button>
-            <button
-                onClick={function () {
-                    count--;
-
-                }}
-            >
-                Decrement
-            </button>
-        </>
-    );
+  return (
+    <>
+      <p className="para">{count}</p>
+      <button
+        onClick={function () {
+          setCount(count + 1);
+        }}
+      >
+        Increment
+      </button>
+      <button
+        onClick={function () {
+          setCount(count - 1);
+        }}
+      >
+        Decrement
+      </button>
+    </>
+  );
 }
