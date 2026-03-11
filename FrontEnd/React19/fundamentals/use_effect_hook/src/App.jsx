@@ -2,21 +2,26 @@ import { useState, useEffect } from "react";
 
 export default function App() {
   const [user, setUser] = useState([]);
+  const [count,setCount]=useState(30)
 
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch("https://dummyjson.com/users");
+      const response = await fetch(`https://dummyjson.com/products?limit=${count}`);
       const data = await response.json();
-      setUser(data.users);
+      setUser(data.products);
     }
 
     fetchData();
-  }, []);
+  }, [count]);
+
+  function handleClick(e){
+    setCount(e.target.value.toUpperCase());
+  }
 
   return (
     <>
       <h2 style={{ textAlign: "center" }}>Users</h2>
-
+    <input type="number" value={count} onChange={handleClick}/> 
       <div
         style={{
           display: "flex",
@@ -39,7 +44,7 @@ export default function App() {
             }}
           >
             <img
-              src={data.image}
+              src={data.images[0]}
               width="100"
               height="100"
               style={{
