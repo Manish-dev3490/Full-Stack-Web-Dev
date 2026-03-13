@@ -16,8 +16,8 @@ function FoodList() {
     <>
       <div>FoodList is here</div>
       <ul>
-        {fooditems.map((food) => (
-          <li>{food}</li>
+        {fooditems.map((food,index) => (
+          <li key={index}>{food}</li>
         ))}
       </ul>
       <button onClick={increaseFood}>Add one More Food</button>
