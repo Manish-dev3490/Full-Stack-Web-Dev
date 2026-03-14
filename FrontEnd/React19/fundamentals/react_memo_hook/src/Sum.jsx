@@ -1,7 +1,7 @@
 import React from 'react'
 
-function Sum() {
-    console.log("Sum is rendered");
+const Sum=React.memo((props)=>{
+       console.log("Sum is rendered");
 
 
     function calculateSum() {
@@ -14,10 +14,10 @@ function Sum() {
     let totalValue = calculateSum();
     return (
         <>
-            <p>This is  our Math Library</p>
+            <p>This is  our Math Library and count is :{props.count}</p>
             <h2>Sum is {totalValue}</h2>
         </>
     )
-}
-
+})
 export default Sum
+ 
