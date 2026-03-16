@@ -1,17 +1,19 @@
 import React from "react";
+import { useRef } from "react";
 import { useState } from "react";
 
 function App() {
     const [time, setTime] = useState(0);
+    const intervalId = useRef(null);
     function handleStart() {
-        setInterval(() => {
+        intervalId.current = setInterval(() => {
             console.log("set interval called");
-            setTime(time=>time + 1);
+            setTime(time => time + 1);
         }, 1000)
     }
 
     function handleStop() {
-
+        clearInterval(intervalId.current)
     }
 
     function handleReset() {
