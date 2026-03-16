@@ -14,10 +14,12 @@ function App() {
 
     function handleStop() {
         clearInterval(intervalId.current)
+        intervalId.current=null;
     }
 
     function handleReset() {
         clearInterval(intervalId.current);
+        intervalId.current=null;
         setTime(0);
     }
     return (
