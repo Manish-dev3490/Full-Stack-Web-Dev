@@ -17,7 +17,8 @@ function App() {
     }
 
     function handleReset() {
-
+        clearInterval(intervalId.current);
+        setTime(0);
     }
     return (
         <>
