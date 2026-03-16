@@ -1,16 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Why we need react-form hook --->So problem kya hai maanlo hum form bana rahe hai name age email paasword address kaafi kuch de rakha haoio toh form ko hum uncontrolled nahi chodte react ke through hee manipulation karte hai so bana liya state variables abh jitni baar onchange hoga utni baar component re-render hoga agar 50 words dale toh 50 baar component re-render hoga isse slow hoga application agar ram kam hai toh time jyaada lgega and mobile me aaplication use ho rhi hai toh hang hojayega mobile iske liye hee humko jarurt hai react-form hook ki and vese bhi error show krne form ko validate krne me bhut problems aati hai complex structure hota hai thats why we are learning about the react-from hook.
