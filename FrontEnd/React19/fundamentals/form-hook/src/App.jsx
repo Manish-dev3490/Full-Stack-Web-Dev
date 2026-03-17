@@ -1,16 +1,17 @@
 import React from 'react'
-import { useState } from 'react'
+import { useRef } from 'react';
 
 function App() {
-    const [name, setName] = useState("");
-    const [age, setAge] = useState("");
-    const [password, setPasword] = useState("");
+        const nameRef=useRef(null);
+        const ageRef=useRef(null);
+        const passwordRef=useRef(null);
+
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(name);
-        console.log(age);
-        console.log(password);
+        console.log(nameRef.current.value);
+        console.log(ageRef.current.value);
+        console.log(passwordRef.current.value);
     }
 
     console.log("comonent is rendered");
@@ -19,9 +20,9 @@ function App() {
     return (
         <>
             <form style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column", height: "200px", backgroundColor: "lavender" }} onSubmit={handleSubmit}>
-                <input type='text' value={name} onChange={(e) => setName(e.target.value)} placeholder='Enter your name'></input>
-                <input type='number' value={age} onChange={(e) => setAge(e.target.value)} placeholder='Enter your age'></input>
-                <input type='password' value={password} onChange={(e) => setPasword(e.target.value)} placeholder='Enter your password'></input>
+                <input ref={nameRef} type='text' placeholder='enteer your name' />
+                <input ref={ageRef} type='number' placeholder='enteer your age' />
+                <input  ref={passwordRef} type='password' placeholder='enteer your paasword' />
                 <button type='submit'>Submit</button>
 
             </form>
