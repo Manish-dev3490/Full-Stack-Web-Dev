@@ -1,20 +1,21 @@
 import React from 'react'
-import {useForm} from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 
- export function Form() {
-    const { register, handleSubmit } = useForm();
-    
+export function Form() {
+    const { register, handleSubmit, formState: { errors } } = useForm();
+
     function handleForm(data) {
         console.log(data);
     }
     console.log("hello world");
-    
+
     return (
         <>
             <form onSubmit={handleSubmit(handleForm)} >
                 <div>
                     <label htmlFor='first'>Name :</label>
                     <input id='first' type='text' {...register('name')} />
+
                 </div>
 
                 <div>
