@@ -4,15 +4,17 @@ import Body from './Body'
 import Footer from './Footer'
 import { createContext } from 'react'
 
-const StateContext = createContext();
+export const StateContext = createContext();
 
 function App() {
   const [count, setCount] = useState(0);
+    console.log("hello from app component");
+    
   return (
     <StateContext value={{ count, setCount }}>
       <div >
-        <Header count={count} />
-        <Body count={count} setCount={setCount} />
+        <Header />
+        <Body />
         <Footer />
       </div>
     </StateContext>
