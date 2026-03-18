@@ -1,16 +1,4 @@
-# React + Vite
+## What was the need of the context-api-->so assume a scenerio we are creating a application of react and in that application there is main component jisme hum app component ko render krva rahe hai and app component ke andar teen component hai header,hero-section,footer and assume kro body hero section me ek counter hai humko uski values ko  header me use kkrna hai toh ase toh paas nahi kar sakte toh state uplift krke app component me bana denge abh state variable through the argumemnts component call pe paas kkrdenge but yeh props drilling ka kaaran banta hai jin component ko us state variables ki jarurat bhi nahi unke through states ko paas kiya jaata hai this situation is caled the props drilling so isse hee bachne ke liye yeh concept use hota hai context api.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## About the context api --->yeh ek hook  hai iska logic samjha deta hoo jese pehlle hum state lifting krke props drilling karre the yaha woh nahi krenge yaha hum app level par createcontext() hook ka use krke ek context bana dete hai jisme data define kkrdete hai and yeh pure app llevel component ko paas krdo and kisi bhi component me hum use kr skte hai us data ko by  useContext hook buss itna sa logic  hai  iska yeh working and high level understanding hai .
