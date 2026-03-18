@@ -11,7 +11,7 @@ function App() {
     console.log("hello from app component");
     
   return (
-    <StateContext value={{ count, setCount }}>
+    <StateContext value={{ count, setCount ,name:"hello"}}>
       <div >
         <Header />
         <Body />
