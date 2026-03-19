@@ -6,6 +6,9 @@ import About from "./About";
 import Contact from "./Contact";
 import Detail from "./Detail";
 import Header from "./Header";
+import Zero from "./Zero";
+import Hello from "./Hello";
+import Hi from "./Hi";
 
 function App() {
   return (
@@ -16,7 +19,12 @@ function App() {
          <Route path="/" element={<Home/>}/>
          <Route path="/about" element={<About/>}/>
          <Route path="/contact" element={<Contact/>}/>
-         <Route path="/detail" element={<Detail/>}/>
+         <Route path="/detail" element={<Detail/>}>
+         <Route index element={<Zero/>}></Route>
+         <Route path="hello"  element={<Hello/>}></Route>
+         <Route path="hi" element={<Hi/>}></Route>
+
+         </Route>
 
         </Routes>
       </BrowserRouter>
