@@ -7,7 +7,7 @@ function LoginForm() {
     
     return (
         <div className='Loginform-component'>
-            {isAccount ? <SignUpForm accountInfo={isAccount} accountFun={setIsAccount} /> : <>(  <h2>Login Form - Enter your credentials if you have an account </h2>
+            {isAccount ? <SignUpForm accountInfo={isAccount} accountFun={setIsAccount} /> : <>  <h2>Login Form - Enter your credentials if you have an account </h2>
                 <form className='form-box' onSubmit={(e) => e.preventDefault()}>
                     <div>
                         <label htmlFor='first'>Email :</label>
@@ -24,7 +24,7 @@ function LoginForm() {
                         setIsAccount(true);
                     }}>Sign up if you don't have account</button>
 
-                </form>)</>}
+                </form></>}
         </div>
     )
 }
