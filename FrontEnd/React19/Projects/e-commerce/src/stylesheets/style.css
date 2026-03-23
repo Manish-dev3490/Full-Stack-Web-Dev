@@ -1,3 +1,83 @@
-*{
+* {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Full page center */
+.Loginform-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    /* soft gradient background */
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Form container */
+.form-box {
+    background: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Heading */
+.Loginform-component h2 {
+    position: absolute;
+    top: 120px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Input group */
+.form-box div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+
+/* Labels */
+.form-box label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #444;
+}
+
+/* Inputs */
+.form-box input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.2s ease;
+}
+
+/* Input focus */
+.form-box input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+}
+
+/* Button */
+.form-box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Button hover */
+.form-box button:hover {
+    background: #5a67d8;
 }
