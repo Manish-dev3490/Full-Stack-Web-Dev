@@ -14,15 +14,24 @@ function LoginForm() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log("hi");
+
         
+
         const emailval = email.current.value;
         const passwordval = password.current.value;
 
+        if (!emailval || !passwordval || emailval.length==0 && passwordval.length==0) {
+            window.alert("please fill all fields");
+            return;
+        }
+
         const emailerror = validateemail(emailval);
         const passworderror = validatepassword(passwordval);
-        const error = { passworderror, emailerror };
-        console.log(error);
-        setErrors(error);
+        if (emailerror || passworderror) {
+            setErrors({ emailerror, passworderror });
+        } else {
+            setErrors(null);
+        }
     }
 
     return (

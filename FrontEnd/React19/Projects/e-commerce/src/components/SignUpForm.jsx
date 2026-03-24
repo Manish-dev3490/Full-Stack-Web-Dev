@@ -22,8 +22,8 @@ function SignUpForm(props) {
         const phoneval = phone.current.value;
         const passwordval = password.current.value;
 
-        if (nameval.length == 0 && emailval.length == 0 && phoneval.length == 0 && passwordval.length == 0) {
-            window.alert("please fill the form first");
+        if (!nameval || !emailval || !phoneval || !passwordval) {
+            window.alert("please fill all fields");
             return;
         }
 
@@ -36,12 +36,11 @@ function SignUpForm(props) {
 
 
 
-        if (nameerror || emailerror || passworderror || phoneerror) {
-            const error = { nameerror, emailerror, passworderror, phoneerror };
-
-            setErrors(error);
+        if (emailerror || passworderror || phoneerror || nameerror) {
+            setErrors({ emailerror, passworderror ,nameerror,phoneerror});
+        } else {
+            setErrors(null);
         }
-        else setErrors(null);
     }
 
 
@@ -52,25 +51,25 @@ function SignUpForm(props) {
                 <div>
                     <label htmlFor='first'>Name :</label>
                     <input id='first' ref={name} type='text' placeholder='enter your name' />
-                    {error ? <p>{error.nameerror}</p> : null}
+                    {error?.nameerror && <p>{error.nameerror}</p>}
                 </div>
 
                 <div>
                     <label htmlFor='second'>Phone Number :</label>
                     <input id='second' ref={phone} type='number' placeholder='enter your number' />
-                    {error ? <p>{error.phoneerror}</p> : null}
+                    {error?.phoneerror && <p>{error.phoneerror}</p>}
                 </div>
 
                 <div>
                     <label htmlFor='third'>Email :</label>
                     <input ref={email} type='email' id='third' placeholder='enter your email' />
-                    {error ? <p>{error.emailerror}</p> : null}
+                   {error?.emailerror && <p>{error.emailerror}</p>}
                 </div>
 
                 <div>
                     <label htmlFor='fourth'>Password :</label>
                     <input id='fourth' ref={password} type='password' placeholder='enter your password' />
-                    {error ? <p>{error.passworderror}</p> : null}
+                    {error?.passworderror && <p>{error.passworderror}</p>}
                 </div>
 
                 <button type='submit'>Login</button>
