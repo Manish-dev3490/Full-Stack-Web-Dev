@@ -7,7 +7,7 @@ import { validatepassword } from '../mock/validate';
 import { validatephone } from '../mock/validate';
 
 function SignUpForm(props) {
-    const { accountFun ,setlogged} = props;
+    const { accountFun, setlogged } = props;
     const email = useRef();
     const password = useRef();
     const name = useRef();
@@ -37,16 +37,23 @@ function SignUpForm(props) {
 
 
         if (emailerror || passworderror || phoneerror || nameerror) {
-            setErrors({ emailerror, passworderror ,nameerror,phoneerror});
+            setErrors({ emailerror, passworderror, nameerror, phoneerror });
         } else {
 
             setErrors(null);
             alert("Signup successfully");
-             const userData={
-                email:emailval,
-                password:passwordval
+            const userData = {
+                email: emailval,
+                password: passwordval,
+                name: nameval,
+                phone: phoneval
             }
-            localStorage.setItem("user",JSON.stringify(userData));
+            const users = JSON.parse(localStorage.getItem("user")) || [];
+
+            // new user add
+            users.push(userData);
+            localStorage.setItem("user", JSON.stringify(users));
+            localStorage.setItem("currentUser", JSON.stringify(userData));
             setlogged(true);
 
         }
@@ -72,7 +79,7 @@ function SignUpForm(props) {
                 <div>
                     <label htmlFor='third'>Email :</label>
                     <input ref={email} type='email' id='third' placeholder='enter your email' />
-                   {error?.emailerror && <p>{error.emailerror}</p>}
+                    {error?.emailerror && <p>{error.emailerror}</p>}
                 </div>
 
                 <div>

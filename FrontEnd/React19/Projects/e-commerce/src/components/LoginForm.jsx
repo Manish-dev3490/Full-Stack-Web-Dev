@@ -8,46 +8,63 @@ import App from "./App";
 
 function LoginForm() {
     const [isAccount, setIsAccount] = useState(false);
-    const [isLogged,setisLogged]=useState(false);
+    const [isLogged, setisLogged] = useState(false);
     const email = useRef();
     const password = useRef();
     const [error, setErrors] = useState(null);
+    console.log(error);
+    
 
     function handleSubmit(e) {
         e.preventDefault();
 
-        
+
+        const allUsersStringify = localStorage.getItem("user");
+        const allUsers = JSON.parse(allUsersStringify);
+
+
+
 
         const emailval = email.current.value;
         const passwordval = password.current.value;
 
-        if (!emailval || !passwordval || emailval.length==0 && passwordval.length==0) {
+
+        function validateUser(userlist, emailval, passwordval) {
+            return userlist.filter((user) => {
+                return user.email == emailval && user.password == passwordval;
+            })
+        }
+
+
+
+        if (!emailval || !passwordval || emailval.length == 0 && passwordval.length == 0) {
             window.alert("please fill all fields");
             return;
         }
 
         const emailerror = validateemail(emailval);
         const passworderror = validatepassword(passwordval);
-        if (emailerror || passworderror) {
-            setErrors({ emailerror, passworderror });
+        const mainUser = validateUser(allUsers, emailval, passwordval);
+
+
+        if (emailerror || passworderror || mainUser.length == 0) {
+            setErrors({ emailerror, passworderror, mainUser });
         } else {
+
             setErrors(null);
             alert("login successfully");
-            const userData={
-                email:emailval,
-                password:passwordval
-            }
-            localStorage.setItem("user",JSON.stringify(userData));
+
             setisLogged(true);
         }
     }
 
     return (
-      isLogged?<App/>: <div className="Loginform-component">
+        isLogged ? <App /> : <div className="Loginform-component">
             {isAccount ? (
                 <SignUpForm accountInfo={isAccount} accountFun={setIsAccount} logged={isLogged} setlogged={setisLogged} />
             ) : (
                 <>
+
                     {" "}
                     <h2>Login Form </h2>
                     <form className="form-box" onSubmit={handleSubmit}>
@@ -81,6 +98,7 @@ function LoginForm() {
                         >
                             Sign up if you don't have account
                         </button>
+                        {error?.mainUser.length==0?alert("your id and password is not matching with database"):""}
                     </form>
                 </>
             )}
