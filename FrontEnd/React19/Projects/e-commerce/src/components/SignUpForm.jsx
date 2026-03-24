@@ -52,25 +52,25 @@ function SignUpForm(props) {
                 <div>
                     <label htmlFor='first'>Name :</label>
                     <input id='first' ref={name} type='text' placeholder='enter your name' />
-                    {error ? <p>{error.nameerror}</p> : ""}
+                    {error ? <p>{error.nameerror}</p> : null}
                 </div>
 
                 <div>
                     <label htmlFor='second'>Phone Number :</label>
                     <input id='second' ref={phone} type='number' placeholder='enter your number' />
-                    {error ? <p>{error.phoneerror}</p> : ""}
+                    {error ? <p>{error.phoneerror}</p> : null}
                 </div>
 
                 <div>
                     <label htmlFor='third'>Email :</label>
                     <input ref={email} type='email' id='third' placeholder='enter your email' />
-                    {error ? <p>{error.emailerror}</p> : ""}
+                    {error ? <p>{error.emailerror}</p> : null}
                 </div>
 
                 <div>
                     <label htmlFor='fourth'>Password :</label>
                     <input id='fourth' ref={password} type='password' placeholder='enter your password' />
-                    {error ? <p>{error.passworderror}</p> : ""}
+                    {error ? <p>{error.passworderror}</p> : null}
                 </div>
 
                 <button type='submit'>Login</button>
