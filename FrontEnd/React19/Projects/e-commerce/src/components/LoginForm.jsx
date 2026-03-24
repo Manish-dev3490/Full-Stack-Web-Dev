@@ -54,7 +54,7 @@ function LoginForm() {
                                 type="email"
                                 placeholder="enter your email"
                             />
-                            {error ? <p>{error.emailerror}</p> : null}
+                            {error?.emailerror && <p>{error.emailerror}</p>}
                         </div>
 
                         <div>
@@ -65,7 +65,7 @@ function LoginForm() {
                                 type="password"
                                 placeholder="enter your password"
                             />
-                            {error ? <p>{error.passworderror}</p> : null}
+                            {error?.passworderror && <p>{error.passworderror}</p>}
                         </div>
 
                         <button type="submit">Login</button>
