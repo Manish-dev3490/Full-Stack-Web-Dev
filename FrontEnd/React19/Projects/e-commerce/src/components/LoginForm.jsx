@@ -33,6 +33,11 @@ function LoginForm() {
         } else {
             setErrors(null);
             alert("login successfully");
+            const userData={
+                email:emailval,
+                password:passwordval
+            }
+            localStorage.setItem("user",JSON.stringify(userData));
             setisLogged(true);
         }
     }
