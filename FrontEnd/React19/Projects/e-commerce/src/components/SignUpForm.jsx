@@ -42,6 +42,11 @@ function SignUpForm(props) {
 
             setErrors(null);
             alert("Signup successfully");
+             const userData={
+                email:emailval,
+                password:passwordval
+            }
+            localStorage.setItem("user",JSON.stringify(userData));
             setlogged(true);
 
         }
