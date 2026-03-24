@@ -4,16 +4,17 @@ import SignUpForm from "./SignUpForm";
 import { useRef } from "react";
 import { validateemail } from "../mock/validate";
 import { validatepassword } from "../mock/validate";
+import App from "./App";
 
 function LoginForm() {
     const [isAccount, setIsAccount] = useState(false);
+    const [isLogged,setisLogged]=useState(false);
     const email = useRef();
     const password = useRef();
     const [error, setErrors] = useState(null);
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log("hi");
 
         
 
@@ -31,13 +32,15 @@ function LoginForm() {
             setErrors({ emailerror, passworderror });
         } else {
             setErrors(null);
+            alert("login successfully");
+            setisLogged(true);
         }
     }
 
     return (
-        <div className="Loginform-component">
+      isLogged?<App/>: <div className="Loginform-component">
             {isAccount ? (
-                <SignUpForm accountInfo={isAccount} accountFun={setIsAccount} />
+                <SignUpForm accountInfo={isAccount} accountFun={setIsAccount} logged={isLogged} setlogged={setisLogged} />
             ) : (
                 <>
                     {" "}

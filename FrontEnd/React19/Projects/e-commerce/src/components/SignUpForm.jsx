@@ -7,7 +7,7 @@ import { validatepassword } from '../mock/validate';
 import { validatephone } from '../mock/validate';
 
 function SignUpForm(props) {
-    const { accountFun } = props;
+    const { accountFun ,setlogged} = props;
     const email = useRef();
     const password = useRef();
     const name = useRef();
@@ -39,7 +39,11 @@ function SignUpForm(props) {
         if (emailerror || passworderror || phoneerror || nameerror) {
             setErrors({ emailerror, passworderror ,nameerror,phoneerror});
         } else {
+
             setErrors(null);
+            alert("Signup successfully");
+            setlogged(true);
+
         }
     }
 
