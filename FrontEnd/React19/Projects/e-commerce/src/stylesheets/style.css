@@ -306,7 +306,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 33px;
-  background-color: azure;
+  background-color: lavenderblush;
   justify-content: center;
   gap: 40px;
   align-items: center;
@@ -410,4 +410,14 @@
   text-align: center;
   font-size: 13px;
   color: #9ca3af;
+}
+.show-more{
+      padding: 15px 20px;
+    border: none;
+    background-color: rgb(255, 77, 77);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 30px;
 }

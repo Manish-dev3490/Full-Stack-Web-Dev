@@ -49,6 +49,8 @@ function Body() {
         })
         :<Shimmerui/>}
       </div>
+
+      <button className='show-more'>Show More</button>
     </div>
   )
 }

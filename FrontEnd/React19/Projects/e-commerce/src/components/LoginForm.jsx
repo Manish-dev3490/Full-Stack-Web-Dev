@@ -8,7 +8,10 @@ import App from "./App";
 
 function LoginForm() {
     const [isAccount, setIsAccount] = useState(false);
-    const [isLogged, setisLogged] = useState(false);
+    const [isLogged, setisLogged] = useState(() => {
+    const user = localStorage.getItem("currentUser");
+    return user ? true : false;
+});
     const email = useRef();
     const password = useRef();
     const [error, setErrors] = useState(null);
@@ -18,7 +21,7 @@ function LoginForm() {
         e.preventDefault();
 
 
-        const allUsersStringify = localStorage.getItem("user");
+        const allUsersStringify = localStorage.getItem("user")||null;
         const allUsers = JSON.parse(allUsersStringify);
 
 
@@ -29,9 +32,9 @@ function LoginForm() {
 
 
         function validateUser(userlist, emailval, passwordval) {
-            return userlist.filter((user) => {
+            return userlist? userlist.filter((user) => {
                 return user.email == emailval && user.password == passwordval;
-            })
+            }):"";
         }
 
 
@@ -52,7 +55,7 @@ function LoginForm() {
 
             setErrors(null);
             alert("login successfully");
-
+            localStorage.setItem("currentUser", JSON.stringify(mainUser[0]));
             setisLogged(true);
         }
     }
