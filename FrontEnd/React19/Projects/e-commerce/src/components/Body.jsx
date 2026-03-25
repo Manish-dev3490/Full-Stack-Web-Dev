@@ -45,7 +45,7 @@ function Body() {
       <div className="product-box">
         {productData?
         productData.map((card)=>{
-          return <Card  data={card}/>
+          return <Card  data={card} key={card.id}/>
         })
         :<Shimmerui/>}
       </div>

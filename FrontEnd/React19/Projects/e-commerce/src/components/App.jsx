@@ -13,11 +13,11 @@ function App() {
 
 
   return (
-    isUser ? <div className='app-component'>
+     <div className='app-component'>
       <Header />
       <Body />
       <Footer />
-    </div> : <LoginForm />
+    </div>
   )
 }
 
