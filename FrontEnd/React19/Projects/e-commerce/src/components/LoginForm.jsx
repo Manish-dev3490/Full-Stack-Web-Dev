@@ -12,7 +12,6 @@ function LoginForm() {
     const email = useRef();
     const password = useRef();
     const [error, setErrors] = useState(null);
-    console.log(error);
     
 
     function handleSubmit(e) {

@@ -82,3 +82,285 @@
 .form-box button:hover {
     background: #5a67d8;
 }
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Nav container */
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Nav links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 16px;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #007bff;
+}
+
+/* Buttons */
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.user-btn {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.user-btn:hover {
+  background-color: #f2f2f2;
+}
+
+.logout-btn {
+  padding: 6px 12px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #e60000;
+}
+.body {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Search box container */
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Input */
+.search-box input {
+  padding: 8px 12px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #007bff;
+}
+
+/* Dropdown */
+.dropdown {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+/* Button */
+.search-box button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #0056b3;
+}
+.product-card {
+  width: 220px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Image */
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* Title */
+.product-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Price */
+.product-price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+/* Discount */
+.product-discount {
+  color: green;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Button */
+.add-to-cart {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  background-color: #ff6a00;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-to-cart:hover {
+  background-color: #e65c00;
+}
+/* Container */
+.shimmer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 25px;
+  padding: 30px;
+  background-color: #f9fafb;
+}
+
+/* Card */
+.shimmer-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 15px;
+  transition: transform 0.2s ease;
+}
+
+.shimmer-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Shimmer animation */
+@keyframes shimmer {
+  0% {
+    background-position: -450px 0;
+  }
+  100% {
+    background-position: 450px 0;
+  }
+}
+
+/* Common shimmer effect */
+.shimmer-image,
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    #eeeeee 25%,
+    #dddddd 37%,
+    #eeeeee 63%
+  );
+  background-size: 800px 100px;
+  animation: shimmer 1.3s infinite linear;
+  border-radius: 6px;
+}
+
+/* Image */
+.shimmer-image {
+  width: 100%;
+  height: 160px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+
+/* Text */
+.shimmer-text {
+  height: 12px;
+  margin-bottom: 10px;
+}
+
+/* Variants */
+.shimmer-text.title {
+  width: 85%;
+  height: 16px;
+}
+
+.shimmer-text.price {
+  width: 50%;
+}
+
+.shimmer-text.small {
+  width: 35%;
+}
+
+/* Optional: smoother feel */
+.shimmer-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.body{
+  display: flex;
+  flex-direction: column;
+}
+.product-box{
+          display: flex;
+    flex-wrap: wrap;
+    margin-top: 33px;
+    background-color: azure;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-top: 15px;
+}
