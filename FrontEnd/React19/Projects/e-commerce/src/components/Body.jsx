@@ -4,28 +4,44 @@ import Card from './Card';
 
 function Body() {
   const [productData, setProductData] = useState(null);
-  const [productCategory,setProductCategory]=useState(null);
+  const [productCategory, setProductCategory] = useState(null);
+  const [selectedcategory,setSelectedCategory]=useState(null);
+
+  
 
   useEffect(() => {
     async function fetchdata() {
       const response = await fetch('https://dummyjson.com/products');
       const data = await response.json();
       setProductData(data.products);
-      console.log(data.products);
 
     }
 
-    async function getCategory(){
+    async function getCategory() {
       const response = await fetch('https://dummyjson.com/products/categories');
       const data = await response.json();
       setProductCategory(data);
       console.log(data);
     }
-    getCategory();
+
+
     fetchdata();
+    getCategory();
   }, [])
 
-
+  useEffect(()=>{
+    async function getCategoryData() {
+      if(selectedcategory!=null){
+        const response = await fetch(`https://dummyjson.com/products/category/${selectedcategory}`);
+      const data = await response.json();
+      setProductData(data.products);
+      console.log(data);
+      }
+      else return;
+      
+    }
+    getCategoryData();
+  },[selectedcategory])
 
   return (
     <div className='body'>
@@ -37,9 +53,10 @@ function Body() {
           placeholder='Search your product here...'
         />
 
-        <select className='dropdown'>
-         {productCategory?productCategory.map((category)=>{ return <option>{category.name}</option>}):(<> 
-          <option>Cars</option>
+        <select className='dropdown'onChange={(e)=>setSelectedCategory(e.target.value)}>
+          
+          {productCategory ? productCategory.map((category, id) => { return <option key={id}>{category.slug}</option> }) : (<>
+            <option>Cars</option>
           </>)}
         </select>
 
@@ -49,11 +66,11 @@ function Body() {
 
       {/* this is product box jaha products aayege */}
       <div className="product-box">
-        {productData?
-        productData.map((card)=>{
-          return <Card  data={card} key={card.id}/>
-        })
-        :<Shimmerui/>}
+        {productData ?
+          productData.map((card) => {
+            return <Card data={card} key={card.id} />
+          })
+          : <Shimmerui />}
       </div>
 
       <button className='show-more'>Show More</button>
