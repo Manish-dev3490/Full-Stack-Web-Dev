@@ -3,11 +3,12 @@ import Shimmerui from './Shimmerui';
 import Card from './Card';
 
 function Body() {
-  const [productData, setProductData] = useState(null);
+  const [productData, setProductData] = useState([]);
   const [productCategory, setProductCategory] = useState(null);
   const [selectedcategory,setSelectedCategory]=useState(null);
 
   
+console.log(productData.length);
 
   useEffect(() => {
     async function fetchdata() {
@@ -21,7 +22,6 @@ function Body() {
       const response = await fetch('https://dummyjson.com/products/categories');
       const data = await response.json();
       setProductCategory(data);
-      console.log(data);
     }
 
 
@@ -73,7 +73,7 @@ function Body() {
           : <Shimmerui />}
       </div>
 
-      <button className='show-more'>Show More</button>
+      {productData.length>=30?<button className='show-more'>Show More</button>:""}
     </div>
   )
 }
