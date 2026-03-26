@@ -1,6 +1,17 @@
 import React from 'react'
 
 function Header() {
+
+  const userData=localStorage.getItem("currentUser");
+  const userName=JSON.parse(userData);
+  console.log(userName.name);
+  
+
+  function handleLogout(){
+    localStorage.removeItem("currentUser");
+    window.location.reload();
+  }
+
   return (
     <div className='header'>
       <h2 className='logo'>E-commerce App</h2>
@@ -13,8 +24,8 @@ function Header() {
         </ul>
 
         <div className="btn-group">
-          <button className='user-btn'>User-name</button>
-          <button className='logout-btn'>Logout</button>
+          <button className='user-btn'>{userName.name}</button>
+          <button className='logout-btn' onClick={handleLogout}>Logout</button>
         </div>
       </div>
     </div>

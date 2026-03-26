@@ -11,7 +11,6 @@ function App() {
   const currentUser=localStorage.getItem("currentUser");
   const userName=currentUser?JSON.parse(currentUser):null
   const [isUser, setisUser] = useState(userData);
-  console.log(userName);
   
 
 
