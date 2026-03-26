@@ -4,7 +4,6 @@ function Header() {
 
   const userData=localStorage.getItem("currentUser");
   const userName=JSON.parse(userData);
-  console.log(userName.name);
   
 
   function handleLogout(){
