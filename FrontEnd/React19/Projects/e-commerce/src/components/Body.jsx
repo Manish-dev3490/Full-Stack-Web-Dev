@@ -4,6 +4,7 @@ import Card from './Card';
 
 function Body() {
   const [productData, setProductData] = useState(null);
+  const [productCategory,setProductCategory]=useState(null);
 
   useEffect(() => {
     async function fetchdata() {
@@ -14,6 +15,13 @@ function Body() {
 
     }
 
+    async function getCategory(){
+      const response = await fetch('https://dummyjson.com/products/categories');
+      const data = await response.json();
+      setProductCategory(data);
+      console.log(data);
+    }
+    getCategory();
     fetchdata();
   }, [])
 
@@ -30,11 +38,9 @@ function Body() {
         />
 
         <select className='dropdown'>
-          <option>All</option>
+         {productCategory?productCategory.map((category)=>{ return <option>{category.name}</option>}):(<> 
           <option>Cars</option>
-          <option>Bikes</option>
-          <option>Phones</option>
-          <option>Laptops</option>
+          </>)}
         </select>
 
         <button>Search</button>
