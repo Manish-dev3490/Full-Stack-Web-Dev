@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router';
 function Header() {
 
   const userData=localStorage.getItem("currentUser");
@@ -17,9 +17,9 @@ function Header() {
 
       <div className="nav-container">
         <ul className='nav-links'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Cart</li>
+          <Link to={"/"}>Home</Link>
+          <Link to={"/about"}>About</Link>
+          <Link to={"/cart"}>Cart</Link>
         </ul>
 
         <div className="btn-group">
