@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Shimmerui from './Shimmerui';
 import Card from './Card';
+import { Link } from 'react-router'
 
 function Body() {
   const [productData, setProductData] = useState([]);
@@ -75,8 +76,8 @@ function Body() {
       return words.some((word) => desc.includes(word));
     });
     console.log(searchingData.length);
-    
-    if(searchingData.length>0)setProductData(searchingData); 
+
+    if (searchingData.length > 0) setProductData(searchingData);
     else {
       alert("You  dont data related to this value");
       setProductData(productData)
@@ -109,7 +110,9 @@ function Body() {
       <div className="product-box">
         {productData ?
           productData.map((card) => {
-            return <Card data={card} key={card.id} />
+            return <Link to={`/productdetail/${card.id}`}>
+              <Card data={card} key={card.id} />
+            </Link>
           })
           : <Shimmerui />}
       </div>
