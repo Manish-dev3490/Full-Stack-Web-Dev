@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Shimmerui from './Shimmerui';
 import Card from './Card';
 
 function Body() {
   const [productData, setProductData] = useState([]);
   const [productCategory, setProductCategory] = useState(null);
-  const [selectedcategory,setSelectedCategory]=useState(null);
+  const [selectedcategory, setSelectedCategory] = useState(null);
+  const [searchedData, setsearchedData] = useState([]);
+  const searchData = useRef();
 
-  
-console.log(productData.length);
+
+
 
   useEffect(() => {
     async function fetchdata() {
@@ -25,23 +27,61 @@ console.log(productData.length);
     }
 
 
+
     fetchdata();
     getCategory();
   }, [])
 
-  useEffect(()=>{
+  useEffect(() => {
     async function getCategoryData() {
-      if(selectedcategory!=null){
+      if (selectedcategory != null) {
         const response = await fetch(`https://dummyjson.com/products/category/${selectedcategory}`);
-      const data = await response.json();
-      setProductData(data.products);
-      console.log(data);
+        const data = await response.json();
+        setProductData(data.products);
+        console.log(data);
       }
       else return;
-      
+
     }
+
+
+
+
     getCategoryData();
-  },[selectedcategory])
+  }, [selectedcategory])
+
+
+  useEffect(() => {
+    async function allproducts() {
+      const res = await fetch('https://dummyjson.com/products?limit=194');
+      const data = await res.json();
+      setsearchedData(data.products)
+    }
+
+    allproducts();
+
+
+  }, [])
+
+  function handleSearch() {
+    const searchVal = searchData.current.value.toLowerCase();
+
+    const words = searchVal.split(" "); // multiple words
+
+    const searchingData = searchedData.filter((item) => {
+      const desc = item.description.toLowerCase();
+
+      // agar ek bhi word match ho jaye
+      return words.some((word) => desc.includes(word));
+    });
+    console.log(searchingData.length);
+    
+    if(searchingData.length>0)setProductData(searchingData); 
+    else {
+      alert("You  dont data related to this value");
+      setProductData(productData)
+    }
+  }
 
   return (
     <div className='body'>
@@ -49,18 +89,19 @@ console.log(productData.length);
       <div className="search-box">
 
         <input
+          ref={searchData}
           type='text'
           placeholder='Search your product here...'
         />
 
-        <select className='dropdown'onChange={(e)=>setSelectedCategory(e.target.value)}>
-          
+        <select className='dropdown' onChange={(e) => setSelectedCategory(e.target.value)}>
+
           {productCategory ? productCategory.map((category, id) => { return <option key={id}>{category.slug}</option> }) : (<>
             <option>Cars</option>
           </>)}
         </select>
 
-        <button>Search</button>
+        <button onClick={handleSearch}>Search</button>
 
       </div>
 
@@ -73,7 +114,7 @@ console.log(productData.length);
           : <Shimmerui />}
       </div>
 
-      {productData.length>=30?<button className='show-more'>Show More</button>:""}
+      {productData.length >= 30 ? <button className='show-more'>Show More</button> : ""}
     </div>
   )
 }
