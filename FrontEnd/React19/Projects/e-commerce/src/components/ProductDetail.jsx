@@ -7,6 +7,40 @@ function ProductDetail() {
 
   const [productDetail, setProductDetail] = useState(null);
 
+  function handleCart() {
+    // step 1: get existing cart
+    const cartarray = JSON.parse(localStorage.getItem("cart")) || [];
+
+    // step 2: product info (chota useful object)
+    const productInfo = {
+      id: productDetail.id,
+      title: productDetail.title,
+      price: productDetail.price,
+      thumbnail: productDetail.thumbnail,
+      quantity: 1
+    };
+
+    // step 3: check if already exists
+    const exist = cartarray.find(item => item.id === productInfo.id);
+
+    if (exist) {
+      // quantity increase
+      const updatedCart = cartarray.map(item =>
+        item.id === productInfo.id
+          ? { ...item, quantity: item.quantity + 1 }
+          : item
+      );
+
+      localStorage.setItem("cart", JSON.stringify(updatedCart));
+    } else {
+      // new item add
+      cartarray.push(productInfo);
+      localStorage.setItem("cart", JSON.stringify(cartarray));
+    }
+
+    alert("Item added to cart ✅");
+  }
+
   useEffect(() => {
     async function getDetail() {
       const res = await fetch(`https://dummyjson.com/products/${id}`);
@@ -78,7 +112,7 @@ function ProductDetail() {
         <p>📦 Stock: {productDetail.stock}</p>
         <p>🏷 Brand: {productDetail.brand}</p>
 
-        <button style={{
+        <button onClick={handleCart} style={{
           marginTop: "20px",
           padding: "10px 20px",
           background: "black",
