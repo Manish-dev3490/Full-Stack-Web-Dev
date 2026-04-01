@@ -3,8 +3,8 @@ import Counter from './Counter'
 import store from '../stores/Global'
 import { Provider } from 'react-redux'
 import { CounterSlice } from '../stores/CounterSlice'
+import CounterReducer from "../stores/CounterSlice"
 function App() {
-  console.log(CounterSlice);
   
   return (
     <Provider store={store}>
