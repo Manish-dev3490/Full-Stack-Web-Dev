@@ -6,7 +6,8 @@ import { Increment, Decrement, Reset } from '../stores/CounterSlice';
 function Counter() {
   const countInfo = useSelector((store) => store.CounterSlice.count);
   const dispatch = useDispatch();
-  
+  console.log(countInfo);
+
   return (
     <>
       <p>Value of the counbter is : {countInfo}</p>
