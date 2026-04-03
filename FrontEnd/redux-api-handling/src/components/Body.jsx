@@ -8,7 +8,7 @@ function Body() {
   useEffect(() => {
     dispatch(fetchData());
   }, [dispatch]);
-  const { loading, error, data } = useSelector((store) => store.slice1);
+  const { loading, data } = useSelector((store) => store.slice1);
 
   if (loading) return <h1>Data is loading</h1>;
 
