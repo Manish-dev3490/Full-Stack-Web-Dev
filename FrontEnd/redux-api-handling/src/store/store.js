@@ -4,7 +4,7 @@ import slice1Reducer from "../store/slice1"
 
 
 const store = configureStore({
-    reducers: {
+    reducer: {
         slice1: slice1Reducer
     }
 })
