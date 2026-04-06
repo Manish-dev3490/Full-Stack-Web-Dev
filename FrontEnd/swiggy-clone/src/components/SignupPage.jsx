@@ -1,7 +1,13 @@
 import React from 'react';
 
 function SignupPage(props) {
-    const { loginInfo, setLoginInfo } = props;
+    const { setLoginInfo } = props;
+
+
+    function handleSignup(e){
+        e.preventDefault();
+    }
+
 
     return (
         <div className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -12,7 +18,7 @@ function SignupPage(props) {
                     Create Your Account
                 </h2>
 
-                <form className="space-y-4">
+                <form className="space-y-4" onSubmit={handleSignup}>
                     {/* Name */}
                     <div>
                         <label className="block text-gray-700 font-medium mb-1" htmlFor="name">

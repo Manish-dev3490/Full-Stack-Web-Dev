@@ -3,10 +3,10 @@ import React from 'react';
 function LoginPage(props) {
 
     console.log(props);
-    const {loginInfo,setLoginInfo}=props;
+    const {setLoginInfo}=props;
     
-    function handleSubmit(e){
-        e.preventdefault();
+    function handleLogin(e){
+        e.preventDefault();
 
     }
 
@@ -17,7 +17,7 @@ function LoginPage(props) {
           Login to Your Account
         </h2>
 
-        <form className="space-y-4" onSubmit={handleSubmit}>
+        <form className="space-y-4" onSubmit={handleLogin}>
           {/* Username */}
           <div>
             <label className="block text-gray-700 font-medium mb-1" htmlFor="username">
