@@ -1,16 +1,104 @@
-# React + Vite
+🍔 Food Ordering App (Swiggy/Zomato Clone)
+📌 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a Food Ordering Web Application inspired by platforms like Swiggy and Zomato.
+The main goal is to deeply understand frontend architecture and client-side development by building real-world features step by step.
 
-Currently, two official plugins are available:
+We will be implementing multiple functionalities from scratch to strengthen core concepts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Tech Stack
+HTML
+CSS
+JavaScript
+React.js
+Redux Toolkit
+Tailwind CSS
+Netlify (Deployment)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+🛠️ Getting Started
+1. Clone the repository
+git clone <your-repo-link>
+cd <project-folder>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install dependencies
+npm install
+
+3. Run the project
+npm run dev
+
+
+
+📂 Project Structure (Basic)
+src/
+│
+├── components/      # Reusable UI components
+├── pages/           # Main pages (Home, Cart, etc.)
+├── utils/           # Helper functions
+├── redux/           # Store & slices
+├── assets/          # Images, icons
+├── App.jsx
+└── main.jsx
+
+
+
+
+⚙️ Features (Planned & In Progress)
+🔐 Authentication
+Sign Up / Login
+Protected Routes
+
+
+🍽️ Food Listing
+Restaurant listing
+Menu display
+Category filtering
+
+
+
+🔍 Search
+Search restaurants & food items
+
+
+🛒 Cart System
+Add to cart
+Remove from cart
+Quantity update
+
+
+
+💳 Checkout
+Order summary
+Fake payment integration
+
+
+
+📦 Advanced Features (Upcoming)
+Pagination / Load More
+Debouncing in search
+Lazy loading
+Skeleton loaders
+Error handling
+Performance optimization
+
+
+
+🧠 Learning Goals
+Deep understanding of React fundamentals
+State management using Redux Toolkit
+Writing clean & scalable frontend architecture
+Handling real-world UI/UX cases
+Performance optimization techniques
+
+
+🌐 Deployment
+The app will be deployed using Netlify.
+
+📌 Note
+
+This project is being built step by step with a focus on learning and mastering frontend development, not just completing features.
+
+🤝 Contributing
+
+This is a personal learning project, but suggestions are always welcome!
