@@ -18,15 +18,28 @@ const schema = z.object({
 
 function LoginPage(props) {
 
-  const { setLoginInfo } = props;
+  const { setLoginInfo,setLoggedIn } = props;
   const { register, handleSubmit, formState: { errors } } = useForm({
     resolver: zodResolver(schema)
   });
 
-  function handleLogin(data) {
-    console.log(data);
+ function handleLogin(data) {
+  const userList = JSON.parse(localStorage.getItem("userList")) || [];
 
-  }
+  
+    const user = userList.find(u => u.email === data.email);
+
+if (!user) {
+  alert("User not found");
+} else if (user.password !== data.password) {
+  alert("Wrong password");
+} else {
+  setLoggedIn(true);
+  alert("welcome to your account",user.name)
+}
+  
+  
+}
 
 
   return (

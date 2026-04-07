@@ -10,13 +10,14 @@ const formSchema = z.object({
         .min(1, "Age must be at least 1")
         .max(120, "Age must be realistic"),
 
-    email: z.string().min(5, "Minimum length should be 5").max(20, "Maximum length should be 20"),
+    email: z.string().min(5, "Minimum length should be 5").max(35, "Maximum length should be 20"),
 
     password: z.string().min(5, "Minimum length should be 5").max(20, "Maximum length should be 20"),
 });
 
 function SignupPage(props) {
-    const { setLoginInfo } = props;
+    const { setLoginInfo, setLoggedIn } = props;
+
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: zodResolver(formSchema)
     });
@@ -25,6 +26,23 @@ function SignupPage(props) {
     function handleSignUp(data) {
         console.log(data);
 
+
+        // adding new user toh the local storage
+        const userList = JSON.parse(localStorage.getItem("userList")) || [];
+
+        const newuserData = {
+            age: data.age,
+            name: data.name,
+            email: data.email,
+            password: data.password
+        }
+
+        userList.push(newuserData);
+        localStorage.setItem("userList", JSON.stringify(userList));
+
+        localStorage.setItem("currentUser", JSON.stringify(newuserData));
+        setLoggedIn(true);
+        alert("New User has signed in")
     }
 
 

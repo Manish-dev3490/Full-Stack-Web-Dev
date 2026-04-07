@@ -3,16 +3,20 @@ import { useState } from 'react'
 import SignupPage from './SignupPage';
 import LoginPage from './LoginPage';
 import ReactDOM from 'react-dom/client'
+import App from '../App';
 
 function AuthPage() {
   const [loginInfo, setLoginInfo] = useState(false);
+  const [isLoggedIn, setLoggedIn] = useState(false);
 
   return (
-    <div>
-      {
-        loginInfo ?<LoginPage loginInfo={loginInfo} setLoginInfo={setLoginInfo} />:<SignupPage loginInfo={loginInfo} setLoginInfo={setLoginInfo} />
-      }
-    </div>
+    isLoggedIn ? <App /> :
+      <div>
+        {
+          loginInfo ? <LoginPage loginInfo={loginInfo} setLoginInfo={setLoginInfo} setLoggedIn={setLoggedIn} /> : <SignupPage loginInfo={loginInfo} setLoginInfo={setLoginInfo} setLoggedIn={setLoggedIn} />
+        }
+      </div>
+
   )
 }
 
