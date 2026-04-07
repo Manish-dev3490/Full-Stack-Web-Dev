@@ -4,10 +4,18 @@ import SignupPage from './SignupPage';
 import LoginPage from './LoginPage';
 import ReactDOM from 'react-dom/client'
 import App from '../App';
+import { useEffect } from 'react';
 
 function AuthPage() {
   const [loginInfo, setLoginInfo] = useState(false);
   const [isLoggedIn, setLoggedIn] = useState(false);
+
+   useEffect(() => {
+    const user = localStorage.getItem("currentUser");
+    if (user) {
+      setLoggedIn(true);
+    }
+  }, []);
 
   return (
     isLoggedIn ? <App /> :
