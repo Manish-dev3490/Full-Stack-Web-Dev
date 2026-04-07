@@ -1,11 +1,14 @@
 import React from 'react';
+import {useForm} from 'react-hook-form'
 
 function SignupPage(props) {
     const { setLoginInfo } = props;
+    const {register,handleSubmit}=useForm();
+    
 
-
-    function handleSignup(e){
-        e.preventDefault();
+    function handleSignUp(data){
+        console.log(data);
+        
     }
 
 
@@ -18,7 +21,7 @@ function SignupPage(props) {
                     Create Your Account
                 </h2>
 
-                <form className="space-y-4" onSubmit={handleSignup}>
+                <form className="space-y-4" onSubmit={handleSubmit(handleSignUp)}>
                     {/* Name */}
                     <div>
                         <label className="block text-gray-700 font-medium mb-1" htmlFor="name">
@@ -29,6 +32,7 @@ function SignupPage(props) {
                             id="name"
                             placeholder="John Doe"
                             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            {...register("name")}
                         />
                     </div>
 
@@ -42,6 +46,7 @@ function SignupPage(props) {
                             id="age"
                             placeholder="25"
                             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            {...register("age")}
                         />
                     </div>
 
@@ -55,6 +60,7 @@ function SignupPage(props) {
                             id="email"
                             placeholder="john@example.com"
                             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            {...register("email")}
                         />
                     </div>
 
@@ -68,6 +74,7 @@ function SignupPage(props) {
                             id="password"
                             placeholder="********"
                             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                            {...register("password")}
                         />
                     </div>
 
