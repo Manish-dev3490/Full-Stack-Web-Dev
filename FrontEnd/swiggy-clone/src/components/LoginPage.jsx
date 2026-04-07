@@ -27,7 +27,7 @@ function LoginPage(props) {
     console.log(data);
 
   }
-  
+
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
@@ -50,7 +50,7 @@ function LoginPage(props) {
               {...register("email")}
 
             />
-            {errors.email && <span>{errors.email.message}</span>}
+            {errors.email && <p className="text-red-500">{errors.email.message}</p>}
 
           </div>
 
@@ -66,7 +66,7 @@ function LoginPage(props) {
               className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
               {...register("password")}
             />
-            {errors.password && <span>{errors.password.message}</span>}
+            {errors.password && <p className="text-red-500">{errors.password.message}</p>}
           </div>
 
           {/* Login Button */}

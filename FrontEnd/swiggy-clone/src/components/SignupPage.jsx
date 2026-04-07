@@ -1,14 +1,30 @@
 import React from 'react';
-import {useForm} from 'react-hook-form'
+import { useForm } from 'react-hook-form'
+import { zodResolver } from '@hookform/resolvers/zod'
+import { z } from "zod";
+
+const formSchema = z.object({
+    name: z.string().min(5, "Minimum length should be 5").max(20, "Maximum length should be 20"),
+
+    age: z.coerce.number() // 🔥 string → number convert karega
+        .min(1, "Age must be at least 1")
+        .max(120, "Age must be realistic"),
+
+    email: z.string().min(5, "Minimum length should be 5").max(20, "Maximum length should be 20"),
+
+    password: z.string().min(5, "Minimum length should be 5").max(20, "Maximum length should be 20"),
+});
 
 function SignupPage(props) {
     const { setLoginInfo } = props;
-    const {register,handleSubmit}=useForm();
-    
+    const { register, handleSubmit, formState: { errors } } = useForm({
+        resolver: zodResolver(formSchema)
+    });
 
-    function handleSignUp(data){
+
+    function handleSignUp(data) {
         console.log(data);
-        
+
     }
 
 
@@ -34,6 +50,7 @@ function SignupPage(props) {
                             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             {...register("name")}
                         />
+                        {errors.name && <p className="text-red-500">{errors.name.message}</p>}
                     </div>
 
                     {/* Age */}
@@ -48,6 +65,7 @@ function SignupPage(props) {
                             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             {...register("age")}
                         />
+                        {errors.age && <p className="text-red-500">{errors.age.message}</p>}
                     </div>
 
                     {/* Email */}
@@ -62,6 +80,7 @@ function SignupPage(props) {
                             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             {...register("email")}
                         />
+                        {errors.email && <p className="text-red-500">{errors.email.message}</p>}
                     </div>
 
                     {/* Password */}
@@ -76,6 +95,7 @@ function SignupPage(props) {
                             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                             {...register("password")}
                         />
+                        {errors.password && <p className="text-red-500">{errors.password.message}</p>}
                     </div>
 
                     {/* Submit Button */}
