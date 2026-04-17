@@ -1,25 +1,21 @@
 const express=require('express');
 
 const app=express();
+
+
 app.listen(4000,()=>{
     console.log("i am listening the request");
 })
 
 
-app.use("/about",(req,res)=>{
-    res.send("hello ai am about")
+app.use(express.json());
 
+app.get("/user",(req,res)=>{
+    res.send("Ths is default");
 })
 
-app.use("/contact/:id",(req,res)=>{
-    console.log(req.params);
+app.post("/user",(req,res)=>{
+    console.log(req.body);
     
-    res.send("hello ai am contact")
-
-})
-
-
-app.use("/",(req,res)=>{
-    res.send("hello ai am expreess")
-    
+    res.send("your data is saved");
 })
