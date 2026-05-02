@@ -2,18 +2,48 @@ const express = require('express');
 const app = express();
 const connectDB = require('./Config/database');
 const User = require('./Models/user')
+const bcrypt=require('bcrypt')
+const {validateSignUpAPI,validateLoginAPI}=require('./utils/validation')
+
+
 app.use(express.json());
+
+// login api to login user
+app.post("/login", async (req, res) => {
+    try {
+        validateLoginAPI(req);
+
+        const { email, password } = req.body;
+
+        // check user exist
+        const user = await User.findOne({ email });
+        if (!user) {
+            throw new Error("Invalid credentials");
+        }
+
+        // compare password
+        const isMatch = await bcrypt.compare(password, user.password);
+        if (!isMatch) {
+            throw new Error("Invalid credentials");
+        }
+
+        res.send("Login Successfully");
+
+    } catch (error) {
+        res.status(401).send(error.message);
+    }
+});
 
 // signup request ko handle krega 
 app.post("/user", async (req, res) => {
-    console.log(req.body);
 
     try {
+        validateSignUpAPI(req)
         await User.create(req.body);
         res.send("new user is inserted");
     }
     catch (error) {
-        res.status(404).send("something went wrong" + error);
+        res.status(401).send("something went wrong" + error.message);
     }
 })
 
@@ -25,7 +55,7 @@ app.get("/user", async (req, res) => {
     }
 
     catch (error) {
-        res.status(404).send("something went wrong" + error);
+        res.status(401).send("something went wrong" + error.message);
     }
 })
 
@@ -38,7 +68,7 @@ app.delete("/user", async (req, res) => {
     res.send("user is deleted");
   }
   catch (error) {
-    res.status(404).send("something went wrong " + error);
+    res.status(401).send("something went wrong " + error);
   }
 })
 
@@ -52,7 +82,7 @@ app.patch("/user",async(req,res)=>{
      res.send("user is updated");
   }
   catch(error){
-    res.status(404).send("something went wrong"+error);
+    res.status(401).send("something went wrong"+error);
   }
 })
 
