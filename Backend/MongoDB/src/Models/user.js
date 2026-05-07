@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
         minLength: 6,
-        maxLength: 25,
+        maxLength: 60,
         trim: true
     }
 }, { timestamps: true });
